@@ -55,6 +55,7 @@ $("#upload-form").submit(function(e) {
 });
 $("#resize-form").submit(function(e) {
     e.preventDefault(); 
+    console.log('here');
     var form = $(this);
     var url = form.attr('action');
     $.ajax({
