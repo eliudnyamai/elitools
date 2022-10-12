@@ -1,8 +1,7 @@
 <?php
+ob_start();
 session_start();
 // May this codebase glorify God
-echo "here";
-exit();
 $target_dir = "uploads/";
 $target_file = $target_dir .$_SESSION["user"].basename($_FILES["file"]["name"]);
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
