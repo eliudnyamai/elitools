@@ -1,13 +1,16 @@
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+name: remote ssh command
 on: [push]
 jobs:
-  check-bas-version:
+
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - run: npm install -g bats
-      - run: bats -v
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.DIGITAL_USERNAME }}
+        password: ${{ secrets.DIGITAL_PASSWORD }}
+        port: 21
+        script: whoami
