@@ -1,5 +1,4 @@
 <?php
-ob_start();
 session_start();
 // May this codebase glorify God
 $target_dir = "uploads/";
@@ -38,5 +37,4 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     echo json_encode($data);
     exit();
   }
-  ob_end_flush();
   ?>
