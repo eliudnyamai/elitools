@@ -15,5 +15,5 @@ jobs:
         port: 22
         script_stop: true
         script: |
-          cd /var/www/html
+          cd /var/www/html/elitools
           git pull
