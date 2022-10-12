@@ -30,10 +30,10 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 }
 
 if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
-    $_SESSION['uploaded_file_path']='uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]);
-    $data['success']=true;
-    $data['uploaded_file']='php/uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]);
-    $data['size']=getimagesize('uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]));
+    $_SESSION["uploaded_file_path"]='uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]);
+    $data["success"]=true;
+    $data["uploaded_file"]='php/uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]);
+    $data["size"]=getimagesize('uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]));
     echo json_encode($data);
     exit();
   }
