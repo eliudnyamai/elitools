@@ -35,6 +35,7 @@ $("#upload-form").submit(function(e) {
            },
            success: function(data)
            {
+            console.log(data);
                data=JSON.parse(data)
                if(data.success){
                 height_input.value = data.size[1];
