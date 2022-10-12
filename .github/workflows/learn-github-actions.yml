@@ -16,4 +16,4 @@ jobs:
         script_stop: true
         script: |
           cd /var/www/html
-          ls -al
+          git clone git@github.com:eliudnyamai/elitools.git
