@@ -12,5 +12,5 @@ jobs:
         host: ${{ secrets.DIGITAL_HOST }}
         username: ${{ secrets.DIGITAL_USERNAME }}
         password: ${{ secrets.DIGITAL_PASSWORD }}
-        port: 21
+        port: 22
         script: whoami
