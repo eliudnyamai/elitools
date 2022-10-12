@@ -14,8 +14,8 @@ if(!isset($_FILES["file"])) {
 
 // Check file size
 if ($_FILES["file"]["size"] > 500000) {
-  $data['error']="Sorry, your file is too large.";
-  $data['success']=false;
+  $data["error"]="Sorry, your file is too large.";
+  $data["success"]=false;
   echo json_encode($data);
   exit();
 }
@@ -23,8 +23,8 @@ if ($_FILES["file"]["size"] > 500000) {
 // Allow certain file formats
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
 && $imageFileType != "gif" ) {
-  $data['error']="Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-  $data['success']=false;
+  $data["error"]="Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+  $data["success"]=false;
   echo json_encode($data);
   exit();  
 }
