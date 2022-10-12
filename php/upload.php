@@ -1,7 +1,7 @@
 <?php
 session_start();
 // May this codebase glorify God
-echo {"eliud":"NYAMAI"};
+echo json_encode({"eliud":"NYAMAI"});
 exit();
 $target_dir = "uploads/";
 $target_file = $target_dir .$_SESSION["user"].basename($_FILES["file"]["name"]);
