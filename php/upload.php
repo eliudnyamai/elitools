@@ -3,7 +3,7 @@ ob_start();
 session_start();
 // May this codebase glorify God
 define ('SITE_ROOT', realpath(dirname(__FILE__)));
-$target_dir = SITE_ROOT."/uploads/";
+$target_dir = SITE_ROOT.'/uploads/';
 $target_file = $target_dir .$_SESSION["user"].basename($_FILES["file"]["name"]);
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 $data=array();
