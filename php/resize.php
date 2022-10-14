@@ -40,4 +40,3 @@ include 'functions.php';
     else{
         echo "Error occured";
     } 
-?>
