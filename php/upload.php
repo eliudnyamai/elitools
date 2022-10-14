@@ -2,7 +2,7 @@
 ob_start();
 session_start();
 // May this codebase glorify God
-$target_dir = SITE_ROOT."uploads/";
+$target_dir = SITE_ROOT."php/uploads/";
 $target_file = $target_dir .$_SESSION["user"].basename($_FILES["file"]["name"]);
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 $data=array();
