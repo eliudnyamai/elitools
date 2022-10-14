@@ -10,7 +10,5 @@
     ob_clean();
     flush();
     $mask = 'uploads/'.$_SESSION['user'].'*.*';
-    array_map('unlink', glob($mask));    
-   
-    
+    array_map('unlink', glob($mask));      
 ?>
