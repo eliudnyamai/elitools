@@ -2,7 +2,7 @@
 ob_start();
 session_start();
 // May this codebase glorify God
-$target_dir = "uploads/";
+$target_dir = SITE_ROOT."uploads/";
 $target_file = $target_dir .$_SESSION["user"].basename($_FILES["file"]["name"]);
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 $data=array();
@@ -31,10 +31,10 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 }
 
 if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
-    $_SESSION["uploaded_file_path"]='uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]);
+    $_SESSION["uploaded_file_path"]='uploads/'.$_SESSION["user"].basename( $_FILES["file"]["name"]);
     $data["success"]=true;
-    $data["uploaded_file"]='php/uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]);
-    $data["size"]=getimagesize('uploads/'.$_SESSION['user'].basename( $_FILES["file"]["name"]));
+    $data["uploaded_file"]='php/uploads/'.$_SESSION["user"].basename( $_FILES["file"]["name"]);
+    $data["size"]=getimagesize('uploads/'.$_SESSION["user"].basename( $_FILES["file"]["name"]));
     echo json_encode($data);
     exit();
   }
