@@ -14,7 +14,6 @@ Coded by www.creative-tim.com
 -->
 <?php
  session_start();
- define ('SITE_ROOT', realpath(dirname(__FILE__)));
  include 'php/functions.php';
  if(isset($_SESSION['uploaded_file_path'])){
       $uploaded_file=$_SESSION['uploaded_file_path'];
