@@ -1,4 +1,4 @@
 <?php
- sleep(600);
+ sleep(10);
 echo phpinfo();
 ?>
