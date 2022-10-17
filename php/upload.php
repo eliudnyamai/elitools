@@ -24,7 +24,7 @@ if ($_FILES["file"]["size"] > 500000) {
 
 // Allow certain file formats
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" ) {
+&& $imageFileType != "gif" && && $imageFileType != "jfif"  ) {
   $data["error"]="Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
   $data["success"]=false;
   echo json_encode($data);
