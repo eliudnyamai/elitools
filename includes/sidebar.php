@@ -11,7 +11,7 @@ echo '<div class="wrapper ">
           </div>
           <!-- <p>CT</p> -->
         </a>
-        <a href='/' class="simple-text logo-normal">
+        <a href="/" class="simple-text logo-normal">
           Toolske
         </a>
       </div>
