@@ -15,7 +15,7 @@ if(!isset($_FILES["file"])) {
 }
 
 // Check file size
-if ($_FILES["file"]["size"] > 500000) {
+if ($_FILES["file"]["size"] > file_upload_max_size() ) {
   $data["error"]="Sorry, your file is too large.";
   $data["success"]=false;
   echo json_encode($data);
