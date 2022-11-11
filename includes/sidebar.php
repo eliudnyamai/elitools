@@ -1,5 +1,5 @@
 <?php
-if(basename(getcwd())=='resize-image'){
+if(basename(getcwd())=='resize-image'||basename(getcwd())=='elitools'){
     $resize_image="active";
 }else{
     $resize_image="";
