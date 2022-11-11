@@ -140,6 +140,15 @@ padding:2.5vh 1rem;
         'input-image' 'output-image'
         ;
     }
+    .tool{
+        padding:0rem 0rem;
+    }
+    #submit-img{
+     display: block;
+     padding: 5px;
+     margin-top: 15px;
+     width: 50vw;
+    }
   }
 .input-image{
     grid-area: input-image;
