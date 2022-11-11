@@ -53,14 +53,13 @@ $_SESSION['user']=generateRandomString();
 </head>
 
 <body class="">
-     <!-- Sidebar start -->
-     <?php include 'includes/sidebar.php';
-       ?>
-     <!-- Sidebar end -->
+  <!-- Sidebar start -->
+     <?php include '../includes/sidebar.php';?>
+    <!-- Side bar end -->
     <div class="main-panel">
       <!-- Navbar -->
-       <?php include 'includes/header.php';
-        display_header('Tools For Quick Work');
+        <?php include '../includes/header.php';
+        display_header('Image Resizing Tool');
        ?>
       <!-- End Navbar -->
       <div class="content">
@@ -123,6 +122,7 @@ $_SESSION['user']=generateRandomString();
         </div>
 </div>
 </div>
-<?php include 'includes/footer.php'?>
+<?php include '../includes/footer.php'?>
 </body>
+
 </html>
