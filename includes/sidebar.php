@@ -30,12 +30,6 @@ echo '<div class="wrapper ">
               <p>Resize Images</p>
             </a>
           </li>
-          <li class="'.$remove_background.'">
-            <a href="/">  
-              <i class="nc-icon nc-image"></i>
-              <p>Remove Background</p>
-            </a>
-          </li>
         </ul>
       </div>
     </div>';
