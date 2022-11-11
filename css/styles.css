@@ -84,7 +84,7 @@ padding:2.5vh 1rem;
     color:#cdac08;
     border-bottom: 2px solid #cdac08;
 }
-.links>li>a.active{
+.links>li>a:active{
     color:#cdac08;
 }
 /* Desktop css for aside tools list */
