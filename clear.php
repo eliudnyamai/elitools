@@ -7,10 +7,8 @@ $dir = 'php/uploads';
   foreach ($files as $file) {
     if (is_file($file)) {
       if ($now - filemtime($file) >= 60) { // 1 days
-        echo filemtime($file).'<br>';
         unlink($file);
         $x++;
       }
     }
   }
-  echo "deleted ".$x;
