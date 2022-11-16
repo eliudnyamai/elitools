@@ -43,6 +43,7 @@ $("#upload-form").submit(function(e) {
                 width_input.value = data.size[0];
                 height_range.value = data.size[1];
                 width_range.value = data.size[0];
+                console.log(data.uploaded_file);
                 $('#uploaded_img').css('display', 'block');
                 $('#uploaded_img').attr('src',data.uploaded_file);
                 $('#submit-img').val('upload');

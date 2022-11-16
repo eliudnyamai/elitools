@@ -70,7 +70,7 @@ $_SESSION['user']=generateRandomString();
            <!-- Here -->
            <h2>Upload your image to resize</h2> <br>
            <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
-               <input type="file" required name="file" id="">
+               <input type="file" required name="file" id="file-to-upload">
                <input type="submit" value="Upload" id="submit-img" name="submit">
            </form> <br>
            <div id="file-upload-error"></div>
