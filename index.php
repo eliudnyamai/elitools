@@ -68,7 +68,7 @@ $_SESSION['user']=generateRandomString();
         <div class="row tool">
           <div style="min-height:350px;" class="col-md-12">
            <!-- Here -->
-           <h2>Upload your image to resize</h2> <br>
+           <h2>Upload Your Image to Resize</h2> <br>
            <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
                <input type="file" required name="file" id="file-to-upload">
                <input type="submit" value="Upload" id="submit-img" name="submit">
