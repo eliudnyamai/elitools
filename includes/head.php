@@ -14,9 +14,9 @@ function display_head($title){
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <!-- CSS Files -->
-        <link href="'.ROOTPATH.'/css/styles.css" rel="stylesheet" />
-        <link href="'.ROOTPATH.'/assets/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="'.ROOTPATH.'/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+        <link href="'.$_SERVER['DOCUMENT_ROOT'].'/css/styles.css" rel="stylesheet" />
+        <link href="'.$_SERVER['DOCUMENT_ROOT'].'/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="'.$_SERVER['DOCUMENT_ROOT'].'/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
         </head>
 ';
 }
