@@ -14,7 +14,7 @@ echo '<div class="wrapper ">
       <div class="logo">
         <a href="#" class="simple-text logo-mini">
           <div class="logo-image-small">
-            <img src="/assets/img/logo-small.png">
+            <img src="assets/img/logo-small.png">
           </div>
           <!-- <p>CT</p> -->
         </a>
