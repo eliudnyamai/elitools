@@ -6,7 +6,7 @@ $dir = 'php/uploads';
   $x=0;
   foreach ($files as $file) {
     if (is_file($file)) {
-      if ($now - filemtime($file) >= 60) { // 1 days
+      if ($now - filemtime($file) >= 60*60*24) { // 1 days
         unlink($file);
         $x++;
       }
