@@ -22,6 +22,10 @@ function display_head($title){
         <link href='.$_SERVER['SERVER_NAME'].'"/elitools/css/styles.css" rel="stylesheet" />
         <link href='.$_SERVER['SERVER_NAME'].'"/elitools/assets/css/bootstrap.min.css" rel="stylesheet" />
         <link href='.$_SERVER['SERVER_NAME'].'"/elitools/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+
+        <link href="/css/styles.css" rel="stylesheet" />
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
         </head>
 ';
 }
