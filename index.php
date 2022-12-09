@@ -39,7 +39,16 @@ $_SESSION['user']=generateRandomString();
   ?>
 <!-- Head end -->
 <body class="">
-
+    <!-- FB CODE -->
+<div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<!-- FB CODE -->
      <!-- Sidebar start -->
      <?php include 'includes/sidebar.php';?>
      <!-- Sidebar end -->
@@ -50,8 +59,16 @@ $_SESSION['user']=generateRandomString();
         display_header('Get Done Quickly');
        ?>
       <!-- End Navbar -->
-      <div class="content">
-        <div style="height: 100px;" class="row">
+     
+    <div class="content">
+       <!-- Start Social Media Links -->
+       <div class="update d-flex">
+        <!-- ShareThis BEGIN -->
+        <div class="sharethis-inline-share-buttons"></div>
+        <!-- ShareThis END -->
+      </div>
+      <!-- End social media links -->
+          <div style="height: 100px;" class="row">
           <div class="col-lg-3 col-md-6 col-sm-6">
            <!-- Advert -->
           </div>
@@ -64,7 +81,7 @@ $_SESSION['user']=generateRandomString();
           <div class="col-lg-3 col-md-6 col-sm-6">
             <!-- Advert -->
         </div>
-</div>
+    </div>
         <div class="row tool">
           <div style="min-height:350px;" class="col-md-12">
            <!-- Here -->
@@ -105,7 +122,7 @@ $_SESSION['user']=generateRandomString();
            <!--  -->
           </div>
         </div>
-            </div>
+            </date_interval_create_from_date_string>
           </div>
         </div>
 </div>
