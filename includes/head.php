@@ -21,9 +21,9 @@ function display_head($title){
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <!-- CSS Files -->
-        <link href='.$_SERVER["DOCUMENT_ROOT"].'"/elitools/css/styles.css" rel="stylesheet" />
-        <link href='.$_SERVER["DOCUMENT_ROOT"].'"/elitools/assets/css/bootstrap.min.css" rel="stylesheet" />
-        <link href='.$_SERVER["DOCUMENT_ROOT"].'"/elitools/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+        <link href='.$_SERVER['SERVER_NAME'].'"/elitools/css/styles.css" rel="stylesheet" />
+        <link href='.$_SERVER['SERVER_NAME'].'"/elitools/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href='.$_SERVER['SERVER_NAME'].'"/elitools/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
         </head>
 ';
 }
