@@ -1,5 +1,7 @@
 <?php
 function display_head($title){
+    echo $_SERVER['SERVER_NAME'];
+    exit();
     echo '
         <head>
         <meta charset="utf-8" />
