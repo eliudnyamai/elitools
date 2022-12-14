@@ -64,13 +64,7 @@ main{
     justify-content: space-between;
 }
 .logo{
-background-color: #cdac08;
-font-size:2rem;
-padding:2.5vh 1rem;
-}
-.links{
-   background-color:#232933;
-   display:flex;
+background-color: #F3A000;
    justify-content: space-evenly;
    flex:1;
    padding:2.5vh 1rem;
@@ -241,7 +235,7 @@ padding:2.5vh 1rem;
 footer{
    display: block;
     grid-area: footer;
-    background-color:#424344;
+    background-color:#000000;
     color:#ffffff; 
     text-align: center;
     padding-top:0.5rem;

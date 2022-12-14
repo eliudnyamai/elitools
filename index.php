@@ -34,41 +34,25 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <!--Head start  -->
-<?php include 'includes/head.php';
+  <?php include 'includes/head.php';
   display_head('Toolske|Image Manipulation');
   ?>
 <!-- Head end -->
 <body class="">
-    <!-- FB CODE -->
-<div id="fb-root"></div>
-    <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-<!-- FB CODE -->
-     <!-- Sidebar start -->
+  <!-- Sidebar start -->
      <?php include 'includes/sidebar.php';?>
-     <!-- Sidebar end -->
-
+    <!-- Side bar end -->
     <div class="main-panel">
       <!-- Navbar -->
-       <?php include 'includes/header.php';
+        <?php include 'includes/header.php';
         display_header('Get Done Quickly');
        ?>
       <!-- End Navbar -->
-     
-    <div class="content">
-       <!-- Start Social Media Links -->
-       <div class="update d-flex">
+      <div class="content">
         <!-- ShareThis BEGIN -->
-        <div class="sharethis-inline-share-buttons"></div>
-        <!-- ShareThis END -->
-      </div>
-      <!-- End social media links -->
-          <div style="height: 100px;" class="row">
+<div class="sharethis-inline-share-buttons"></div>
+<!-- ShareThis END -->
+        <div style="height: 100px;" class="row">
           <div class="col-lg-3 col-md-6 col-sm-6">
            <!-- Advert -->
           </div>
@@ -81,13 +65,13 @@ $_SESSION['user']=generateRandomString();
           <div class="col-lg-3 col-md-6 col-sm-6">
             <!-- Advert -->
         </div>
-    </div>
+</div>
         <div class="row tool">
           <div style="min-height:350px;" class="col-md-12">
            <!-- Here -->
-           <h2>Upload Your Image to Resize</h2> <br>
+           <h2>Upload your image to resize</h2> <br>
            <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
-               <input type="file" required name="file" id="file-to-upload">
+               <input type="file" required name="file" id="">
                <input type="submit" value="Upload" id="submit-img" name="submit">
            </form> <br>
            <div id="file-upload-error"></div>
@@ -122,11 +106,12 @@ $_SESSION['user']=generateRandomString();
            <!--  -->
           </div>
         </div>
-            </date_interval_create_from_date_string>
+            </div>
           </div>
         </div>
 </div>
 </div>
 <?php include 'includes/footer.php'?>
 </body>
+
 </html>

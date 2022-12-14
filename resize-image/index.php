@@ -49,6 +49,9 @@ $_SESSION['user']=generateRandomString();
        ?>
       <!-- End Navbar -->
       <div class="content">
+        <!-- ShareThis BEGIN -->
+<div class="sharethis-inline-share-buttons"></div>
+<!-- ShareThis END -->
         <div style="height: 100px;" class="row">
           <div class="col-lg-3 col-md-6 col-sm-6">
            <!-- Advert -->
