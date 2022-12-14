@@ -1,8 +1,8 @@
 <?php
     echo '<footer class="footer ">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <nav class="footer-nav ml-auto">
+        <nav class="footer-nav mx-auto">
           <ul>
             <li><a href="" target="_blank">Contact us</a></li>
             <li><a href="" target="_blank">Privacy Policy</a></li>

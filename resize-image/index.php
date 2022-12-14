@@ -1,34 +1,18 @@
-<!--
-=========================================================
-* Paper Dashboard 2 - v2.0.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-dashboard-2
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <?php
  session_start();
  include 'php/functions.php';
- if(isset($_SESSION['uploaded_file_path'])){
+  if(isset($_SESSION['uploaded_file_path'])){
       $uploaded_file=$_SESSION['uploaded_file_path'];
- }
- else{
-     $uploaded_file="placeholder.png";
- }
-
+    }
+    else{
+      $uploaded_file="placeholder.png";
+    }
  if(isset($_SESSION['resized_img'])){
-     $resized_img=$_SESSION['resized_img'];
-    
-}
-else{
+     $resized_img=$_SESSION['resized_img'];  
+    }
+ else{
     $resized_img="php/uploads/germany.png";
-}
+  }
 $_SESSION['user']=generateRandomString();
 ?>
 <!DOCTYPE html>
@@ -39,43 +23,51 @@ $_SESSION['user']=generateRandomString();
   ?>
 <!-- Head end -->
 <body class="">
-  <!-- Sidebar start -->
+   <!-- Sidebar start -->
      <?php include '../includes/sidebar.php';?>
     <!-- Side bar end -->
+
     <div class="main-panel">
       <!-- Navbar -->
         <?php include '../includes/header.php';
         display_header('Get Done Quickly');
        ?>
       <!-- End Navbar -->
+
       <div class="content">
-        <!-- ShareThis BEGIN -->
-<div class="sharethis-inline-share-buttons"></div>
-<!-- ShareThis END -->
+
+          <!-- ShareThis BEGIN -->
+          <div class="sharethis-inline-share-buttons"></div>
+          <!-- ShareThis END -->
+
         <div style="height: 100px;" class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-           <!-- Advert -->
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-           <!-- Advert -->
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <!-- Advert -->
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <!-- Advert -->
-        </div>
-</div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+              <!-- Advert -->
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+              <!-- Advert -->
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <!-- Advert -->
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <!-- Advert -->
+              </div>
+       </div>
+
         <div class="row tool">
-          <div style="min-height:350px;" class="col-md-12">
-           <!-- Here -->
-           <h2>Upload your image to resize</h2> <br>
-           <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
-               <input type="file" required name="file" id="">
-               <input type="submit" value="Upload" id="submit-img" name="submit">
-           </form> <br>
+            <div style="min-height:350px;" class="col-md-12">
+               <h2>Upload your image to resize</h2> <br>
+
+                <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
+                   <input type="file" required name="file" id="">
+                   <input type="submit" value="Upload" id="submit-img" name="submit">
+                 </form> <br>
+
            <div id="file-upload-error"></div>
+
            <div class="images">
+
                <div class="input-image">
                    <img id="uploaded_img" src="" alt="" srcset="">
                    <form method="post" action="php/resize.php" id="resize-form" class="">
@@ -92,6 +84,7 @@ $_SESSION['user']=generateRandomString();
                        <input id="resize-submit" class="resize-btn btn" name="resize" value="resize" type="submit">
                    </form>
                </div>
+
                <div  class="output-image">
                    <div class="output-image-container">
                        <img id="resized_img" src="" alt="" srcset="">
@@ -102,15 +95,11 @@ $_SESSION['user']=generateRandomString();
                        <button class="download-btn btn" type="submit">Download</button>    
                    </form>
                </div>
+
            </div>    
-           <!--  -->
           </div>
         </div>
-            </div>
-          </div>
-        </div>
-</div>
-</div>
+     </div>
 <?php include '../includes/footer.php'?>
 </body>
 
