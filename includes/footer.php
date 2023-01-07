@@ -4,10 +4,10 @@
       <div class="">
         <nav class="footer-nav ">
           <ul class="">
-            <li><a href="contact.php" >Contact us</a></li>
-            <li><a href="privacy_policy.php" >Privacy Policy</a></li>
-            <li><a href="tos.php" >Terms of Service</a></li>
-            <li><a href="about.php" >About us</a></li>
+            <li><a href="/contact.php" >Contact us</a></li>
+            <li><a href="/privacy_policy.php" >Privacy Policy</a></li>
+            <li><a href="/tos.php" >Terms of Service</a></li>
+            <li><a href="/about.php" >About us</a></li>
           </ul>
         </nav>
       </div>
