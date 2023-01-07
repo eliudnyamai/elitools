@@ -31,7 +31,7 @@ $_SESSION['user']=generateRandomString();
 
     <div class="main-panel">
 
-      <!-- Stat Navbar -->
+      <!-- Start Navbar -->
         <?php include '../includes/header.php'; display_header('Get Done Quickly');?>
       <!-- End Navbar -->
 

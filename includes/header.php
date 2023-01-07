@@ -20,17 +20,17 @@ echo '<nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-trans
     <div class="collapse navbar-collapse justify-content-end" id="navigation">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a href="contact.php" class="nav-link">
+          <a href="/contact.php" class="nav-link">
            Contact
           </a>
         </li>
         <li class="nav-item">
-          <a href="about.php" class="nav-link "  >
+          <a href="/about.php" class="nav-link "  >
             About
           </a>
         </li>
         <li class="nav-item">
-          <a href="privacy_policy.php" class="nav-link">
+          <a href="/privacy_policy.php" class="nav-link">
            Privacy Policy
           </a>
         </li>
