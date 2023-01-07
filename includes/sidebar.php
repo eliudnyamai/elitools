@@ -26,8 +26,8 @@ echo '<div class="wrapper ">
         <ul class="nav">
           <li  class="'.$resize_image.'">
             <a href="/resize-image">  
-              <i class="nc-icon nc-image"></i>
-              <p>Resize Images</p>
+            <i class="fa fa-picture-o" aria-hidden="true"></i>
+            <p>Resize Images</p>
             </a>
           </li>
         </ul>

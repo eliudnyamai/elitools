@@ -19,17 +19,15 @@ function display_head($title){
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <!-- CSS Files -->
-        <link href='.$_SERVER['SERVER_NAME'].'"/css/styles.css" rel="stylesheet" />
-        <link href='.$_SERVER['SERVER_NAME'].'"/assets/css/bootstrap.min.css" rel="stylesheet" />
         <link href='.$_SERVER['SERVER_NAME'].'"/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
-
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href='.$_SERVER['SERVER_NAME'].'"/css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        
         <link href="assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
 
-        <link href="../css/styles.css" rel="stylesheet" />
-        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
         <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
         </head>
 ';
 }

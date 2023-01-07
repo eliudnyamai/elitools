@@ -26,7 +26,7 @@ include 'functions.php';
     $height=$_POST['height'];
     $imagick = new \Imagick(realpath($_SESSION['uploaded_file_path']));
     $imagick->adaptiveResizeImage($width,$height);
-    $to = $_SESSION['user'].generateRandomString().'resized.'.$imageFormat;
+    $to = date('m-d-Y').$_SESSION['user'].generateRandomString().'resized.'.$imageFormat;
     if(file_put_contents('uploads/'.$to,$imagick->getImageBlob())
     ){
         $_SESSION['resized_img']="uploads/".$to;

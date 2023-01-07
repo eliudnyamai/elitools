@@ -1,3 +1,4 @@
+
 var width_range = document.getElementById("width-range");
 var width_input = document.getElementById("width-input");
 width_input.value = width_range.value; 
@@ -43,11 +44,13 @@ $("#upload-form").submit(function(e) {
                 width_input.value = data.size[0];
                 height_range.value = data.size[1];
                 width_range.value = data.size[0];
+                console.log(data.uploaded_file);
                 $('#uploaded_img').css('display', 'block');
                 $('#uploaded_img').attr('src',data.uploaded_file);
                 $('#submit-img').val('upload');
                 $('#resize-form').css('display', 'block');
-                $('#file-upload-error').text("")
+                $('#file-upload-error').text("");
+                $("#social-media-presets").css("display","block")
                }
                else{
                 $('#file-upload-error').text(data.error)
@@ -77,9 +80,20 @@ $("#resize-form").submit(function(e) {
                 $('#resize-submit').val('Resize');
                 $('#download-form').css('display', 'block');
                 $('#output-image-info').text(`You have resized your image to a height of ${data.height}px and a width of ${data.width}px`);
-             }
+            
+            }
  });
 });
+
+$(document).ready(function() {
+    $('.image-presets').click(function() {
+      var buttonText = $(this).val();
+      var res = buttonText.split("x", 2);
+      console.log(res)
+      width_input.value = width_range.value=res[0];
+      height_input.value = height_range.value=res[1]; 
+    });
+  });
 
 $("#download-form").submit(function(e) {
   $('#resize-form').css('display', 'none');
@@ -87,4 +101,6 @@ $("#download-form").submit(function(e) {
   $('#uploaded_img').css('display', 'none');
   $('#resized_img').css('display', 'none');
   $('#output-image-info').text('');
+  $("#social-media-presets").css("display","none")
 });
+
