@@ -1,6 +1,24 @@
+<?php
+ session_start();
+ include 'php/functions.php';
+ if(isset($_SESSION['uploaded_file_path'])){
+      $uploaded_file=$_SESSION['uploaded_file_path'];
+ }
+ else{
+     $uploaded_file="placeholder.png";
+ }
+
+ if(isset($_SESSION['resized_img'])){
+     $resized_img=$_SESSION['resized_img'];
+    
+}
+else{
+    $resized_img="php/uploads/germany.png";
+}
+$_SESSION['user']=generateRandomString();
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -8,6 +26,14 @@
   <title>Toolske.com|Free Online Tools</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <meta property='og:title' content='TITLE OF YOUR WEBSITE'/>
+  <meta property='og:image' content='https://YOUR_THUMBNAIL_IMAGE_URL'/>
+  <meta property='og:description' content='DESCRIPTION OF YOUR SITE'/>
+  <meta property='og:url' content='URL OF YOUR WEBSITE'/>
+  <meta property='og:image:width' content='1200' />
+  <meta property='og:image:height' content='627' />
+<!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+<meta property="og:type" content='website'/>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
