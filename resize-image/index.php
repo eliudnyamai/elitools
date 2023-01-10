@@ -19,7 +19,7 @@ $_SESSION['user']=generateRandomString();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head.php'?>
+<?php include '../includes/head.php'?>
 <body>
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
