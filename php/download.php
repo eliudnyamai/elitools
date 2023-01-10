@@ -3,7 +3,6 @@
     session_start();
     $filename =  $_SESSION['resized_img'];
     if(file_exists($filename)) {
-
         //Define header information
         header('Content-Description: File Transfer');
         header('Content-Type: application/octet-stream');
@@ -12,7 +11,7 @@
         header('Content-Disposition: attachment; filename="'.basename($filename).'"');
         header('Content-Length: ' . filesize($filename));
         header('Pragma: public');
-        
+
         //Clear system output buffer
         flush();
         
@@ -24,6 +23,5 @@
         }
         else{
         echo "File does not exist.";
-        }
-      
+        }    
 ?>

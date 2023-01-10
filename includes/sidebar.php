@@ -9,30 +9,41 @@ if(basename(getcwd())=='remove-background'){
 }else{
     $remove_background="";
 }
-echo '<div class="wrapper ">
-    <div class="sidebar" data-color="white" data-active-color="danger">
-      <div class="logo">
-        <a href="#" class="simple-text logo-mini">
-          <div class="logo-image-small">
-            <img src="/assets/img/logo-small.png">
-          </div>
-          <!-- <p>CT</p> -->
-        </a>
-        <a href="/" class="simple-text logo-normal">
-          Toolske
-        </a>
-      </div>
-      <div class="sidebar-wrapper">
-        <ul class="nav">
-          <li  class="'.$resize_image.'">
-            <a href="/resize-image">  
-            <i class="fa fa-picture-o" aria-hidden="true"></i>
-            <p>Resize Images</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>';
+echo '  <!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+  <ul class="sidebar-nav" id="sidebar-nav">
+    <li class="nav-item">
+      <a class="nav-link " href="resize-image/">
+        <i class="bi bi-image"></i>
+        <span>Resize Image</span>
+      </a>
+    </li><!-- End Dashboard Nav -->
+    <li class="nav-heading">Pages</li>
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="contact.php">
+        <span>Contact Us</span>
+      </a>
+    </li><!-- End contact -->
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="privacy_policy.php">
+        <span>Privacy Policy</span>
+      </a>
+    </li><!-- End privacy policy -->
+
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="about.php">
+        <span>About Us</span>
+      </a>
+    </li><!-- End Contact  -->
+
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="tos.php">
+        <span>Terms Of Service</span>
+      </a>
+    </li><!-- End TOS -->
+  </ul>
+
+</aside>';
 ?>
 
 

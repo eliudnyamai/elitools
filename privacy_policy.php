@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Head start  -->
-  <?php include 'includes/head.php';
-  display_head('Privacy Popcy');
-  ?>
-<!-- Head end -->
-<body class="">
-   <!-- Sidebar start -->
-     <?php include 'includes/sidebar.php';?>
-    <!-- Side bar end -->
 
-    <div class="main-panel">
-      <!-- Navbar -->
-        <?php include 'includes/header.php';
-        display_header('Get Done Quickly');
-       ?>
-      <!-- End Navbar -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-      <div class="content">
+  <title>Toolske.com|Privacy Policy</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-          <!-- ShareThis BEGIN -->
-          <div class="sharethis-inpne-share-buttons"></div>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+   <?php include 'includes/header.php';?>
+   <?php include 'includes/sidebar.php';?>
+  <main id="main" class="main">
+    <div class="pagetitle">
+      <h1>Privacy Policy</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Toolske.com</a></li>
+          <li class="breadcrumb-item active">Privacy Policy</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+        <!-- Left side columns -->
+        <div class="col-lg-12">
+          <div class="row">
+               <!-- ShareThis BEGIN -->
+               <div class="sharethis-inpne-share-buttons"></div>
           <!-- ShareThis END -->
           <div>
-          <h1>PRIVACY POLICY</h1>
 
 <p>This privacy popcy outpnes how we collect, use, and share information about you when you use our website and services. Please read this popcy carefully to understand our practices.
 
 Collection and Use of Information</p>
 
-<h2>We collect information about you in the following ways:</h2>
+<h3>We collect information about you in the following ways:</h3>
 <p>Information you provide to us: We collect information you provide directly to us, such as when you create an account or fill out a form on our website. This may include your name, email address, phone number, and other personal information.
 </p>
 <p>
@@ -38,9 +65,9 @@ Information we collect automatically: When you use our website, we may collect c
 <p>
 Cookies and similar technologies: We use cookies and similar technologies to collect and store information when you use our website. A cookie is a small data file that is transferred to your device. We may use both session cookies, which expire when you close your browser, and persistent cookies, which remain on your device until they are deleted or expire. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some features of our website.
 </p>
-<h2>
+<h3>
 We use the information we collect about you to provide and improve our services, communicate with you, and enforce our terms and popcies. This may include using your information to:
-</h2>
+</h3>
 
 <p>Provide and depver the products and services you request;</p>
 <p>Respond to your questions and requests;</p>
@@ -68,24 +95,22 @@ With your explicit consent.
 </p>
 <p>We do not store user-uploaded content for more than 24 hours.</p>
 
-<h2>Cookies and Third Party Advertisers</h2>
+<h3>Cookies and Third Party Advertisers</h3>
 <p>
 We use cookies to personapze content and ads, to provide social media features and to analyze our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
 </p>
 <p>
 Our website may also include third-party advertising and pnks to other websites. These third-party sites have their own privacy popcies and we encourage you to review them
 </p>
-<div  class="footer-offset">
-&nbsp;
-        </div>
-
-
-          </div>
-           </div>    
-          </div>
-        </div>
-        
-<?php include 'includes/footer.php'?>
+        </div><!-- End Reports -->
+       </div>
+      </div><!-- End Left side columns -->
+    </div>
+  </div>
+</section>
+</main><!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <?php include 'includes/footer.php' ?>
 </body>
 
 </html>

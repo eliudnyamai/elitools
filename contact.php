@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Head start  -->
-  <?php include 'includes/head.php';
-  display_head('Contact Us');
-  ?>
-<!-- Head end -->
-<body class="">
-   <!-- Sidebar start -->
-     <?php include 'includes/sidebar.php';?>
-    <!-- Side bar end -->
 
-    <div class="main-panel">
-      <!-- Navbar -->
-        <?php include 'includes/header.php';
-        display_header('Get Done Quickly');
-       ?>
-      <!-- End Navbar -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-      <div class="content">
+  <title>Toolske.com|Contact Us</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-          <!-- ShareThis BEGIN -->
-          <div class="sharethis-inline-share-buttons"></div>
-          <!-- ShareThis END -->
-          <ht>
- <!--Section: Contact v.2-->
-<section class="mb-4">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+   <?php include 'includes/header.php';?>
+   <?php include 'includes/sidebar.php';?>
+  <main id="main" class="main">
+    <div class="pagetitle">
+      <h1>Contact Us</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Toolske.com</a></li>
+          <li class="breadcrumb-item active">Contact Us</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+        <!-- Left side columns -->
+        <div class="col-lg-12">
+          <div class="row">
+          <section class="mb-4">
 
 <!--Section heading-->
-<h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
 <!--Section description-->
 <p class="text-center w-responsive mx-auto mb-5">
     Do you have any questions? Do you want a new tool or suggesting an improvement? 
@@ -46,8 +68,8 @@
                 <!--Grid column-->
                 <div class="col-md-6">
                     <div class="md-form mb-0">
+                    <label for="name" class="">Your name</label>
                         <input type="text" id="name" name="name" class="form-control">
-                        <label for="name" class="">Your name</label>
                     </div>
                 </div>
                 <!--Grid column-->
@@ -55,8 +77,8 @@
                 <!--Grid column-->
                 <div class="col-md-6">
                     <div class="md-form mb-0">
+                    <label for="email" class="">Your email</label>
                         <input type="text" id="email" name="email" class="form-control">
-                        <label for="email" class="">Your email</label>
                     </div>
                 </div>
                 <!--Grid column-->
@@ -68,8 +90,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="md-form mb-0">
+                    <label for="subject" class="">Subject</label>
                         <input type="text" id="subject" name="subject" class="form-control">
-                        <label for="subject" class="">Subject</label>
                     </div>
                 </div>
             </div>
@@ -80,10 +102,9 @@
 
                 <!--Grid column-->
                 <div class="col-md-12">
-
                     <div class="md-form">
-                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                         <label for="message">Your message</label>
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                     </div>
 
                 </div>
@@ -113,7 +134,7 @@
             </li>
 
             <li><i class="fa fa-envelope mt-4 fa-2x"></i>
-                <p>elitools@gmail.com</p>
+                <p>eliudmitau@gmail.com</p>
             </li>
         </ul>
     </div>
@@ -122,14 +143,15 @@
 </div>
 
 </section>
-<!--Section: Contact v.2-->
-    <Div class="footer-offset">
-&nbsp;    
-</Div>
-           </div>    
-          </div>
-        </div>
-<?php include 'includes/footer.php'?>
+        </div><!-- End Reports -->
+       </div>
+      </div><!-- End Left side columns -->
+    </div>
+  </div>
+</section>
+</main><!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <?php include 'includes/footer.php' ?>
 </body>
 
 </html>
