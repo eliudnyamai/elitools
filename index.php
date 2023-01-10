@@ -27,7 +27,7 @@ $_SESSION['user']=generateRandomString();
   <meta content="" name="description">
   <meta content="" name="keywords">
   <meta property='og:title' content='TITLE OF YOUR WEBSITE'/>
-  <meta property='og:image' content='https://YOUR_THUMBNAIL_IMAGE_URL'/>
+  <meta property='og:image' content='https://toolske.com/sm-preview.png'/>
   <meta property='og:description' content='DESCRIPTION OF YOUR SITE'/>
   <meta property='og:url' content='URL OF YOUR WEBSITE'/>
   <meta property='og:image:width' content='1200' />
