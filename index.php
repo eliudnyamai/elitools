@@ -23,7 +23,7 @@ $_SESSION['user']=generateRandomString();
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Toolske.com|Free Online Tools</title>
+  <title>Toolske.com|Free Image Resizing Tool</title>
   <meta content="" name="Free online tools">
   <meta content="" name="free, online, resize image, remove background,resize image online">
   <meta property='og:title' content='Free online tools'/>
