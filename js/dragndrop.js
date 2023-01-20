@@ -79,13 +79,6 @@ function showFile(){
              $('#file-upload-error').text("");
              $("#social-media-presets").css("display","block");
              dropArea.classList.remove("active");
-             let scrollto = document.getElementById('social-media-presets');
-            // Scroll the window to the element
-            window.scroll({
-              top: scrollto.offsetTop, 
-              left: 0, 
-              behavior: 'smooth' 
-            });
             }
             else{
              $('#file-upload-error').text(data.error)
