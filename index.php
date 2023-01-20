@@ -49,11 +49,22 @@ $_SESSION['user']=generateRandomString();
             </div>
           <div style="min-height:200px;" class="col-md-12">
            <h2>Upload your Image to resize</h2> <br>
-           <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
+
+       
+
+           <!-- <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
                <input type="file" required name="file" id="">
                <input type="submit" value="Upload" id="submit-img" name="submit">
            </form> <br>
-           <div id="file-upload-error"></div>
+           <div id="file-upload-error"></div> -->
+           <div class="drag-area">
+    <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+    <header>Drag & Drop to Upload File</header>
+    <span>OR</span>
+    <button class="btn">Browse File</button>
+    <input type="file" hidden>
+  </div>
+</div>
            <div class="images">
                <div class="input-image">
                   <img id="uploaded_img" src="" alt="" srcset="">          

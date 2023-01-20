@@ -8,7 +8,7 @@ width_range.oninput = function() {
 width_input.oninput = function() {
     width_range.value = this.value
 } 
-
+//automaticall scroll to a certain element in the same page
 var height_range = document.getElementById("height-range");
 var height_input = document.getElementById("height-input");
 height_input.value = height_range.value;
@@ -80,7 +80,13 @@ $("#resize-form").submit(function(e) {
                 $('#resize-submit').val('Resize');
                 $('#download-form').css('display', 'block');
                 $('#output-image-info').text(`You have resized your image to a height of ${data.height}px and a width of ${data.width}px`);
-            
+                let scrollto = document.getElementById('download-form');
+                // Scroll the window to the element
+                window.scroll({
+                  top: scrollto.offsetTop, 
+                  left: 0, 
+                  behavior: 'smooth' 
+                });
             }
  });
 });

@@ -20,6 +20,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="js/script.js"></script>
   <script src="js/contact.js"></script>
+  <script src="js/dragndrop.js"></script>
   <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=63930d9865735e001232d844&product=inline-share-buttons" async="async"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>';
