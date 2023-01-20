@@ -1,4 +1,5 @@
 <?php
+function display_head($title){
  echo '<head>
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BVTQJVB94K"></script>
@@ -11,7 +12,7 @@
 </script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Free online tools</title>
+  <title>'.$title.'</title>
   <meta content="" name="Free online tools">
   <meta content="" name="free, online, resize image, remove background,resize image online">
   <meta property="og:title" content="Free online tools"/>
@@ -43,3 +44,4 @@
   <link href="assets/css/style.css" rel="stylesheet">
   https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/basic.css
 </head>';
+}

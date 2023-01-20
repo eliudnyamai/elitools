@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head.php'?>
+<?php include 'includes/head.php';
+display_head('Privacy Policy');
+?>
 <body>
    <?php include 'includes/header.php';?>
    <?php include 'includes/sidebar.php';?>

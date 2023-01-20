@@ -24,4 +24,5 @@
         else{
         echo "File does not exist.";
         }   
+        //php  function to echo html head with title as an arguement
 ?>

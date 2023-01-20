@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head.php'?>
+<?php include 'includes/head.php';
+display_head('About Us');?>
 <body>
    <?php include 'includes/header.php';?>
    <?php include 'includes/sidebar.php';?>
