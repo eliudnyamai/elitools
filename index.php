@@ -124,7 +124,7 @@ $_SESSION['user']=generateRandomString();
                           <button class="btn-presets tumblr btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
                           <i class="fa fa-tumblr" aria-hidden="true"></i>
                               Tumblr
-                          </button>]
+                          </button>
                           </a>
                           <ul class="dropdown-menu">
                             <button value="128x128" class="image-presets" >128x128px(profilephoto)</button>
