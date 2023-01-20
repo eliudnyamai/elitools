@@ -1544,6 +1544,46 @@ background-color: #5B738A;
  height: 200px;
 }
 
+.drag-area{
+  border: 2px dashed #7141FC;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.drag-area.active{
+  border: 2px solid #7141FC;
+}
+.drag-area .icon{
+  font-size: 50px;
+  color: #7141FC;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #7141FC;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 5px 12px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 
 
 
