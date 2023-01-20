@@ -183,6 +183,46 @@ display_head('Resize Image For Free Online');
                     </div>
            </div>    
           </div>
+          <div>
+          <h2>How To Resize Images Online For Free-No Sign Up Needed</h2>
+<p>Various kinds of people will need an image resizing tool for their various purposes such as posting to social media among others. To resize an image for free online you can use a free image resizing tool provide here at toolske.com. Toolske.com is a website providing a collection of free online tools to help you achieve faster. On top of that, you do not need to sign up to use our services</p>
+<h3>To resize an image:</h3>
+<ol>
+<li>	From you browser access toolske.com</li>
+<li>	Click on Resize images from the menu on your left</li>
+<li>	Upload your image that you want to resize.</li>
+<li>Select the height and width you would like to resize your image to</li>
+<li>	Click "Resize" and your resized image will appear on the screen ready for download</li>
+<li>	Click on “Download” image. You will find your image inside your downloads folder</li>
+</ol>
+<h3>Supported Image types by the resizing tool:</h3>
+<ol>
+<li>	JPEG (or JPG) - Joint Photographic Experts Group</li>
+<li>	PNG - Portable Network Graphics</li>
+<li>	GIF - Graphics Interchange Format</li>
+<li>	TIFF - Tagged Image File</li>
+<li>	PSD - Photoshop Document</li>
+<li>	PDF - Portable Document Format</li>
+<li>	EPS - Encapsolated Postscript</li>
+<li>	AI - Adobe Illustrator Document</li>
+<li>	INDD - Adobe Indesign Document</li>
+<li>	RAW - Raw Image Formats</li>
+<li>	JFIF- JPEG File Interchage Format</li>
+</ol>
+
+<p>The tool also provides predefined image sizes for your various social media needs. You just need to select the social media site of your choice and select the image size you woold like from the dropdown. For example to resize your image  for upload as a facebook cover photo, you just need to click the facebook dropdown and select the cover photo option then click resize.
+You can resize your image for free for all your social media needs. The following social media sites are supported:
+</p>
+<ol>
+<li>Facebook</li>
+<li>YouTube</li>
+<li>Tweeter</li>
+<li>Linkedin</li>
+<li>Tumblr</li>
+<li>Pinterest</li>
+</ol>
+<p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
+        </div>
         </div><!-- End Reports -->
        </div>
       </div><!-- End Left side columns -->
