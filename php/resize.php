@@ -18,7 +18,6 @@ include 'functions.php';
         IMAGETYPE_IFF => "iff",
         IMAGETYPE_WBMP => "wbmp",
         IMAGETYPE_XBM => "xbm",
-        IMAGETYPE_ICO => "ico"
     );
     $imageType=exif_imagetype(realpath($_SESSION['uploaded_file_path']));
     $imageFormat=$extensions[$imageType];

@@ -25,7 +25,7 @@ if ($_FILES["file"]["size"] > file_upload_max_size() ) {
 
 // Allow certain file formats
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" && $imageFileType != "jfif"  ) {
+&& $imageFileType != "gif" && $imageFileType != "jfif" ) {
   $data["error"]="Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
   $data["success"]=false;
   echo json_encode($data);

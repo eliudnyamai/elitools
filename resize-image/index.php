@@ -199,14 +199,6 @@ display_head('Resize Image For Free Online');
 <ol>
 <li>	JPEG (or JPG) - Joint Photographic Experts Group</li>
 <li>	PNG - Portable Network Graphics</li>
-<li>	GIF - Graphics Interchange Format</li>
-<li>	TIFF - Tagged Image File</li>
-<li>	PSD - Photoshop Document</li>
-<li>	PDF - Portable Document Format</li>
-<li>	EPS - Encapsolated Postscript</li>
-<li>	AI - Adobe Illustrator Document</li>
-<li>	INDD - Adobe Indesign Document</li>
-<li>	RAW - Raw Image Formats</li>
 <li>	JFIF- JPEG File Interchage Format</li>
 </ol>
 

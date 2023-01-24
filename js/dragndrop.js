@@ -89,7 +89,7 @@ function showFile(){
     }
     fileReader.readAsDataURL(file);
   }else{
-    alert("This is not an Image File!");
+    alert("only png. jpeg and jfif image types allowed");
     dropArea.classList.remove("active");
     dragText.textContent = "Drag & Drop to Upload File";
   }
