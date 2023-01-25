@@ -12,12 +12,22 @@ if(basename(getcwd())=='remove-background'){
 echo '  <!-- ======= Sidebar ======= -->
 <aside id="sidebar" class="sidebar">
   <ul class="sidebar-nav" id="sidebar-nav">
+
     <li class="nav-item">
       <a class="nav-link " href="/resize-image/">
         <i class="bi bi-image"></i>
         <span>Resize Image</span>
       </a>
-    </li><!-- End Dashboard Nav -->
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link " href="/text2sql/">
+        <i class="ri-database-2-fill"></i>
+        <span>Text To SQL</span>
+      </a>
+    </li>
+    
+    <!-- End Dashboard Nav -->
     <li class="nav-heading">Pages</li>
     <li class="nav-item">
       <a class="nav-link collapsed" href="/contact.php">
