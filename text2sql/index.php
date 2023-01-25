@@ -19,6 +19,13 @@ display_head('Convert text to SQL online for free');
 
     <section class="section dashboard">
         <!-- Left side columns -->
+         <!-- ShareThis BEGIN -->
+         <div class="sharethis-inline-share-buttons"></div>
+            <!-- ShareThis END -->
+            <div class="advert">
+
+            </div>
+            <br>
         <div class="row">
          <div class="col-6">
           <form id="generate-sql-form" action="php/generatesql.php" method="post">
