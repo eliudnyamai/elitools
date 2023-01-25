@@ -24,7 +24,7 @@ display_head('Convert text to SQL online for free');
           <form id="generate-sql-form" action="php/generatesql.php" method="post">
           <div class="form-floating mb-3">
                       <textarea class="form-control" placeholder="" required name="sql-query" id="sql-query" style="height: 100px;"></textarea>
-                      <label for="floatingTextarea">E.G output all students whose age is greater than 2</label>
+                      <label for="floatingTextarea">E.G create a query to output all students whose age is greater than 2</label>
           </div> 
           <button id="generate-sql" class="btn" type="submit">Generate SQL!</button>
           </form>   
