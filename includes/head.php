@@ -14,7 +14,7 @@ function display_head($title){
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>'.$title.'</title>
   <meta content="" name="'.$title.'">
-  <meta content="" name="free, online, resize image, remove background,resize image online">
+  <meta content="" name="free, online, resize image, text to sql, text to sql online free, remove background,resize image online">
   <meta property="og:title" content="Free online tools"/>
   <meta property="og:image" content="https://toolske.com/sm-preview.png"/>
   <meta property="og:description" content="Free Online easy and quick to use tools."/>
