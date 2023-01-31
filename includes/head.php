@@ -1,5 +1,5 @@
 <?php
-function display_head($title){
+function display_head($title,$desc){
  echo '<head>
  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3457332264604722"
      crossorigin="anonymous"></script>
@@ -16,6 +16,7 @@ function display_head($title){
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>'.$title.'</title>
   <meta content="" name="'.$title.'">
+  <meta name="description" content="'.$desc.'">
   <meta content="" name="free, online, resize image, text to sql, text to sql online free, remove background,resize image online">
   <meta property="og:title" content="Free online tools"/>
   <meta property="og:image" content="https://toolske.com/sm-preview.png"/>
