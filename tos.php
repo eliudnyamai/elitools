@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php';
-display_head('Terms of service');
+display_head('Terms of service','Text to sql for free online, image resizing free online');
 ?>
 <body>
    <?php include 'includes/header.php';?>

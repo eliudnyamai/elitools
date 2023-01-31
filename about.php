@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php';
-display_head('About Us');?>
+display_head('About Us', 'Text to sql for free online, image resizing free online');?>
 <body>
    <?php include 'includes/header.php';?>
    <?php include 'includes/sidebar.php';?>
