@@ -714,6 +714,10 @@ h6 {
   margin-right: 10px;
   color: #4154f1;
 }
+.nav-link:hover{
+  color: #4154f1;
+  text-decoration: underline;
+}
 
 .sidebar-nav .nav-link.collapsed {
   color: #012970;

@@ -16,7 +16,7 @@ echo ' <!-- ======= Header ======= -->
   <nav class="header-nav mx-auto">
     <ul class="d-flex  align-items-center">
     <li class="nav-item ">
-      <a href="https://toolske.com/blog/" class="nav-link nav-icon" >
+      <a href="https://toolske.com/blog/" class="nav-link " >
         Blog
       </a>
     </li>
