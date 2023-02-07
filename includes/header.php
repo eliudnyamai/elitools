@@ -13,13 +13,23 @@ echo ' <!-- ======= Header ======= -->
 
 
 
-  <nav class="header-nav ms-auto">
-    <ul class="d-flex align-items-center">
-      <li class="nav-item dropdown">
-        <a class="nav-link nav-icon" >
-          Toolske.com
-        </a>
-      </li>
+  <nav class="header-nav mx-auto">
+    <ul class="d-flex  align-items-center">
+      <li class="nav-item nav-link">
+      <a href="/privacy_policy.php" class="nav-link nav-icon" >
+        Privacy
+      </a>
+    </li>
+    <li class="nav-item nav-link">
+      <a href="/contact.php" class="nav-link nav-icon" >
+        Contact
+      </a>
+    </li>
+    <li class="nav-item ">
+      <a href="https://toolske.com/blog/" class="nav-link nav-icon" >
+        Blog
+      </a>
+    </li>
     </ul>
   </nav><!-- End Icons Navigation -->
 
