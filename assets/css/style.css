@@ -647,6 +647,14 @@ h6 {
   background-color: #aab7cf;
 }
 
+@media (min-width: 1200px) {
+
+  #main,
+  #footer {
+    margin-left: 300px;
+  }
+}
+
 @media (max-width: 1199px) {
   .toggle-sidebar .sidebar {
     left: 0;
@@ -705,10 +713,6 @@ h6 {
   font-size: 16px;
   margin-right: 10px;
   color: #4154f1;
-}
-.nav-link:hover{
-  color: #4154f1;
-  text-decoration: underline;
 }
 
 .sidebar-nav .nav-link.collapsed {
@@ -1233,7 +1237,6 @@ h6 {
   .error-404 img {
     max-width: 50%;
   }
-
 }
 
 /*--------------------------------------------------------------
@@ -1301,7 +1304,6 @@ p{
      margin-top: 15px;
      width: 50vw;
     }
- 
   }
 .input-image{
     grid-area: input-image;
@@ -1489,9 +1491,6 @@ background-color: #FD6833;
 .tumblr{
 background-color: #5B738A;
 }
-.resize-btn{
-  margin-bottom: 10px;
-}
 
 
 .container-f {
@@ -1584,6 +1583,9 @@ background-color: #5B738A;
   border-radius: 5px;
   cursor: pointer;
 }
+#copy-success{
+  display: none;
+}
 .animated
 {
    text-transform: uppercase;
@@ -1661,4 +1663,7 @@ background-color: #5B738A;
   transform: scale(0.9);
 }
 }
+
+
+
 
