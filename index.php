@@ -50,7 +50,7 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
 
             </div>
             <!-- Default Card -->
-            <div class=" col-12 mt-5">
+            <div class=" col-12 mt-3">
             <div class="card-body">
               <h5 class="animated  card-title">Welcome To Toolske.com!!</h5>
               <div class="row">
@@ -91,7 +91,7 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
               </div>
             </div>
           </div><!-- End Default Card -->
-          <div class="row container">
+          <div class="row container-fluid">
             <div class="col-12 col-md-6 col-lg-4">
                 <!-- Card with titles, buttons, and links -->
           <div class="card">
