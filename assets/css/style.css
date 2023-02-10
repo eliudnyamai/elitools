@@ -1621,7 +1621,7 @@ background-color: #5B738A;
 #breathing-button {
   width: 200px;
   padding: 10px;
-  border: 1px solid #6104e4;
+  border: none;
   animation: breathing 1s ease-out infinite normal;
   background: #fff;
   color: #6104e4;
