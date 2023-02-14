@@ -53,7 +53,7 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
             <div class=" col-12 mt-3">
             <div class="card-body">
               <h5 class="animated  card-title">Welcome To Toolske.com!!</h5>
-              <div class="row">
+              <div class="row align-items-top">
                   <div class="col-3">
                   <!-- Card with an image on bottom -->
                   <div class="">
@@ -91,10 +91,9 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
               </div>
             </div>
           </div><!-- End Default Card -->
-          <div class="row container-fluid">
-            <div class="col-12 col-md-6 col-lg-4">
+          <div class="row mx-auto align-items-top">
                 <!-- Card with titles, buttons, and links -->
-          <div class="card">
+          <div class="card  col-lg-4 container-fluid">
             <div class="card-body">
               <h5 class="card-title animated">Free Online Image Resizer</h5>
               <h6 class="card-subtitle mb-2 text-muted">Resize Images</h6>
@@ -102,10 +101,9 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
               <p class="card-text"><a href="/resize-image" class="btn btn-primary">Resize Now!!</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-              </div>
-              <div class="col-12 col-md-6 col-lg-4">
+           
                 <!-- Card with titles, buttons, and links -->
-          <div class="card">
+          <div class="card col-lg-4 container-fluid">
             <div class="card-body">
               <h5 class="card-title animated">Free Text To SQL Converter</h5>
               <h6 class="card-subtitle mb-2 text-muted">Convert Text To SQL</h6>
@@ -113,10 +111,8 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
               <p class="card-text"><a href="/text2sql" class="btn btn-primary">Convert Now!!</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-              </div>
-              <div class="col-12 col-md-6 col-lg-4">
                 <!-- Card with titles, buttons, and links -->
-          <div class="card">
+          <div class="card col-lg-4 container-fluid">
             <div class="card-body">
               <h5 class="card-title animated">Any format converter</h5>
               <h6 class="card-subtitle mb-2 text-muted">Convert Images</h6>
@@ -124,8 +120,7 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
               <p class="card-text"><a href="#" class="btn btn-primary" disabled>Coming Soon</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-              </div>
-              <div class=" p-3 d-flex flex-row-reverse container-fluid blog-cto">
+              <div class=" p-3 d-flex justify-content-between flex-lg-row-reverse container-fluid blog-cto">
               <button id="breathing-button" class="floatleft"><a href="https://toolske.com/blog/">VISIT BLOG</a></button>
               </div> 
           </div>

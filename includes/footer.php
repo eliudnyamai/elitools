@@ -7,7 +7,6 @@
       Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
   </footer><!-- End Footer -->
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <!-- Vendor JS Files -->
   <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
   <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
@@ -21,7 +20,6 @@
   <script src="js/script.js"></script>
   <script src="js/contact.js"></script>
   <script src="js/dragndrop.js"></script>
-  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=63930d9865735e001232d844&product=inline-share-buttons" async="async"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>';
 ?>
