@@ -27,7 +27,7 @@
             exit();
              }       
              if(!in_array($extension,$allowed_extensions)){
-              $error="Sorry, only images allowed.";
+              $error="Sorry, All FILES must be images.";
               $data["error"]="$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
               $data["success"]=false;
               echo json_encode($data);
