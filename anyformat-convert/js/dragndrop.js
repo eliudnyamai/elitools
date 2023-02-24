@@ -18,6 +18,7 @@ $(document).ready(function(){
            ,
           success: function(data){   // A function to be called if request succeeds 
                 data=JSON.parse(data)
+                console.log(data);
               if(data.success){
                 $("#uploadForm")[0].reset();
                 $("#zip-success").css('display','block')
