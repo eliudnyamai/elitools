@@ -11,7 +11,7 @@
     if(isset($_FILES['files'])){  
         $errors= array();
         $messages= array();
-        $allowed_extensions = array('jpg', 'jpeg', 'png', 'gif','wbmp', 'webp','avif','svg');
+        $allowed_extensions = array('jpg', 'jpeg', 'png', 'gif','wbmp', 'webp','avif');
         foreach($_FILES['files']['tmp_name'] as $key => $tmp_name ){
           $file_name = $key.$_FILES['files']['name'][$key];
           $extension = pathinfo($file_name, PATHINFO_EXTENSION);
@@ -27,7 +27,7 @@
             exit();
              }       
              if(!in_array($extension,$allowed_extensions)){
-              $error="Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+              $error="Sorry, only images allowed.";
               $data["error"]="$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
               $data["success"]=false;
               echo json_encode($data);
@@ -41,7 +41,6 @@
               }
               if(is_dir("$desired_dir/".$file_name)==false){ //check if the file already exists in the desired directory or not. If not then move it. 
                   if(move_uploaded_file($file_tmp,"$desired_dir/".$file_name)){
-                    $messages[]= "Success: File Uploaded Successfully.";
                     $image = new \Imagick(realpath("$desired_dir/".$file_name)); 
                     $image->setImageFormat($image_format);
                     $filenameminusextension = filenameWithoutExtension($file_name);
