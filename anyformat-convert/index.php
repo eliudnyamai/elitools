@@ -90,7 +90,7 @@ display_head('Convert images to any format for free','Convert images in bulk, co
 </div>
 <div class=" col-12 mt-3">
             <div class="card-body">
-              <h5 class="animated  card-title">How to Convert Images to Any Format in bulk</h5>
+              <h5 class="animated  card-title">How to Convert Images to Any Format in bulk - 4 easy steps </h5>
               <div class="row align-items-top">
                   <div class="col-12 col-md-3">
                   <!-- Card with an image on bottom -->
