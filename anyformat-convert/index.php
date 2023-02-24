@@ -76,7 +76,7 @@ display_head('Convert images to any format for free','Convert images in bulk, co
 </div>
 
 <div id="" class="col-md-6">
-  <h5 class="card-title" >Your zip will appear here</h5>
+  <h5 class="card-title" >The zip with your files will appear here</h5>
   <div id="zip">
 
 </div>
