@@ -145,9 +145,9 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                 <!-- Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert images to SVG</h5>
-              <h6 class="card-subtitle mb-2 text-muted">images to SVG</h6>
-              <p class="card-text">Convert all types of images to SVG in bulk</p>
+              <h5 class="card-title animated">Convert images to AVIF</h5>
+              <h6 class="card-subtitle mb-2 text-muted">images to AVIF</h6>
+              <p class="card-text">Convert all types of images to AVIF in bulk</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
                 <!-- Card with titles, buttons, and links -->
