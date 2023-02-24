@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Convert images to any format for free','Convert images in bulk, convert  jpg to png in bulk, convert tiff to png in bulk, convert png to wmp in bulk');
+display_head('Convert images to any format for free','Convert images in bulk, convert  any image to png in bulk, convert any image to png in bulk,  convert any image to webp, convert any image to wbmp in bulk');
 ?>
 <body>
    <?php include '../includes/header.php';?>
