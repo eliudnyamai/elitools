@@ -27,6 +27,13 @@ echo '  <!-- ======= Sidebar ======= -->
       </a>
     </li>
     
+    <li class="nav-item">
+      <a class="nav-link " href="/anyformat-convert/">
+        <i class="bi bi-image"></i>
+        <span>Convert Images</span>
+      </a>
+    </li>
+    
     <!-- End Dashboard Nav -->
     <li class="nav-heading">Pages</li>
     <li class="nav-item">

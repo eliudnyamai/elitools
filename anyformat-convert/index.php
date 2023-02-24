@@ -47,21 +47,6 @@ display_head('Convert images to any format for free','Convert images in bulk, co
 
             </div>
            <h2>Upload your Images to Convert</h2> <br>
-
-       
-           <!-- <form id="uploadForm" action="php/upload.php" method="post" enctype="multipart/form-data">
-    <input class="" style="" required type="file" name="files[]" multiple></input>
-    <label for="image-format">Convert To:</label>
-<select name="image-format" id="image-format">
-  <option value="PNG">PNG</option>
-  <option value="JPG">JPG</option>
-  <option value="webp">Webp</option>
-  <option value="tiff">TIFF</option>
-  <option value="wbmp">WBMP</option>
-</select>
-    <input class="btn" type="submit" value="Upload And Convert">
-</form> -->
-
 <div class="row">
             <div class="card-body col-md-6">
               <h5 class="card-title">Upload Your Images to Convert </h5>
@@ -144,10 +129,10 @@ display_head('Convert images to any format for free','Convert images in bulk, co
           
           <div class="row mx-auto align-items-top">
                 <!-- Card with titles, buttons, and links -->
-          <div class="card  col-lg-4 ">
+          <div class="card container  col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert image to PNG</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Image to PNG</h6>
+              <h5 class="card-title animated">Convert images to PNG</h5>
+              <h6 class="card-subtitle mb-2 text-muted">images to PNG</h6>
               <p class="card-text">Convert all types of images to PNG in bulk</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
@@ -155,16 +140,16 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                 <!-- Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert Image to SVG</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Image to SVG</h6>
+              <h5 class="card-title animated">Convert images to SVG</h5>
+              <h6 class="card-subtitle mb-2 text-muted">images to SVG</h6>
               <p class="card-text">Convert all types of images to SVG in bulk</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
                 <!-- Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert Image to webp</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Image to Webp</h6>
+              <h5 class="card-title animated">Convert images to webp</h5>
+              <h6 class="card-subtitle mb-2 text-muted">images to Webp</h6>
               <p class="card-text">Convert all types of images to webp in bulk</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
@@ -172,8 +157,8 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                <!-- Card with titles, buttons, and links -->
                <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert Image to wbmp</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Image to Wbmp</h6>
+              <h5 class="card-title animated">Convert images to wbmp</h5>
+              <h6 class="card-subtitle mb-2 text-muted">images to Wbmp</h6>
               <p class="card-text">Convert all types of images to wbmp in bulk</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
@@ -181,8 +166,8 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                <!-- Card with titles, buttons, and links -->
                <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert Image to jpg</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Image to jpg</h6>
+              <h5 class="card-title animated">Convert images to jpg</h5>
+              <h6 class="card-subtitle mb-2 text-muted">images to jpg</h6>
               <p class="card-text">Convert all types of images to jpg IN BULK</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
@@ -190,8 +175,8 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                <!-- Card with titles, buttons, and links -->
                <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert Image to tiff</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Image to tiff</h6>
+              <h5 class="card-title animated">Convert images to tiff</h5>
+              <h6 class="card-subtitle mb-2 text-muted">images to tiff</h6>
               <p class="card-text">Convert all types of images to tiff in bulk</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
