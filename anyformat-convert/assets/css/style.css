@@ -1690,3 +1690,6 @@ background-color: #5B738A;
   transform: scale(0.9);
 }
 }
+#zip-fail{
+  display: none;
+}

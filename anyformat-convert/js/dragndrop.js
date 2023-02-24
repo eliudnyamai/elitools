@@ -11,16 +11,27 @@ $(document).ready(function(){
           cache: false,             // To unable request pages to be cached 
           processData:false,        // To send DOMDocument or non processed data file it is set to false (i.e. data should not be in the form of string) 
           success: function(data){   // A function to be called if request succeeds 
-                console.log(data)
-              // jquery innerhtml
-              $("#zip").html(data);
-              $("#uploadForm")[0].reset();
-              $("#zip-success").css('display','block')
-              //jquery css
+                data=JSON.parse(data)
+              if(data.success){
+                $("#uploadForm")[0].reset();
+                $("#zip-success").css('display','block')
+                $("#zip").html(data.message);
+              }
+              else{
+                console.log("here")
+                var message=data.error;
+                $("#zip-success").css('display','none')
+                $("#zip-fail").css('display','block');
+                $("#zip-fail").html(data.error);
+              }
+              //dynamic value in string js
           }        
       });
   });    
 });  
 $("#close").click(function(){
    location.reload();
+});
+$("#close1").click(function(){
+  location.reload();
 });

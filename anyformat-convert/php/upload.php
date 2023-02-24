@@ -19,12 +19,19 @@
           $file_tmp =$_FILES['files']['tmp_name'][$key];
           $file_type=$_FILES['files']['type'][$key];  
              if($file_size >  file_upload_max_size()){
-            echo 'File size too big';
+              $error="File size too big";
+              $data["error"]="$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
+              $data["success"]=false;
+              echo json_encode($data);
+              exit();
             exit();
              }       
              if(!in_array($extension,$allowed_extensions)){
-                echo "Only images allowed";
-                exit();
+              $error="Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+              $data["error"]="$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
+              $data["success"]=false;
+              echo json_encode($data);
+              exit();
              }
              //validate images
           $desired_dir="uploads/$user"; //specify the desired directory name here 
@@ -42,7 +49,11 @@
                     unlink("$desired_dir/$file_name"); 
                 }
                   else{
-                    $error= $_FILES['files']['error'];
+                    $error=$_FILES['files']['error'];
+                    $data["error"]="$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
+                    $data["success"]=false;
+                    echo json_encode($data);
+                    exit();
                   }
               }else{                 
                 $messages[]= "Error: File ".$fileName." already exists";
@@ -68,5 +79,8 @@
               }
           }
             $zip->close();
-            echo "<a href='php/uploads/$user.zip'  download><button  id='download-btn' class='btn btn-primary'>Download Your Zip</button></a>";
+            $data["success"]=true;
+            $data["message"]="<a href='php/uploads/$user.zip'  download><button  id='download-btn' class='btn btn-primary'>Download Your Zip</button></a>";
+            echo json_encode($data);
+            exit();
           }

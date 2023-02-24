@@ -84,6 +84,9 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                 Your zip is ready for download. close this to start afresh
                 <button id="close" type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
+      <div id="zip-fail" class="alert mt-3 alert-danger bg-danger text-light border-0 alert-dismissible fade show" role="alert">
+                
+      </div>
 </div>
 <div class=" col-12 mt-3">
             <div class="card-body">
