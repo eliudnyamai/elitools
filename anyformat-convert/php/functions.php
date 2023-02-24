@@ -51,6 +51,7 @@ function filenameWithoutExtension($file_name){
   $filenamewithextension = basename($file_name);
   $fileextenstion = pathinfo($filenamewithextension, PATHINFO_EXTENSION);
   $filenameminusextension = basename($file_name,$fileextenstion);
-  $filenameminusextension = trim(preg_replace('/[0-9]+/', '', $filenameminusextension));
+  //regedit to remove the last fullstop
+  // $filenameminusextension = trim(preg_replace('/[0-9]+/', '', $filenameminusextension));
   return $filenameminusextension;
 }
