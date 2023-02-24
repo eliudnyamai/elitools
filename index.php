@@ -93,7 +93,7 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
           </div><!-- End Default Card -->
           <div class="row mx-auto align-items-top">
                 <!-- Card with titles, buttons, and links -->
-          <div class="card  col-lg-4 container-fluid">
+          <div class="card  col-lg-4 ">
             <div class="card-body">
               <h5 class="card-title animated">Free Online Image Resizer</h5>
               <h6 class="card-subtitle mb-2 text-muted">Resize Images</h6>
@@ -103,7 +103,7 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
           </div><!-- End Card with titles, buttons, and links -->
            
                 <!-- Card with titles, buttons, and links -->
-          <div class="card col-lg-4 container-fluid">
+          <div class="card col-lg-4 ">
             <div class="card-body">
               <h5 class="card-title animated">Free Text To SQL Converter</h5>
               <h6 class="card-subtitle mb-2 text-muted">Convert Text To SQL</h6>
@@ -112,7 +112,7 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
             </div>
           </div><!-- End Card with titles, buttons, and links -->
                 <!-- Card with titles, buttons, and links -->
-          <div class="card col-lg-4 container-fluid">
+          <div class="card col-lg-4 ">
             <div class="card-body">
               <h5 class="card-title animated">Any format converter</h5>
               <h6 class="card-subtitle mb-2 text-muted">Convert Images</h6>

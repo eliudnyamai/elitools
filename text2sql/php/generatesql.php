@@ -49,3 +49,4 @@ if ($err) {
    echo json_encode($data);
    exit();
 }
+//query openai for sql

@@ -30,3 +30,4 @@ $("#contact-form").submit(function(e) {
             }
   });
   });
+  //upload multiple files with jquery and php 

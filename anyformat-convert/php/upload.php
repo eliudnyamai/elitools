@@ -1,0 +1,72 @@
+<?php  
+ session_start();
+ include 'functions.php';
+ $user=$_SESSION['user'];
+ if (isset($_POST['image-format'])) {
+  $image_format=$_POST['image-format'];
+ }else{
+  header('Location:../');
+  exit();
+ }
+    if(isset($_FILES['files'])){  
+        $errors= array();
+        $messages= array();
+        $allowed_extensions = array('jpg', 'jpeg', 'png', 'gif','wbmp', 'webp','avif','svg');
+        foreach($_FILES['files']['tmp_name'] as $key => $tmp_name ){
+          $file_name = $key.$_FILES['files']['name'][$key];
+          $extension = pathinfo($file_name, PATHINFO_EXTENSION);
+          $file_size =$_FILES['files']['size'][$key];
+          $file_tmp =$_FILES['files']['tmp_name'][$key];
+          $file_type=$_FILES['files']['type'][$key];  
+             if($file_size >  file_upload_max_size()){
+            echo 'File size too big';
+            exit();
+             }       
+             if(!in_array($extension,$allowed_extensions)){
+                echo "Only images allowed";
+                exit();
+             }
+             //validate images
+          $desired_dir="uploads/$user"; //specify the desired directory name here 
+          if(empty($errors)==true){
+              if(is_dir($desired_dir)==false){ //check if the directory exists or not. If not then create it. 
+                  mkdir("$desired_dir", 0700);		// Create directory if it does not exist						 
+              }
+              if(is_dir("$desired_dir/".$file_name)==false){ //check if the file already exists in the desired directory or not. If not then move it. 
+                  if(move_uploaded_file($file_tmp,"$desired_dir/".$file_name)){
+                    $messages[]= "Success: File Uploaded Successfully.";
+                    $image = new \Imagick(realpath("$desired_dir/".$file_name)); 
+                    $image->setImageFormat($image_format);
+                    $filenameminusextension = filenameWithoutExtension($file_name);
+                    file_put_contents("$desired_dir/$filenameminusextension.$image_format",$image);     
+                    unlink("$desired_dir/$file_name"); 
+                }
+                  else{
+                    $error= $_FILES['files']['error'];
+                  }
+              }else{                 
+                $messages[]= "Error: File ".$fileName." already exists";
+              }
+            }
+          }    
+
+          $rootPath = realpath($desired_dir);
+          // Initialize archive object
+          $zip = new ZipArchive();
+          $zip->open("uploads/$user.zip", ZipArchive::CREATE | ZipArchive::OVERWRITE);
+          // Create recursive directory iterator
+          /** @var SplFileInfo[] $files */
+          $files = new RecursiveIteratorIterator(
+              new RecursiveDirectoryIterator($rootPath),
+              RecursiveIteratorIterator::LEAVES_ONLY
+          );
+          foreach ($files as $name => $file) {
+              if (!$file->isDir()) {
+                  $filePath = $file->getRealPath();
+                  $relativePath = substr($filePath, strlen($rootPath) + 1);
+                  $zip->addFile($filePath, $relativePath);
+              }
+          }
+            $zip->close();
+            echo "<a href='php/uploads/$user.zip'  download><button  id='download-btn' class='btn btn-primary'>Download Your Zip</button></a>";
+          }
