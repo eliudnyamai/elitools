@@ -117,7 +117,7 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
               <h5 class="card-title animated">Any format converter</h5>
               <h6 class="card-subtitle mb-2 text-muted">Convert Images</h6>
               <p class="card-text">Convert images to various formats for free online. Eg png to jpg, png to bmp, tiff to png etc.</p>
-              <p class="card-text"><a href="#" class="btn btn-primary" disabled>Coming Soon</a></p>
+              <p class="card-text"><a href="/anyformat-convert" class="btn btn-primary" disabled>Convert</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
               <div class=" p-3 d-flex justify-content-between flex-lg-row-reverse container-fluid blog-cto">
