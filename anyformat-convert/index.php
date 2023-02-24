@@ -64,6 +64,8 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                     <option value="webp">Webp</option>
                     <option value="tiff">TIFF</option>
                     <option value="wbmp">WBMP</option>
+                    <option value="avif">AVIF</option>
+
                     </select>
                   </div>
                   <div class="row mt-3 mb-3">
