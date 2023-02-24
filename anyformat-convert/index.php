@@ -89,14 +89,14 @@ display_head('Convert images to any format for free','Convert images in bulk, co
             <div class="card-body">
               <h5 class="animated  card-title">How to Convert Images to Any Format in bulk</h5>
               <div class="row align-items-top">
-                  <div class="col-3">
+                  <div class="col-12 col-md-3">
                   <!-- Card with an image on bottom -->
                   <div class="">
                   <img src="assets/img/one.png" class="card-img-bottom" alt="...">
                     <h5 class="card-title text-center">Choose files</h5>
                   </div><!-- End Card with an image on bottom -->
                   </div>
-                  <div class="col-3">
+                  <div class="col-12 col-md-3">
                        <!-- Card with an image on bottom -->
                   <div class="">
                   <img src="assets/img/two.png" class="card-img-bottom" alt="...">
@@ -105,7 +105,7 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                   </div>
                   </div><!-- End Card with an image on bottom -->
                   </div>
-                  <div class="col-3">
+                  <div class="col-12 col-md-3">
                    <!-- Card with an image on bottom -->
                    <div class="">
                   <img src="assets/img/three.png" class="card-img-bottom" alt="...">
@@ -114,12 +114,12 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                   </div>
                   </div><!-- End Card with an image on bottom -->
                   </div>
-                  <div class="col-3">
+                  <div class="col-12 col-md-3">
                        <!-- Card with an image on bottom -->
                   <div class="">
                   <img src="assets/img/four.png" class="card-img-bottom" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title ">Download Zip</h5>
+                    <h5 class="card-title text-center">Download Zip</h5>
                   </div>
                   </div><!-- End Card with an image on bottom -->
                   </div>
