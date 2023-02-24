@@ -68,7 +68,7 @@ display_head('Convert images to any format for free','Convert images in bulk, co
                   </div>
                   <div class="row mt-3 mb-3">
                   <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary">Convert</button>
+                    <button id="convert" type="submit" class="btn btn-primary">Convert</button>
                   </div>
                 </div>
 </form>
