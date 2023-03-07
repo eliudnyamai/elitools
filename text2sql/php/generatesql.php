@@ -1,10 +1,7 @@
 <?php
 if (isset($_POST['sql-query'])) {
     $sql_query=$_POST['sql-query'];
-}
-else{
-    header('Location:../');
-}
+
 $OPENAI_API_KEY="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";
 $curl = curl_init();
 curl_setopt_array($curl, [
@@ -48,5 +45,9 @@ if ($err) {
    $data["sql"]=$sql;
    echo json_encode($data);
    exit();
+}
+}
+else{
+    header('Location:../');
 }
 //query openai for sql
