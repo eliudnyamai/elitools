@@ -54,14 +54,12 @@ display_head('text to sql online free','Convert text to sql online for free, no 
          <h2>How To convert Text To SQL Online-No Sign Up Needed</h2>
         <p> With the text2sql tool from toolske.com, you can now convert natural language to an SQL query free online.  With text2sql you can create a simple select query as well as more complicated queries such as joins.</p>
 <OL>
-<li>How to convert text to sql online for free</li>
-<li>Click on Text To SQL</li>
 <li>Type the text you would like converted to sql</li>
 <li>Click generate sql</li>
 <li>Copy your generated sql query</li>
 </OL>
 
-
+<a href="https://www.producthunt.com/posts/text-to-sql?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-text&#0045;to&#0045;sql" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=382781&theme=light" alt="Text&#0032;To&#0032;SQL - Convert&#0032;natural&#0032;language&#0032;to&#0032;sql&#0032;queries | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
         </div>
 
         </div><!-- End Reports -->
