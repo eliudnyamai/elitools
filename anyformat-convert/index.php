@@ -190,6 +190,7 @@ display_head('Convert images to any format for free','Convert images in bulk, co
           <div>
           
         </div>
+        <a href="https://www.producthunt.com/posts/anyformat-convert?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-anyformat&#0045;convert" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=381192&theme=neutral" alt="Anyformat&#0032;Convert - Convert&#0032;images&#0032;in&#0032;bulk&#0032;to&#0032;any&#0032;format | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
         </div><!-- End Reports -->
        </div>
       </div><!-- End Left side columns -->
