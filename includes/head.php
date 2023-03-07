@@ -1,7 +1,6 @@
 <?php
 function display_head($title,$desc){
  echo '<head>
- <script src="js/dragndrop.js"></script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>'.$title.'</title>
