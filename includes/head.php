@@ -1,6 +1,7 @@
 <?php
 function display_head($title,$desc){
  echo '<head>
+ <script src="js/dragndrop.js"></script>
  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3457332264604722"
      crossorigin="anonymous"></script>
  <!-- Google tag (gtag.js) -->
@@ -34,7 +35,6 @@ function display_head($title,$desc){
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "fmv86ipaz6");
 </script>
-<script src="js/dragndrop.js"></script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
