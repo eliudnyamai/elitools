@@ -25,7 +25,8 @@ if ($_FILES["file"]["size"] > file_upload_max_size() ) {
 
 // Allow certain file formats
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" && $imageFileType != "jfif"  ) {
+&& $imageFileType != "gif" && $imageFileType != "jfif" && $imageFileType != "webp" && $imageFileType != "tiff"
+&& $imageFileType != "avif") {
   $data["error"]="Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
   $data["success"]=false;
   echo json_encode($data);
@@ -33,10 +34,10 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 }
 
 if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
-    $_SESSION["uploaded_file_path"]='uploads/'.date('m-d-Y').'_'.$_SESSION["user"].basename( $_FILES["file"]["name"]);
+    $_SESSION["uploaded_file_path"]='uploads/'.basename( $_FILES["file"]["name"]);
     $data["success"]=true;
-    $data["uploaded_file"]='php/uploads/'.date('m-d-Y').'_'.$_SESSION["user"].basename( $_FILES["file"]["name"]);
-    $data["size"]=getimagesize('uploads/'.date('m-d-Y').'_'.$_SESSION["user"].basename( $_FILES["file"]["name"]));
+    $data["uploaded_file"]='php/uploads/'.basename( $_FILES["file"]["name"]);
+    $data["size"]=getimagesize('uploads/'.basename( $_FILES["file"]["name"]));
     echo json_encode($data);
     exit();
   }
