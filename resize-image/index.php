@@ -50,9 +50,11 @@ display_head('Resize Image For Free Online','Resize your images online for free 
 
             </div>
           <div style="min-height:200px;" class="col-md-12">
+
            <h2>Upload your Image to resize</h2> <br>
 
-       
+                 <a href="https://www.producthunt.com/posts/image-resizer-dc1320b2-8d99-4bb2-a82e-477dd5288734?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-image&#0045;resizer&#0045;dc1320b2&#0045;8d99&#0045;4bb2&#0045;a82e&#0045;477dd5288734" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=384107&theme=light" alt="Image&#0032;Resizer - Resize&#0032;Images&#0032;without&#0032;loosing&#0032;question | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 
            <!-- <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
                <input type="file" required name="file" id="">
