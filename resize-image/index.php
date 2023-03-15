@@ -102,7 +102,6 @@ display_head('Resize Image For Free Online','Resize your images online for free 
                         </ul>
                       </div>
                       <div class="dropdown">
-                        <br>
                         <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
                           <button class="btn-presets linkedin btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
                           <i class="fa fa-linkedin" aria-hidden="true"></i>
