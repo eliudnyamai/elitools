@@ -158,7 +158,7 @@ display_head('Resize Image For Free Online','Resize your images online for free 
                         </div>
                       <div class="dropdown">
                           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                            <button class="btn-presets  btn btn-success dropdown-toggle" type="button">
+                            <button class="btn-presets aspect  btn btn-success dropdown-toggle" type="button">
                               <i class="fa " aria-hidden="true"></i>
                               16:9 Aspect Ratio
                               </button>
