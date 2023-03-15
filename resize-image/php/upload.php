@@ -5,7 +5,7 @@ session_start();
 include 'functions.php';
 define ('SITE_ROOT', realpath(dirname(__FILE__)));
 $target_dir = SITE_ROOT.'/uploads/';
-$target_file = $target_dir .date('m-d-Y').'_'.$_SESSION["user"].basename($_FILES["file"]["name"]);
+$target_file = $target_dir .basename($_FILES["file"]["name"]);
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 $data=array();
 

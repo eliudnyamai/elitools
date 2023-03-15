@@ -16,6 +16,11 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #f6f9ff;
   color: #444444;
+  position: relative
+
+}
+html, body {
+  overflow-x: hidden;
 }
 
 a {
@@ -1371,6 +1376,7 @@ p{
 }
 .input-image>img{
     width: 100%;
+    max-height: 500px;
 }
 .btn{
     margin: auto;
@@ -1583,6 +1589,9 @@ background-color: #5B738A;
   border-radius: 5px;
   cursor: pointer;
 }
+#copy-success{
+  display: none;
+}
 .animated
 {
    text-transform: uppercase;
@@ -1660,3 +1669,7 @@ background-color: #5B738A;
   transform: scale(0.9);
 }
 }
+
+
+
+
