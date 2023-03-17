@@ -13,17 +13,11 @@ echo '  <!-- ======= Sidebar ======= -->
 <aside id="sidebar" class="sidebar">
   <ul class="sidebar-nav" id="sidebar-nav">
 
+  <li class="nav-heading">Images</li>
     <li class="nav-item">
       <a class="nav-link " href="/resize-image/">
         <i class="bi bi-image"></i>
         <span>Resize Image</span>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link " href="/text2sql/">
-        <i class="ri-database-2-fill"></i>
-        <span>Text To SQL</span>
       </a>
     </li>
     
@@ -31,6 +25,21 @@ echo '  <!-- ======= Sidebar ======= -->
       <a class="nav-link " href="/anyformat-convert/">
         <i class="bi bi-image"></i>
         <span>Convert Images</span>
+      </a>
+    </li>
+
+    <li class="nav-item">
+    <a class="nav-link " href="/bulk-resize-images/">
+      <i class="bi bi-image"></i>
+      <span>Bulk Resize Images</span>
+    </a>
+  </li>
+  
+    <li class="nav-heading">Code</li>
+    <li class="nav-item">
+      <a class="nav-link " href="/text2sql/">
+        <i class="ri-database-2-fill"></i>
+        <span>Text To SQL</span>
       </a>
     </li>
     
