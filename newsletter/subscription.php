@@ -1,4 +1,8 @@
 <?php 
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 include_once 'config/Database.php';
 include_once 'class/Subscribe.php';
 
@@ -41,13 +45,8 @@ if(isset($_POST['subscribe'])){
 			
 				$siteName = 'Demo Site'; 
 				$siteEmail = 'contact@webdamn.com'; 
-				 
-				$siteURL = ($_SERVER["HTTPS"] == "on")?'https://':'http://'; 
-				$siteURL = $siteURL.$_SERVER["SERVER_NAME"].dirname($_SERVER['REQUEST_URI']).'/';
-			
-                $verifyLink = $siteURL.'verify_subscription.php?email_verify='.$verifyToken; 
+                $verifyLink = 'toolske.com/newsletter/verify_subscription.php?email_verify='.$verifyToken; 
                 $subject = 'Confirm Subscription'; 
-     
                 $message = '<h1 style="font-size:22px;margin:18px 0 0;padding:0;text-align:left;color:#3c7bb6">Email Confirmation</h1> 
                 <p style="color:#616471;text-align:left;padding-top:15px;padding-right:40px;padding-bottom:30px;padding-left:40px;font-size:15px">Thank you for signing up with '.$siteName.'! Please confirm your email address by clicking the link below.</p> 
                 <p style="text-align:center;"> 
@@ -58,21 +57,52 @@ if(isset($_POST['subscribe'])){
                 $headers = "MIME-Version: 1.0" . "\r\n";  
                 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";  
                 $headers .= "From: $siteName"." <".$siteEmail.">"; 
-                 
-                $mail = mail($email, $subject, $message, $headers); 
-                if($mail){ 
-                    $response = array( 
-                        'status' => 'ok', 
-                        'msg' => 'A verification link has been sent to your email address, please check your email and verify.' 
-                    ); 
-                } 
+//Load Composer's autoloader
+require '../vendor/autoload.php';
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+try {
+    //Server settings
+    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'eliudmitau@gmail.com';                     //SMTP username
+    $mail->Password   = 'rekjtkruhuzkakpf';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    //Recipients
+    $mail->setFrom('eliudmitau@gmail.com', 'Mailer');
+    $mail->addAddress($email, $name);     //Add a recipient
+    $mail->addAddress($email);               //Name is optional
+    $mail->addReplyTo('eliudmitau@gmail.com', 'Information');
+    $mail->addCC('eliudmitau@gmail.com');
+
+
+
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = $subject;
+    $mail->Body    = $message;
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+    if($mail->send()){
+        $response = array( 
+            'status' => 'ok', 
+            'msg' => 'A verification link has been sent to your email address, please check your email and verify.' 
+        ); 
+    }
+   
+} catch (Exception $e) {
+    $response['msg'] = $e; 
+}
+
             } 
         } 
-    } else { 
-        $response['msg'] = $errorMsg; 
     }       
     echo json_encode($response); 
-} else{
-    echo "error";
-}
+} 
 ?>

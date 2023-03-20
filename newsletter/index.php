@@ -3,6 +3,7 @@ include('inc/header.php');
 ?>
 <title>webdamn.com : Demo Build Newsletter System with PHP and MySQL</title>
 <link rel="stylesheet" href="css/style.css">
+<script src="js/subscribe.js"></script>
 <?php include('inc/container.php');?>
 <div class="content"> 
 	<div class="container-fluid">
@@ -20,9 +21,9 @@ include('inc/header.php');
 						<div class="bottom">							
 							<div class="status"></div>						
 							<form action="subscription.php" id="subscribeForm" method="post">							
-								<input type="text" class="form-control" id="name" placeholder="Full Name" required="">	
+								<input type="text" class="form-control" name="name" id="name" placeholder="Full Name" required="">	
 								<span class="text-danger hidden" id="nameError"></span>
-								<input type="email" class="form-control" id="email" placeholder="E-mail" required="">
+								<input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required="">
 								<span class="text-danger hidden" id="emailError"></span>
 								<input type="submit" name="subscribe" id="subscribe" value="Subscribe Now">
 							</form>
