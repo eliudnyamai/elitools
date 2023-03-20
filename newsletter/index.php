@@ -3,7 +3,7 @@ include('inc/header.php');
 ?>
 <title>webdamn.com : Demo Build Newsletter System with PHP and MySQL</title>
 <link rel="stylesheet" href="css/style.css">
-<script src="js/subscribe.js"></script>
+<!-- <script src="js/subscribe.js"></script> -->
 <?php include('inc/container.php');?>
 <div class="content"> 
 	<div class="container-fluid">
