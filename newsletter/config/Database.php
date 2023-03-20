@@ -12,8 +12,7 @@ class Database{
 		if($conn->connect_error){
 			die("Error failed to connect to MySQL: " . $conn->connect_error);
 		} else {
-			echo "connected";
-			//return $conn;
+			return $conn;
 		}
     }
 }
