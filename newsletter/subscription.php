@@ -4,8 +4,6 @@ include_once 'class/Subscribe.php';
 
 $database = new Database();
 $db = $database->getConnection();
-echo $db;
-exit();
 $subscriber = new Subscribe($db);
 
 if(isset($_POST['subscribe'])){ 
