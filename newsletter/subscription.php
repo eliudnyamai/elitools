@@ -10,7 +10,7 @@ $database = new Database();
 $db = $database->getConnection();
 $subscriber = new Subscribe($db);
 
-if(isset($_POST['subscribe'])){ 
+if(!isset($_POST['subscribe'])){ 
     $errorMsg = '';     
     $response = array( 
         'status' => 'err', 
