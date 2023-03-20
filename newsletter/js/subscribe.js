@@ -22,25 +22,24 @@ $(document).ready(function() {
             return false;
         } else {            
             $.ajax({
-                type:'POST',
-                url:'subscription.php',
-                dataType: "json",
-                data:{subscribe:1, name:name, email:email},
-                beforeSend: function () {
-                    $('#subscribe').attr("disabled", "disabled");
-                    $('.susbcribe-container').css('opacity', '.5');
-                },
-                success:function(data) {
-                    console.log(data);
-                    if(data.status == 'ok') {
-                        $('#subscribeForm')[0].reset();
-                        $('.status').html('<p class="success">'+data.msg+'</p>');
-                    } else {
-                        $('.status').html('<p class="error">'+data.msg+'</p>');
-                    }
-                    $('#subscribe').removeAttr("disabled");
-                    $('.susbcribe-container').css('opacity', '');
-                }
+                // type:'POST',
+                // url:'subscription.php',
+                // dataType: "json",
+                // data:{subscribe:1, name:name, email:email},
+                // beforeSend: function () {
+                //     $('#subscribe').attr("disabled", "disabled");
+                //     $('.susbcribe-container').css('opacity', '.5');
+                // },
+                // success:function(data) {
+                //     if(data.status == 'ok') {
+                //         $('#subscribeForm')[0].reset();
+                //         $('.status').html('<p class="success">'+data.msg+'</p>');
+                //     } else {
+                //         $('.status').html('<p class="error">'+data.msg+'</p>');
+                //     }
+                //     $('#subscribe').removeAttr("disabled");
+                //     $('.susbcribe-container').css('opacity', '');
+                // }
             });
         }
     });
