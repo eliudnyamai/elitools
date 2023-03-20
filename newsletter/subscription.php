@@ -72,5 +72,7 @@ if(isset($_POST['subscribe'])){
         $response['msg'] = $errorMsg; 
     }       
     echo json_encode($response); 
-} 
+} else{
+    echo "error";
+}
 ?>

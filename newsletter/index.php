@@ -24,7 +24,7 @@ include('inc/header.php');
 								<span class="text-danger hidden" id="nameError"></span>
 								<input type="email" class="form-control" id="email" placeholder="E-mail" required="">
 								<span class="text-danger hidden" id="emailError"></span>
-								<input type="submit" id="subscribe" value="Subscribe Now">
+								<input type="submit" name="subscribe" id="subscribe" value="Subscribe Now">
 							</form>
 						</div>
 					</div>
