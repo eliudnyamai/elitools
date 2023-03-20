@@ -10,7 +10,7 @@ $database = new Database();
 $db = $database->getConnection();
 $subscriber = new Subscribe($db);
 
-if(!isset($_POST['subscribe'])){ 
+if(isset($_POST['subscribe'])){ 
     $errorMsg = '';     
     $response = array( 
         'status' => 'err', 
@@ -45,7 +45,7 @@ if(!isset($_POST['subscribe'])){
 			
 				$siteName = 'Demo Site'; 
 				$siteEmail = 'contact@webdamn.com'; 
-                $verifyLink = 'toolske.com/newsletter/verify_subscription.php?email_verify='.$verifyToken; 
+                $verifyLink = 'toolske.com/verify_subscription.php?email_verify='.$verifyToken; 
                 $subject = 'Confirm Subscription'; 
                 $message = '<h1 style="font-size:22px;margin:18px 0 0;padding:0;text-align:left;color:#3c7bb6">Email Confirmation</h1> 
                 <p style="color:#616471;text-align:left;padding-top:15px;padding-right:40px;padding-bottom:30px;padding-left:40px;font-size:15px">Thank you for signing up with '.$siteName.'! Please confirm your email address by clicking the link below.</p> 
