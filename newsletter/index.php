@@ -2,7 +2,6 @@
 include('inc/header.php');
 ?>
 <title>webdamn.com : Demo Build Newsletter System with PHP and MySQL</title>
-<script src="js/subscribe.js"></script>
 <link rel="stylesheet" href="css/style.css">
 <?php include('inc/container.php');?>
 <div class="content"> 
