@@ -35,6 +35,5 @@ function display_head($title,$desc){
   <!-- Template Main CSS File -->
  
   <link href="assets/css/style.css" rel="stylesheet">
-  https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/basic.css
 </head>';
 }
