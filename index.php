@@ -50,10 +50,11 @@ display_head('Free Online Tools','Resize an image online for free,you can resize
 
 <!-- JavaScript code to open and close the popup -->
 <script>
+if (document.cookie.indexOf("subemail") < 0) {
 setTimeout(function() {
   document.getElementById("popup").style.display = "block";
 }, 5000); // 5000ms = 5 seconds
-
+}
 document.getElementById("close-btn").addEventListener("click", function() {
   document.getElementById("popup").style.display = "none";
 });
