@@ -13,7 +13,7 @@ if(!empty($_GET['email_verify'])){
     if($subscriber->verifyToken()){ 
        	$subscriber->is_verified = 1;        
         if($subscriber->update()) { 
-            $statusMsg = '<p class="text-success">Your email address has been verified successfully. </br> <a href="toolske.com">Toolske.com Home</a></p>'; 
+            $statusMsg = '<p class="text-success">Your email address has been verified successfully. </br> <a href="/">Toolske.com Home</a></p>'; 
         } else { 
             $statusMsg = '<p class="text-danger">Some problem occurred on verifying your email, please try again.</p>'; 
         } 
