@@ -1,6 +1,5 @@
 $(document).ready(function() {	
     $('#subscribe').on('click', function() { 
-        console.log("clicked")       
         $('.status').html('');        
         var regEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
         var name = $('#name').val();
@@ -23,7 +22,7 @@ $(document).ready(function() {
         } else {            
             $.ajax({
                 type:'POST',
-                url:'subscription.php',
+                url:'newsletter/subscription.php',
                 dataType: "json",
                 data:{subscribe:1, name:name, email:email},
                 beforeSend: function () {

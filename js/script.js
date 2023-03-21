@@ -94,6 +94,8 @@ $(document).ready(function() {
     });
   });
 
+
+
 $("#download-form").submit(function(e) {
   $('#resize-form').css('display', 'none');
   $('#download-form').css('display', 'none');
@@ -103,3 +105,5 @@ $("#download-form").submit(function(e) {
   $("#social-media-presets").css("display","none")
 });
 
+
+alert("here");
