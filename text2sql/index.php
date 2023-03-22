@@ -6,6 +6,42 @@ display_head('text to sql online free','Convert text to sql online for free, no 
 <body>
    <?php include '../includes/header.php';?>
    <?php include '../includes/sidebar.php';?>
+
+
+<!-- HTML code for the popup -->
+<div id="popup" >
+<button id="close-btn" style="">X</button>
+  <h4>Be the first to know when we release a new tool</h4>
+  <div class="text-info status"></div>						
+  <form action="" id="subscribeForm" method="post">							
+  <div class="col-12">
+                  <label for="inputNanme4"  class="form-label">Your Name</label>
+                  <input type="text" class="form-control"  name="name" id="name" >
+                  <span class="text-danger hidden" id="nameError"></span>
+                </div>
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" name="email" id="email">
+                  <span class="text-danger hidden" id="emailError"></span>
+                </div>
+                <div class="text-center">
+                  <button type="submit" name="subscribe" id="subscribe" class="btn btn-primary">Subscribe Now</button>
+                </div> 
+  </form>
+</div>
+
+<!-- JavaScript code to open and close the popup -->
+<script>
+if (document.cookie.indexOf("subemail") < 0) {
+setTimeout(function() {
+  document.getElementById("popup").style.display = "block";
+}, 5000); // 5000ms = 5 seconds
+}
+document.getElementById("close-btn").addEventListener("click", function() {
+  document.getElementById("popup").style.display = "none";
+});
+</script>
+
   <main id="main" class="main">
     <div class="pagetitle">
       <h1>Text To SQL</h1>
@@ -59,7 +95,6 @@ display_head('text to sql online free','Convert text to sql online for free, no 
 <li>Copy your generated sql query</li>
 </OL>
 
-<a href="https://www.producthunt.com/posts/text-to-sql?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-text&#0045;to&#0045;sql" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=382781&theme=light" alt="Text&#0032;To&#0032;SQL - Convert&#0032;natural&#0032;language&#0032;to&#0032;sql&#0032;queries | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
         </div>
 
         </div><!-- End Reports -->
