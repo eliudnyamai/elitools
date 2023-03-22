@@ -22,7 +22,6 @@
   <script src="js/script.js"></script>
   <script src="js/contact.js"></script>
   <script src="newsletter/js/subscribe.js"></script>
-  <script src="../newsletter/js/subscribe.js"></script>
   <script>
   (function(c,l,a,r,i,t,y){
       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

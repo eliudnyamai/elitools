@@ -22,7 +22,7 @@ $(document).ready(function() {
         } else {            
             $.ajax({
                 type:'POST',
-                url:'https://toolske.com/newsletter/subscription.php',
+                url:'newsletter/subscription.php',
                 dataType: "json",
                 data:{subscribe:1, name:name, email:email},
                 beforeSend: function () {
