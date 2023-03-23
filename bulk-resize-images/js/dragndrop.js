@@ -37,10 +37,10 @@ $(document).ready(function(){
            var timeoutId =setTimeout(function() {
             $('#resize').val('Still resizing..');
           }, 50000);
-          const timeoutId =setTimeout(function() {
+          timeoutId =setTimeout(function() {
             $('#resize').val('Larger Files may take longer');
           }, 100000);
-          const timeoutId =setTimeout(function() {
+          timeoutId =setTimeout(function() {
             $('#resize').val('Failed, try reducing the number of files');
           }, 120001);
           
