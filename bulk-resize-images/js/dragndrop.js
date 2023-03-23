@@ -66,7 +66,7 @@ $(document).ready(function(){
                 $("#zip-success").css('display','none')
                 $("#zip-fail").css('display','block');
                 $("#zip-fail").html(data.error);
-                $('#convert').text('Convert');
+                $('#resize').text('Resize');
                 clearTimeout(timeout1)
                 clearTimeout(timeout2) 
                 clearTimeout(timeout3)
