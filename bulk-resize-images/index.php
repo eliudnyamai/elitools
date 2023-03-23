@@ -196,7 +196,6 @@ document.getElementById("close-btn").addEventListener("click", function() {
                           <ul class="dropdown-menu">
                             <button value="1920x1080" class="image-presets">1920×1080 (full HD)</button>
                             <button value="3840x2160" class="image-presets">3840×2160 (4K UHD)</button>
-                            <button value="7680x4320" class="image-presets">7,680 x 4,320 (8K UHD)</button>
                             <br>
                             <button value="1280x720" class="image-presets">1280×720 (HD)</button>
                             <button value="2560x1440" class="image-presets">2560×1440</button>

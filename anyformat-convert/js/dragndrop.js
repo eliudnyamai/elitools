@@ -14,6 +14,18 @@ $(document).ready(function(){
           beforeSend : function()
           {
            $('#convert').text('Please Wait...');
+           setTimeout(function() {
+            $('#convert').text('Still converting..');
+          }, 30000);
+          setTimeout(function() {
+            $('#convert').text('Larger Files may take longer');
+          }, 100000);
+          setTimeout(function() {
+            $('#convert').text('Failed, try reducing the number of files');
+          }, 120001);
+          
+
+           //set timeout of 50 seconds in js
           }
            ,
           success: function(data){   // A function to be called if request succeeds 

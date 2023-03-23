@@ -15,6 +15,14 @@
   exit();
  }
     if(isset($_FILES['files'])){  
+      $num_files = count($_FILES['files']['name']);
+      if($num_files>25){
+        $error="Upload only up to 25 files";
+        $data["error"]="$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
+        $data["success"]=false;
+        echo json_encode($data);
+        exit();
+      }
         $errors= array();
         $messages= array();
         $allowed_extensions = array('jpg', 'jpeg', 'png', 'gif','wbmp', 'webp','avif','jfif');
@@ -30,7 +38,6 @@
               $data["success"]=false;
               echo json_encode($data);
               exit();
-            exit();
              }       
              if(!in_array($extension,$allowed_extensions)){
               $error="Sorry, All FILES must be images. SVG is not supported";

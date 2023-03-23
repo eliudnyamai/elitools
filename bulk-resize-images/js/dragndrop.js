@@ -34,6 +34,16 @@ $(document).ready(function(){
           beforeSend : function()
           {
            $('#resize').val('Please Wait...');
+           setTimeout(function() {
+            $('#resize').val('Still resizing..');
+          }, 50000);
+          setTimeout(function() {
+            $('#resize').val('Larger Files may take longer');
+          }, 100000);
+          setTimeout(function() {
+            $('#resize').val('Failed, try reducing the number of files');
+          }, 120001);
+          
           }
            ,
           success: function(data){   // A function to be called if request succeeds 
