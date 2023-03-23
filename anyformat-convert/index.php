@@ -113,7 +113,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
 </div>
 
 <div id="" class="col-md-6">
-  <h5 class="card-title" >The zip with your files will appear here</h5>
+  <h5 class="card-title" >The zip with your files will appear here <span>If you upload too many files or files with a big bundle size, it will take longer. Please wait</span></h5>
   <div id="zip">
 
 </div>

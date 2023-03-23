@@ -34,16 +34,7 @@ $(document).ready(function(){
           beforeSend : function()
           {
            $('#resize').val('Please Wait...');
-           const timeout1 =setTimeout(function() {
-            $('#resize').val('Still resizing..');
-          }, 50000);
-          const timeout2 =setTimeout(function() {
-            $('#resize').val('Larger Files may take longer');
-          }, 100000);
-          const timeout3 =setTimeout(function() {
-            $('#resize').val('Failed, try reducing the number of files');
-          }, 120001);
-          
+         
           }
            ,
           success: function(data){   // A function to be called if request succeeds 
@@ -56,9 +47,7 @@ $(document).ready(function(){
                 $('#resize').val('Resize');
                 //change input value with jquery
                 $("#zip-fail").css('display','none');
-                clearTimeout(timeout1)
-                clearTimeout(timeout2) 
-                clearTimeout(timeout3)
+                  clearTimeout(timeout);
               }
               else{
                 console.log("here")
@@ -67,9 +56,9 @@ $(document).ready(function(){
                 $("#zip-fail").css('display','block');
                 $("#zip-fail").html(data.error);
                 $('#resize').text('Resize');
-                clearTimeout(timeout1)
-                clearTimeout(timeout2) 
-                clearTimeout(timeout3)
+                while (id--) {
+                  window.clearTimeout(id); // will do nothing if no timeout with id is present
+              }
               }
               //dynamic value in string js
           }        
