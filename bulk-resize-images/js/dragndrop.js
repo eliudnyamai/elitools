@@ -34,13 +34,13 @@ $(document).ready(function(){
           beforeSend : function()
           {
            $('#resize').val('Please Wait...');
-           setTimeout(function() {
+           var timeoutId =setTimeout(function() {
             $('#resize').val('Still resizing..');
           }, 50000);
-          setTimeout(function() {
+          const timeoutId =setTimeout(function() {
             $('#resize').val('Larger Files may take longer');
           }, 100000);
-          setTimeout(function() {
+          const timeoutId =setTimeout(function() {
             $('#resize').val('Failed, try reducing the number of files');
           }, 120001);
           
@@ -56,6 +56,7 @@ $(document).ready(function(){
                 $('#resize').val('Resize');
                 //change input value with jquery
                 $("#zip-fail").css('display','none');
+                clearTimeout(timeoutId)
               }
               else{
                 console.log("here")
@@ -64,6 +65,7 @@ $(document).ready(function(){
                 $("#zip-fail").css('display','block');
                 $("#zip-fail").html(data.error);
                 $('#convert').text('Convert');
+                clearTimeout(timeoutId)
               }
               //dynamic value in string js
           }        
