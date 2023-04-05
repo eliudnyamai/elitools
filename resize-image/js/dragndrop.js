@@ -79,7 +79,6 @@ function showFile(){
              $('#file-upload-error').text("");
              $("#social-media-presets").css("display","block");
              //change to display none with js
-             $("#social-media-presets").style.display="block";
              dropArea.classList.remove("active");
             }
             else{
