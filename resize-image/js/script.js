@@ -1,4 +1,3 @@
-
 var width_range = document.getElementById("width-range");
 var width_input = document.getElementById("width-input");
 width_input.value = width_range.value; 
@@ -75,7 +74,7 @@ $("#resize-form").submit(function(e) {
            },
            success: function(data)
            {
-                $('#resized_img').attr('src',data.resized_img);
+                $('#resized_img').attr('src',data.resized_img+'?rand=' + Math.random());
                 $('#resized_img').css('display', 'block');
                 $('#resize-submit').val('Resize');
                 $('#download-form').css('display', 'block');
