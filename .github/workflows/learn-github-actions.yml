@@ -16,4 +16,6 @@ jobs:
         script_stop: true
         script: |
           cd /var/www/html/elitools
+          git add * 
+          git stash
           git pull
