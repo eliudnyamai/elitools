@@ -66,7 +66,7 @@ $("#resize-form").submit(function(e) {
     var url = form.attr('action');
     $.ajax({
            type: "POST",
-           url: "php/resize.php",
+           url: "php/resze.php",
            data:  form.serialize(),
            dataType:'json',
            beforeSend : function()
