@@ -1471,7 +1471,14 @@ font-size: 1.5rem;
 .image-presets{
   border: none;
 }
+.fractions{
+  border: none;
+}
 .image-presets:hover{
+  border-bottom: 1px solid #7141FC;
+  color: #7141FC;
+}
+.fractions:hover{
   border-bottom: 1px solid #7141FC;
   color: #7141FC;
 }

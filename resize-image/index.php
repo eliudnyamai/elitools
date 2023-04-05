@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Resize Image For Free Online','Resize your images online for free including resizing png images, resizing jpg images and resizing tiff images, no signup needed');
+display_head('Resize Image For Free Online','toolske, toolske.com,Resize your images online for free including resizing png images, resizing jpg images and resizing tiff images, no signup needed');
 ?>
 <body>
    <?php include '../includes/header.php';?>
@@ -213,6 +213,30 @@ document.getElementById("close-btn").addEventListener("click", function() {
                           </ul>
                           <br><br>
                         </div>
+
+                        <div class="dropdown">
+                          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                            <button class="btn-presets aspect  btn btn-success dropdown-toggle" type="button">
+                              <i class="fa " aria-hidden="true"></i>
+                              Fractions
+                              </button>
+                          </a>
+                          <ul class="dropdown-menu">
+                          <button value="0.125" class="fractions">Eighth</button>
+                          <button value="0.25" class="fractions">Quarter</button>
+                            <button value="0.5" class="fractions">Half</button>
+                            <button value="0.25" class="fractions">Quarter</button>
+                            <button value="2" class="fractions">2x</button>
+                            <button value="3" class="fractions">3x</button>
+                            <button value="4" class="fractions">4x</button>
+                          </ul>
+                          <br><br>
+                        </div>
+                        
+              <div class="alert alert-info bg-info border-0 alert-dismissible fade show text-white " role="alert">
+                TIP!! To resize with a fraction not here. Lets say 1/16. Click on eighth twice
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
                       </div>
                       <form method="post" action="php/resize.php" id="resize-form" class="">
                         <p>Choose image width in px:</p>
@@ -401,7 +425,6 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">A free social media image resizer for Youtube</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-
           </div>
 <p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div>

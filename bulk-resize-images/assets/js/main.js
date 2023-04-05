@@ -18,6 +18,7 @@
       return document.querySelector(el)
     }
   }
+//select by id
 
   /**
    * Easy event listener function

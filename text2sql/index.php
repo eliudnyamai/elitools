@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('text to sql online free','Convert text to sql online for free, no signup needed');
+display_head('text to sql online free','toolske, toolske.com, Convert text to sql online for free, no signup needed');
 ?>
 <body>
    <?php include '../includes/header.php';?>

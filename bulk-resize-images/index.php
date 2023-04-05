@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('resize images in bulk free','resize images in bulk, resize  asocial media images in bulk');
+display_head('resize images in bulk free','toolske, toolske.com,resize images in bulk, resize  asocial media images in bulk');
 ?>
 <body>
    <?php include '../includes/header.php';?>
@@ -206,6 +206,24 @@ document.getElementById("close-btn").addEventListener("click", function() {
                           </ul>
                           <br><br>
                         </div>
+                        <!-- <div class="dropdown">
+                          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                            <button class="btn-presets aspect  btn btn-success dropdown-toggle" type="button">
+                              <i class="fa " aria-hidden="true"></i>
+                              Fractions
+                              </button>
+                          </a>
+                          <ul class="dropdown-menu">
+                          <button value="0.125" class="fractions">Eighth</button>
+                          <button value="0.25" class="fractions">Quarter</button>
+                            <button value="0.5" class="fractions">Half</button>
+                            <button value="0.25" class="fractions">Quarter</button>
+                            <button value="2" class="fractions">2x</button>
+                            <button value="3" class="fractions">3x</button>
+                            <button value="4" class="fractions">4x</button>
+                          </ul>
+                          <br><br>
+                        </div> -->
                       </div>
   
                       <h4 class="text-center">Or You can just choose a custom size and click resize images</h4>
@@ -348,6 +366,8 @@ document.getElementById("close-btn").addEventListener("click", function() {
           <div>
           
         </div>
+        <p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
+
         </div><!-- End Reports -->
        </div>
       </div><!-- End Left side columns -->

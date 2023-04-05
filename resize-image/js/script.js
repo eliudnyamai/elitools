@@ -92,6 +92,15 @@ $(document).ready(function() {
       console.log(res)
       width_input.value = width_range.value=res[0];
       height_input.value = height_range.value=res[1]; 
+      console.log(width_range.value);
+    });
+    $('.fractions').click(function() {
+      var fraction = $(this).val();
+      console.log(width_range.value);
+      console.log(height_range.value);
+      console.log(fraction);
+      width_input.value =width_range.value= Math.round(width_range.value*fraction);
+      height_input.value =height_range.value= Math.round(height_range.value*fraction); 
     });
   });
 

@@ -21,7 +21,7 @@ $_SESSION['user']=generateRandomString();
 <html lang="en">
 <?php include 'includes/head.php';
 
-display_head('Free Online Tools','Resize an image online for free,you can resizea jpg image online for free, resize a photo online for free, resize a png image online for free,resize a tiff image online for free. Text to sql, No signup needed');
+display_head('Free Online Tools','toolske, toolske.com, Resize an image online for free,you can resizea jpg image online for free, resize a photo online for free, resize a png image online for free,resize a tiff image online for free. Text to sql, No signup needed');
 ?>
 <body>
 
@@ -147,6 +147,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text"><a href="/text2sql" class="btn btn-primary">Convert Now!!</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
+
                 <!-- Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
             <div class="card-body">
@@ -156,6 +157,17 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text"><a href="/anyformat-convert" class="btn btn-primary" disabled>Convert Now!!</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
+
+                <!-- Card with titles, buttons, and links -->
+                <div class="card col-lg-4 ">
+            <div class="card-body">
+              <h5 class="card-title animated">Bulk Image Resizer</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Bulk Resize Images</h6>
+              <p class="card-text">Bulk resize PNG, JPG, WEBP, AVIF, TIFF and WBMP files online for free</p>
+              <p class="card-text"><a href="/bulk-resize-images" class="btn btn-primary" disabled>Bulk Resize</a></p>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+
               <div class=" p-3 d-flex justify-content-between flex-lg-row-reverse container-fluid blog-cto">
               <button class="breathing-button" class="floatleft"><a href="https://toolske.com/blog/">VISIT BLOG</a></button>
               </div> 

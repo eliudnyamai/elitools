@@ -75,6 +75,53 @@ $(document).ready(function() {
     height_input.value = height_range.value=res[1]; 
   });
 });
+$(document).ready(function() {
+  $('.fractions').click(function(e) {
+    e.preventDefault(); //Prevent Default action. 
+ 
+    var formData = new FormData('upload-form'); //Creates new FormData object
+    var buttonText = $(this).val();
+    $.ajax({
+        url: 'php/upload.php', // Url to which the request is send
+        type: "POST",             // Type of request to be send, called as method
+        data: formData, // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+        contentType: false,       // The content type used when sending data to the server. Default is: "application/x-www-form-urlencoded" 
+        cache: false,             // To unable request pages to be cached 
+        processData:false,   
+        beforeSend : function()
+        {
+         $('#resize').val('Please Wait...');
+       
+        }
+         ,
+        success: function(data){   // A function to be called if request succeeds 
+          console.log(data);
+              data=JSON.parse(data)
+            if(data.success){
+              $("#upload-form")[0].reset();
+              $("#zip-success").css('display','block')
+              $("#zip").html(data.message);
+              $('#resize').val('Resize');
+              //change input value with jquery
+              $("#zip-fail").css('display','none');
+                clearTimeout(timeout);
+            }
+            else{
+              console.log("here")
+              var message=data.error;
+              $("#zip-success").css('display','none')
+              $("#zip-fail").css('display','block');
+              $("#zip-fail").html(data.error);
+              $('#resize').text('Resize');
+              while (id--) {
+                window.clearTimeout(id); // will do nothing if no timeout with id is present
+            }
+            }
+            //dynamic value in string js
+        }        
+    });
+  });
+});
 $("#close").click(function(){
    location.reload();
 });

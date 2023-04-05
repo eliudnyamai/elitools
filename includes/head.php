@@ -7,9 +7,9 @@ function display_head($title,$desc){
   <meta content="" name="'.$title.'">
   <meta name="description" content="'.$desc.'">
   <meta content="" name="free, online, resize image, text to sql, text to sql online free, remove background,resize image online">
-  <meta property="og:title" content="Free online tools"/>
+  <meta property="og:title" content="'.$title.'"/>
   <meta property="og:image" content="https://toolske.com/smpreview.png"/>
-  <meta property="og:description" content="Free Online easy and quick to use tools."/>
+  <meta property="og:description" content="'.$desc.'"/>
   <meta property="og:url" content="toolske.com"/>
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="627" />
