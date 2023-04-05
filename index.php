@@ -26,7 +26,6 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
 <body>
 
 
-<!-- HTML code for the popup -->
 <div id="popup" >
 <button id="close-btn" style="">X</button>
   <h4>Be the first to know when we release a new tool</h4>
