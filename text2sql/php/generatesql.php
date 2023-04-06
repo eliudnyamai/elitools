@@ -50,4 +50,3 @@ if ($err) {
 else{
     header('Location:../');
 }
-//query openai for sql
