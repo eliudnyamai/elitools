@@ -4,7 +4,7 @@ class Database{
 	
 	private $host  = 'localhost';
     private $user  = 'root';
-    private $password   = "nyamai";
+    private $password   = "nYAMAI96!DIGITAL";
     private $database  = "toolske"; 
     
     public function getConnection(){		
