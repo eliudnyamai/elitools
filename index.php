@@ -145,7 +145,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">English text to SQL for free. Describe what you would like your query to do</p>
               <p class="card-text"><a href="/text2sql" class="btn btn-primary">Convert Now!!</a></p>
             </div>
-          </div><!-- End Card with titles, buttons, and links -->
+          </div><!-- End Card with titles, butt, and links -->
 
           <div class="card col-lg-4 ">
             <div class="card-body">
