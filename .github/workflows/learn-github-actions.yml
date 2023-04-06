@@ -16,6 +16,4 @@ jobs:
         script_stop: true
         script: |
           cd /var/www/toolske.com/elitools
-          git add * 
-          git stash
           git pull
