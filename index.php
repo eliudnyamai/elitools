@@ -147,7 +147,6 @@ document.getElementById("close-btn").addEventListener("click", function() {
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
-                <!-- Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
             <div class="card-body">
               <h5 class="card-title animated">Any format converter</h5>
