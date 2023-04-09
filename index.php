@@ -182,5 +182,4 @@ document.getElementById("close-btn").addEventListener("click", function() {
   <!-- ======= Footer ======= -->
  <?php include 'includes/footer.php'?>
 </body>
-
 </html>
