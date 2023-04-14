@@ -35,6 +35,13 @@ echo '  <!-- ======= Sidebar ======= -->
     </a>
   </li>
   
+  <li class="nav-item">
+  <a class="nav-link " href="/bulk-grayscale-images/">
+    <i class="bi bi-image"></i>
+    <span>Bulk Grayscale Images</span>
+  </a>
+</li>
+  
     <li class="nav-heading">Code</li>
     <li class="nav-item">
       <a class="nav-link " href="/text2sql/">

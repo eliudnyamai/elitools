@@ -166,6 +166,16 @@ document.getElementById("close-btn").addEventListener("click", function() {
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
+           <!-- Card with titles, buttons, and links -->
+           <div class="card col-lg-4 ">
+            <div class="card-body">
+              <h5 class="card-title animated">Bulk Grayscale Images</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Grayscale Images Online</h6>
+              <p class="card-text">Bulk Grayscale PNG, JPG, WEBP, AVIF, TIFF and WBMP files online for free</p>
+              <p class="card-text"><a href="/bulk-grayscale-images" class="btn btn-primary" disabled>Bulk Grayscale</a></p>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+
               <div class=" p-3 d-flex justify-content-between flex-lg-row-reverse container-fluid blog-cto">
               <button class="breathing-button" class="floatleft"><a href="https://toolske.com/blog/">VISIT BLOG</a></button>
               </div> 

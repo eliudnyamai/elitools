@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Resize Image For Free Online','toolske, toolske.com,Resize your images online for free including resizing png images, resizing jpg images and resizing tiff images, no signup needed');
+display_head('Resize Image For Free Online','toolske, toolske.com, picture resizer, Resize your images online for free including resizing png images, resizing jpg images and resizing tiff images, no signup needed');
 ?>
 <body>
    <?php include '../includes/header.php';?>
