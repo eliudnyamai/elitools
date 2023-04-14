@@ -8,6 +8,8 @@
   header('Location:../');
   exit();
  }
+ 
+
     if(isset($_FILES['files'])){  
         $errors= array();
         $messages= array();
