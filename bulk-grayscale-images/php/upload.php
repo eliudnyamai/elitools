@@ -41,7 +41,7 @@
                 }
                   else{
                     $error=$_FILES['files']['error'];
-                    $data["error"]=var_dump($error) +"<button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
+                    $data["error"]="$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
                     $data["success"]=false;
                     echo json_encode($data);
                     exit();
