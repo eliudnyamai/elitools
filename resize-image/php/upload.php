@@ -35,6 +35,7 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 
 if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     $_SESSION["uploaded_file_path"]='uploads/'.basename( $_FILES["file"]["name"]);
+    $_SESSION["filename"]=basename( $_FILES["file"]["name"]);
     $data["success"]=true;
     $data["uploaded_file"]='php/uploads/'.basename( $_FILES["file"]["name"]);
     $data["size"]=getimagesize('uploads/'.basename( $_FILES["file"]["name"]));
@@ -42,3 +43,4 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     exit();
   }
   ?>
+  

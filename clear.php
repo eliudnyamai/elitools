@@ -53,3 +53,5 @@ function deleteOldContents($dir) {
 // call the function with the path to the folder you want to delete its contents
 deleteOldContents('bulk-resize-images/php/uploads/');
 deleteOldContents('anyformat-convert/php/uploads/');
+deleteOldContents('bulk-grayscale-images/php/uploads/');
+
