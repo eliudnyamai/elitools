@@ -76,8 +76,8 @@ try {
 
     //Recipients
     $mail->setFrom('eliudmitau@gmail.com', 'Eliud from Toolske.com');
-    $mail->addAddress($email, $name);     //Add a recipient
-    $mail->addAddress($email);               //Name is optional
+    $mail->addAddress('eliudmitau@gmail.com', $name);     //Add a recipient
+    $mail->addAddress('eliudmitau@gmail.com');               //Name is optional
     $mail->addReplyTo('eliudmitau@gmail.com', 'Information');
     $mail->addCC('eliudmitau@gmail.com');
 
