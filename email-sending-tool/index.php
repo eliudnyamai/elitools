@@ -5,7 +5,7 @@ $stmt = $pdo->prepare("SELECT * FROM users");
 $stmt->execute();
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-$stmt = $pdo->prepare("SELECT * FROM Successfull_emails");
+$stmt = $pdo->prepare("SELECT * FROM successfull_emails");
 $stmt->execute();
 $successfull_emails = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
