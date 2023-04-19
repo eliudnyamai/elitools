@@ -1688,3 +1688,20 @@ z-index: 100;
   border: none;
   background: none;
 }
+
+table {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#sent-success{
+display: none;
+}
+
+#rescipient-success{
+display: none;
+}
+
+#upload-success{
+display: none;
+}

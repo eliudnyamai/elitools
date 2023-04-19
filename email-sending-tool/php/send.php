@@ -3,10 +3,14 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 include '../Database.php';
+//Fresh send
+$query = "TRUNCATE TABLE failed_emails";
+$pdo->exec($query);
+$query = "TRUNCATE TABLE successfull_emails";
+$pdo->exec($query);
 $stmt = $pdo->prepare("SELECT * FROM users");
 $stmt->execute();
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-foreach ($result as $row) {
 				$siteName = 'Test.com'; 
 				$siteEmail = 'test.gmail.com'; 
                 $subject = 'test'; 
@@ -20,50 +24,56 @@ foreach ($result as $row) {
                 $headers = "MIME-Version: 1.0" . "\r\n";  
                 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";  
                 $headers .= "From: $siteName"." <".$siteEmail.">"; 
-//Load Composer's autoloader
-require '../../vendor/autoload.php';
-
-//Create an instance; passing `true` enables exceptions
+require '../vendor/autoload.php';
 $mail = new PHPMailer(true);
-
-try {
-    //Server settings
-    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-    $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'eliudmitau@gmail.com';                     //SMTP username
-    $mail->Password   = 'rekjtkruhuzkakpf';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-    //Recipients
+    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                    
+    $mail->isSMTP();                                         
+    $mail->Host       = 'smtp.gmail.com';                     
+    $mail->SMTPAuth   = true;                                  
+    $mail->Username   = 'eliudmitau@gmail.com';                    
+    $mail->Password   = 'rekjtkruhuzkakpf';                             
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;           
+    $mail->Port       = 465;                                    
     $mail->setFrom('eliudmitau@gmail.com', 'Dilans');
-    $mail->addAddress($row['email'], $row['name']);     //Add a recipient
-    $mail->addAddress($row['email']);               //Name is optional
     $mail->addReplyTo('eliudmitau@gmail.com', 'Information');
-    $mail->AddAttachment($row['pdf'], $row['pdf']);
     $mail->addCC('eliudmitau@gmail.com');
-
-
-
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->SMTPKeepAlive = true; 
+    $mail->isHTML(true);                                  
     $mail->Subject = $subject;
     $mail->Body    = $message;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-    if($mail->send()){
-        $response = array( 
-            'status' => 'ok', 
-            'msg' => 'Messages sent.' 
-        ); 
+foreach ($result as $row) {
+    try {
+        $mail->addAddress($row['email'], $row['name']);
+    } catch (Exception $e) {
+        $stmt = $pdo->prepare("INSERT INTO  failed_emails (name, email,error) VALUES (:name, :email, :error)");
+        $stmt->bindParam(':name', $row['name']);
+        $stmt->bindParam(':email', $row['email']);
+        $stmt->bindParam(':error', 'Invalid address');
+        $stmt->execute();
+        continue;
     }
-   
-} catch (Exception $e) {
-    $response['msg'] = $e; 
-}
-} 
-echo json_encode($response); 
-              
+    if (!empty($row['pdf'])) {
+        $mail->addStringAttachment($row['pdf'], $row['name'].'.pdf');
+    }
+
+    try {
+        $mail->send();
+        $stmt = $pdo->prepare("INSERT INTO successfull_emails (name, email) VALUES (:name, :email)");
+        $stmt->bindParam(':name', $row['name']);
+        $stmt->bindParam(':email', $row['email']);
+        $stmt->execute();
+    } catch (Exception $e) {
+        $stmt = $pdo->prepare("INSERT INTO  failed_emails (name, email,error) VALUES (:name, :email, :error)");
+        $stmt->bindParam(':name', $row['name']);
+        $stmt->bindParam(':email', $row['email']);
+        $stmt->bindParam(':error', $mail->ErrorInfo);
+        $stmt->execute();
+        $mail->getSMTPInstance()->reset();
+    }
+    $mail->clearAddresses();
+    $mail->clearAttachments();
+}       
+echo json_encode('Task  Complete'); 
 ?>
