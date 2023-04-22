@@ -10,26 +10,45 @@ $(document).ready(function() {
         contentType: false,
         processData: false,
         success: function(response) {
-          console.log(response);
-          $('#rescipient-success').css('display','block')
-          setTimeout(function() {
-            location.reload();
-          }, 2000);
+          var response=JSON.parse(response);
+          if(response.success){
+            $('#rescipient-success').css('display','block')
+            setTimeout(function() {
+              location.reload();
+            }, 2000);
+          }
+          else{
+            $('#rescipient-fail').css('display','block')
+            $('#rescipient-fail').html(response.message)
+               setTimeout(function() {
+              location.reload();
+            }, 2000);
+          }
+          
         }
       });
       return false;
     });
   });
 
-  $('#send').click(function() {
+  $('#send-form').submit(function(e) {
+    e.preventDefault()
+  formdata=new FormData(this)
     $.ajax({
       url: 'php/send.php',
-      type: 'GET',
+      type: 'POST',
       cache: false,
         contentType: false,
         processData: false,
+        data:formdata,
+        beforeSend : function()
+        {
+         $('#send').text('SENDING PLEASE WAIT...');
+        }
+         ,
       success: function(response) {
         $('#sent-success').css('display','block')
+        $('#send').text('SENT COMPLETE');
         setTimeout(function() {
           location.reload();
         }, 3000);
@@ -74,17 +93,38 @@ $(document).ready(function() {
         contentType: false,
         processData: false,
       success: function(response) {
-        $('#upload-success').css('display','block')
-        setTimeout(function() {
-          location.reload();
-        }, 2000);
-  
+        $('#pdf-success').css('display','block')
+        console.log(response)
+        // setTimeout(function() {
+        //   location.reload();
+        // }, 2000);
       }
+    });
+  });
+
+  $(document).ready(function() {
+    $('#uploadcsv-form').submit(function(e) {
+      e.preventDefault();
+      var formdata = new FormData(this);
+      $.ajax({
+        url: 'php/uploadCSV.php',
+        type: 'POST',
+        data: formdata,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function(response) {
+          $('#csv-success').css('display','block')
+          setTimeout(function() {
+            location.reload();
+          }, 2000);
+        }
+      });
+      return false;
     });
   });
   
   $(document).on("click", ".update", function () {
     var name = $(this).data('name');
-    $(".modal-body #name").val( name );
-    console.log(name)
+    $(".modal-content #name").val( name );
 });

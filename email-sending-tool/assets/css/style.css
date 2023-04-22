@@ -1701,7 +1701,18 @@ display: none;
 #rescipient-success{
 display: none;
 }
+#rescipient-fail{
+  display: none;
+  }
 
-#upload-success{
+#pdf-success{
 display: none;
+}
+
+#csv-success{
+  display: none;
+}
+.table {
+  height: 500px;
+  overflow-y: scroll;
 }
