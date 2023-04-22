@@ -25,7 +25,7 @@
       }
         $errors= array();
         $messages= array();
-        $allowed_extensions = array('jpg', 'jpeg', 'png', 'gif','wbmp', 'webp','avif','jfif');
+        $allowed_extensions = array('jpg','JPG','jpeg', 'JPEG', 'png', 'PNG','gif','GIF','wbmp','WBMP', 'webp','WEBP','avif','AVIF','jfif','JFIF',);
         foreach($_FILES['files']['tmp_name'] as $key => $tmp_name ){
           $file_name = $key.$_FILES['files']['name'][$key];
           $extension = pathinfo($file_name, PATHINFO_EXTENSION);
