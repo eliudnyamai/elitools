@@ -73,7 +73,6 @@ $(document).ready(function() {
         contentType: false,
         processData: false,
       success: function(response) {
-        //loop through json object using for each
         alert(response);
         location.reload()
   
@@ -95,9 +94,9 @@ $(document).ready(function() {
       success: function(response) {
         $('#pdf-success').css('display','block')
         console.log(response)
-        // setTimeout(function() {
-        //   location.reload();
-        // }, 2000);
+        setTimeout(function() {
+          location.reload();
+        }, 2000);
       }
     });
   });
