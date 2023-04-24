@@ -133,7 +133,7 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
 <form action="" id="send-form" method="post">							
     <p>Message Body</p>
     <div class="form-floating mb-3">
-                      <textarea class="form-control" required placeholder="Type Your Message" id="message" style="height: 100px;"></textarea>
+                      <textarea class="form-control" required placeholder="Type Your Message" name="message" id="message" style="height: 100px;"></textarea>
                       <label for="message">Type Your Message To Rescipients</label>
                     </div>
   <div class="text-center">
