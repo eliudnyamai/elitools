@@ -25,6 +25,7 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
         print_r($result);
         $name=$result[0]['name'];
         echo $name;
+        exit();
         //pdo fetch name where name =name in table users
     }
     $sql = "UPDATE users SET pdf = :pdf WHERE name = :name";
