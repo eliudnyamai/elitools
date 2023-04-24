@@ -94,9 +94,9 @@ $(document).ready(function() {
       success: function(response) {
         $('#pdf-success').css('display','block')
         console.log(response)
-        // setTimeout(function() {
-        //   location.reload();
-        // }, 2000);
+        setTimeout(function() {
+          location.reload();
+        }, 2000);
       }
     });
   });
@@ -114,9 +114,9 @@ $(document).ready(function() {
         processData: false,
         success: function(response) {
           $('#csv-success').css('display','block')
-          // setTimeout(function() {
-          //   location.reload();
-          // }, 2000);
+          setTimeout(function() {
+            location.reload();
+          }, 2000);
         }
       });
       return false;
