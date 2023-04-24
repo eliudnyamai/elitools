@@ -35,13 +35,13 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     $stmt->bindParam(':pdf', $uploaded_file_path);
     try{
         $stmt->execute();
+        $data["success"]=true;
+        $data["message"]=$name;
+        echo json_encode($data);
     }
     catch (PDOException $e) {
         echo $e;
     }
     //check if mysql executed in pdo php
-    $data["success"]=true;
-    $data["message"]=$name;
-    echo json_encode($data);
-    exit();
+   
   }
