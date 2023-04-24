@@ -21,7 +21,7 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     }
     $sql = "UPDATE users SET pdf = :pdf WHERE name = :name";
     $stmt = $pdo->prepare($sql);
-    $stmt->bindParam(':name', mysql_real_escape_string($name));
+    $stmt->bindParam(':name', $name);
     $stmt->bindParam(':pdf', $uploaded_file_path);
     $stmt->execute();
     $data["success"]=true;
