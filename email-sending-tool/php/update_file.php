@@ -4,11 +4,6 @@ define ('SITE_ROOT', realpath(dirname(__FILE__)));
 if (isset($_FILES['file'])) {
     $file=$_FILES['file'];
 }
-if(isset($_POST['name'])){
-    $name=$_POST['name'];
-    echo $name;
-    exit();
-}
 $target_dir = SITE_ROOT.'/uploads/';
 $target_file = $target_dir .basename($_FILES["file"]["name"]);
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -32,6 +27,5 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     $data["message"]="inserted";
     echo json_encode($data);
     exit();
-
     //get filename part without the extension part
   }
