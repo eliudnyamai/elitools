@@ -9,9 +9,8 @@ define ('SITE_ROOT', realpath(dirname(__FILE__)));
           while (($getData = fgetcsv($file, 10000, ",")) !== FALSE)
            {
             $name=utf8_encode($getData[0])." ".utf8_encode($getData[1]);
-                   $stmt = $pdo->prepare("INSERT INTO users (name, surname, email) VALUES (:name, :surname, :email)");
-                   $stmt->bindParam(':name', $getData[0]);
-                   $stmt->bindParam(':surname', $getData[1]);
+                   $stmt = $pdo->prepare("INSERT INTO users (name, email) VALUES (:name, :email)");
+                   $stmt->bindParam(':name', $name);
                    $stmt->bindParam(':email', utf8_encode($getData[2]));
                    $stmt->execute();  
                    $index++; 

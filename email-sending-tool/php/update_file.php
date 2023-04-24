@@ -17,31 +17,24 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     if(isset($_POST['name'])){
         $name=$_POST['name'];
     }else{
-        $stmt = $pdo->prepare("SELECT name FROM users WHERE name = :name ");
-        $file_name=explode("_",$file_name);
-        if(count($file_name)>1){
-            $name=$file_name[0];
-            $surname=$file_name[1];
-        }else{
-            $name=$file_name[0];
-            $surname=" "; 
-        }
-        
+        $stmt = $pdo->prepare("SELECT name FROM users WHERE name = :name");
+        $t='J.Berzins';
+        $stmt->bindParam(':name', $file_name);
+        $stmt->execute();
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        print_r($result);
+        $name=$result[0]['name'];
+        echo $name;
+        exit();
+        //pdo fetch name where name =name in table users
     }
-    $sql = "UPDATE users SET pdf = :pdf WHERE name = :name AND surname= :surname";
+    $sql = "UPDATE users SET pdf = :pdf WHERE name = :name";
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':name', $name);
-    $stmt->bindParam(':surname', $surname);
     $stmt->bindParam(':pdf', $uploaded_file_path);
-    try{
-        $stmt->execute();
-        $data["success"]=true;
-        $data["message"]=$name;
-        echo json_encode($data);
-    }
-    catch (PDOException $e) {
-        echo $e;
-    }
-    //check if mysql executed in pdo php
-   
+    $stmt->execute();
+    $data["success"]=true;
+    $data["message"]=$name;
+    echo json_encode($data);
+    exit();
   }
