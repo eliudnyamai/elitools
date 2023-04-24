@@ -6,6 +6,8 @@ if (isset($_FILES['file'])) {
 }
 if(isset($_POST['name'])){
     $name=$_POST['name'];
+    echo $name;
+    exit();
 }
 $target_dir = SITE_ROOT.'/uploads/';
 $target_file = $target_dir .basename($_FILES["file"]["name"]);
