@@ -10,7 +10,7 @@ define ('SITE_ROOT', realpath(dirname(__FILE__)));
            {
             $name=utf8_encode(trim($getData[0]))." ".utf8_encode(trim($getData[1]));
                    $stmt = $pdo->prepare("INSERT INTO users (name, email) VALUES (:name, :email)");
-                   $stmt->bindParam(':name', trim($name));
+                   $stmt->bindParam(':name', preg_quote($name));
                    $stmt->bindParam(':email', utf8_encode($getData[2]));
                    $stmt->execute();  
                    $index++; 
