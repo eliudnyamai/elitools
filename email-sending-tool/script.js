@@ -1,11 +1,11 @@
 $(document).ready(function() {
     $('#insertForm').submit(function(e) {
       e.preventDefault();
-      var formData = new FormData(this);
+      var formdata = new FormData(this);
       $.ajax({
         url: 'php/savetodb.php',
         type: 'POST',
-        data: formData,
+        data: formdata,
         cache: false,
         contentType: false,
         processData: false,
@@ -34,6 +34,9 @@ $(document).ready(function() {
   $('#send-form').submit(function(e) {
     e.preventDefault()
   formdata=new FormData(this)
+  var message=$('#message').val();
+  //get value of text area jquery
+  formdata.append('message', message)
     $.ajax({
       url: 'php/send.php',
       type: 'POST',

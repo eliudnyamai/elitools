@@ -13,8 +13,8 @@ $pdo->exec($query);
 $stmt = $pdo->prepare("SELECT * FROM users");
 $stmt->execute();
 
-if(isset($_POST['message_body'])){
-    $message=$_POST["message_body"];
+if(isset($_POST['message'])){
+    $message=$_POST["message"];
 }
 
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -57,7 +57,7 @@ foreach ($result as $row) {
         continue;
     }
     if (!empty($row['pdf'])) {
-        $mail->addStringAttachment($row['pdf'], $row['name'].'.pdf');
+        $mail->addStringAttachment($row['pdf'], $row['pdf'].'.pdf');
     }else{
         $err="NO PDF";
         $stmt = $pdo->prepare("INSERT INTO  failed_emails (name, email,error) VALUES (:name, :email, :error)");
