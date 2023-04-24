@@ -30,7 +30,6 @@ function display_head($title,$desc){
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
   <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <!-- Template Main CSS File -->
  
   <link href="assets/css/style.css" rel="stylesheet">
 </head>';
