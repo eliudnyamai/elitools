@@ -19,8 +19,14 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     }else{
         $stmt = $pdo->prepare("SELECT name FROM users WHERE name = :name ");
         $file_name=explode("_",$file_name);
-        $name=$file_name[0];
-        $surname=$file_name[1];
+        if(count($file_name)>1){
+            $name=$file_name[0];
+            $surname=$file_name[1];
+        }else{
+            $name=$file_name[0];
+            $surname=" "; 
+        }
+        
     }
     $sql = "UPDATE users SET pdf = :pdf WHERE name = :name AND surname= :surname";
     $stmt = $pdo->prepare($sql);
