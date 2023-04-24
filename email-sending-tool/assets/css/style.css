@@ -1704,6 +1704,9 @@ display: none;
 #rescipient-fail{
   display: none;
   }
+  #pdf-fail{
+    display: none;
+    }
 
 #pdf-success{
 display: none;

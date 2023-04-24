@@ -92,11 +92,20 @@ $(document).ready(function() {
         contentType: false,
         processData: false,
       success: function(response) {
-        $('#pdf-success').css('display','block')
-        console.log(response)
-        setTimeout(function() {
-          location.reload();
-        }, 2000);
+        var response=JSON.parse(response);
+          if(response.success){
+            $('#pdf-success').css('display','block')
+            setTimeout(function() {
+              location.reload();
+            }, 2000);
+          }
+          else{
+            $('#pdf-fail').css('display','block')
+            $('#pdf-fail').html(response.message)
+               setTimeout(function() {
+              location.reload();
+            }, 2000);
+          }
       }
     });
   });

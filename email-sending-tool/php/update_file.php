@@ -3,6 +3,20 @@ header('Content-type: text/html; charset=UTF-8');
 set_time_limit(0);                   // ignore php timeout
 ignore_user_abort(true);
 include "../Database.php";
+try{
+$query = $pdo->query("SELECT COUNT(*) FROM users");
+    if ($query->fetchColumn() == 0) {
+        $data["success"]=false;
+        $data["message"]="NO NEWSLETTER RESCIPIENTS. ADD SOME";
+        echo json_encode($data);
+        exit();
+    }
+} catch(PDOException $e) {
+    $data["success"]=false;
+        $data["message"]=$e->getMessage();
+        echo json_encode($data);
+        exit();
+}
 define ('SITE_ROOT', realpath(dirname(__FILE__)));
 if(isset($_FILES['file'])) {
 
@@ -33,7 +47,7 @@ if(isset($_FILES['file'])) {
             $stmt->execute();
 
             $data["success"]=true;
-            $data["message"]=$name;
+            $data["message"]="FILES INSERTED";
         }
     }
     echo json_encode($data);

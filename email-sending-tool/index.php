@@ -65,6 +65,10 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
         PDF upload success
        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
+    <div id="pdf-fail" class="mt-1 alert alert-danger bg-danger text-light border-0 alert-dismissible fade show" role="alert">
+        PDF upload fail
+       <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
   </div>
 
 
