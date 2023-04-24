@@ -13,7 +13,7 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     $uploaded_file_path='uploads/'.basename( $_FILES["file"]["name"]);
     $filename=basename( $_FILES["file"]["name"]);
     $file_name = pathinfo($filename, PATHINFO_FILENAME);
-    $sql = "UPDATE users SET pdf = :pdf WHERE `name = :name";
+    $sql = "UPDATE users SET pdf = :pdf WHERE `name` = :name";
     $stmt = $pdo->prepare($sql);
     if(isset($_POST['name'])){
         $name=$_POST['name'];
