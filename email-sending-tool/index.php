@@ -107,7 +107,7 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
         while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
           echo '<tr>
           <td>'.$row['id'].'</td>
-          <td>'.$row['name'].'</td>
+          <td>'.$row['name'].' '.$row['surname'].'</td>
           <td>'.$row['email'].'</td>
           <td><a href="php/'.$row['pdf'].'">'.$row['pdf'].'</a></td>
           <td><i type="button" data-table="users" value="'.$row['id'].'"  class=" delete bx bxs-trash"></i><i  type="button" data-name="'.$row['name'].'" data-bs-toggle="modal" data-bs-target="#verticalycentered" value="'.$row['id'].'" class=" update bx bx-edit-alt"></i>

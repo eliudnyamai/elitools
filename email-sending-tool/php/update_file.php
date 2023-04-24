@@ -17,20 +17,15 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     if(isset($_POST['name'])){
         $name=$_POST['name'];
     }else{
-        $stmt = $pdo->prepare("SELECT name FROM users WHERE name = :name");
-        $t='Karlis Vilmanis';
-        $stmt->bindParam(':name', $t);
-        $stmt->execute();
-        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        print_r($result);
-        $name=$result[0]['name'];
-        echo $name;
-        exit();
-        //pdo fetch name where name =name in table users
+        $stmt = $pdo->prepare("SELECT name FROM users WHERE name = :name ");
+        $file_name=explode("_",$file_name);
+        $name=$file_name[0];
+        $surname=$file_name[1];
     }
-    $sql = "UPDATE users SET pdf = :pdf WHERE name = :name";
+    $sql = "UPDATE users SET pdf = :pdf WHERE name = :name AND surname= :surname";
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':name', $name);
+    $stmt->bindParam(':surname', $surname);
     $stmt->bindParam(':pdf', $uploaded_file_path);
     $stmt->execute();
     $data["success"]=true;
