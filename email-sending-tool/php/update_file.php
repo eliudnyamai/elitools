@@ -18,8 +18,6 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
         $name=$_POST['name'];
     }else{
         $name=$file_name;
-        echo $name;
-        exit();
     }
     $stmt->execute([
     'pdf' => $uploaded_file_path,
