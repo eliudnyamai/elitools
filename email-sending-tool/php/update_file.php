@@ -29,5 +29,4 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     exit();
 }
    
-    //get filename part without the extension part
   }
