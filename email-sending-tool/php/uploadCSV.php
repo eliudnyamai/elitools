@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=utf-8');
 include "../Database.php";
 define ('SITE_ROOT', realpath(dirname(__FILE__)));
  if(isset($_FILES["file"])){
@@ -6,7 +7,7 @@ define ('SITE_ROOT', realpath(dirname(__FILE__)));
      {
         $file = fopen($filename, "r");
           $index=0;
-          while (($getData = fgetcsv($file, 10000, ",")) !== FALSE)
+          while (($getData = fgetcsv($file,0, ',', '"', '\\', true, 'UTF-8')) !== FALSE)
            {
             $name=$getData[0]." ".$getData[1];
                    $stmt = $pdo->prepare("INSERT INTO users (name, email) VALUES (:name, :email)");
