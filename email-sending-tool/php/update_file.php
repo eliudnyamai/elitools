@@ -19,13 +19,15 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     }else{
         $name=$file_name;
     }
-    $stmt->execute([
+   if( $stmt->execute([
     'pdf' => $uploaded_file_path,
     'name' => $name
-]);
+])){
     $data["success"]=true;
     $data["message"]="inserted";
     echo json_encode($data);
     exit();
+}
+   
     //get filename part without the extension part
   }
