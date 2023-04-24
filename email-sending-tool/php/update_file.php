@@ -18,8 +18,8 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
         $name=$_POST['name'];
     }else{
         $stmt = $pdo->prepare("SELECT name FROM users WHERE name = :name");
-        $t='J.Berzins';
-        $stmt->bindParam(':name', $file_name);
+        $t='Karlis Vilmanis';
+        $stmt->bindParam(':name', $t);
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         print_r($result);
