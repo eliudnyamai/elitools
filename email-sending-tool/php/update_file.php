@@ -19,14 +19,13 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     }else{
         $name=$file_name;
     }
-   if( $stmt->execute([
-    'pdf' => $uploaded_file_path,
-    'name' => $name
-])){
+    $stmt->bindParam(':name', $name);
+    $stmt->bindParam(':pdf', $uploaded_file_path);
+    $stmt->execute();
     $data["success"]=true;
     $data["message"]=$name;
     echo json_encode($data);
     exit();
-}
+
    
   }
