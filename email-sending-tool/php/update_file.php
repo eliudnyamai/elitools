@@ -1,4 +1,5 @@
 <?php
+header('Content-type: text/html; charset=UTF-8');
 include "../Database.php";
 define ('SITE_ROOT', realpath(dirname(__FILE__)));
 if (isset($_FILES['file'])) {
