@@ -26,6 +26,4 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     $data["message"]=$name;
     echo json_encode($data);
     exit();
-
-   
   }
