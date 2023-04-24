@@ -20,6 +20,7 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
         $stmt = $pdo->prepare("SELECT name FROM users WHERE name = :name ");
         $file_name=explode("_",$file_name);
         print_r($file_name);
+        exit();
         if(count($file_name)>1){
             $name=$file_name[0];
             $surname=$file_name[1];
