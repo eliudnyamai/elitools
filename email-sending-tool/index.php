@@ -56,7 +56,7 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
     </div>
     <h3 class="mt-5 text-center" >Add PDF File</h3>
        <form action="" class="savepdf-form" method="post">	
-          <input required type="file" accept="application/pdf" class="form-control" name="file" id="file">
+          <input required type="file" name="file[]" multiple accept="application/pdf" class="form-control" id="file">
           <div class="text-center">
             <button type="submit" name="save-pdf" id="save-pdf" class="btn btn-primary">UPLOAD PDF</button>
           </div> 
