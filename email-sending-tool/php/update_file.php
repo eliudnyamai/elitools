@@ -24,7 +24,7 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     'name' => $name
 ])){
     $data["success"]=true;
-    $data["message"]="inserted";
+    $data["message"]=$name;
     echo json_encode($data);
     exit();
 }
