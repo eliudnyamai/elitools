@@ -30,12 +30,12 @@ $mail = new PHPMailer(true);
     $mail->isSMTP();                                         
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                  
-    $mail->Username   = 'eliudmitau@gmail.com';                    
-    $mail->Password   = 'rekjtkruhuzkakpf';                             
+    $mail->Username   = 'baltscandlv@gmail.com';                    
+    $mail->Password   = 'uufvjiewfvawwiyj';                             
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;           
     $mail->Port       = 465;                                    
-    $mail->setFrom('eliudmitau@gmail.com', 'Dilans');
-    $mail->addReplyTo('eliudmitau@gmail.com', 'Information');
+    $mail->setFrom('baltscandlv@gmail.com', 'Dilans');
+    $mail->addReplyTo('baltscandlv@gmail.com', 'Information');
     $mail->addCC('eliudmitau@gmail.com');
     $mail->SMTPKeepAlive = true; 
     $mail->isHTML(true);                                  
@@ -69,7 +69,7 @@ foreach ($result as $row) {
     }
 
     try {
-        //$mail->send();
+        $mail->send();
         $stmt = $pdo->prepare("INSERT INTO successfull_emails (name, email) VALUES (:name, :email)");
         $stmt->bindParam(':name', $row['name']);
         $stmt->bindParam(':email', $row['email']);

@@ -24,7 +24,7 @@ if ($_FILES["file"]["size"] > file_upload_max_size() ) {
 }
 
 // Allow certain file formats
-if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+if($imageFileType != "jpg" && $imageFileType != "png" &&$imageFileType != "PNG" && $imageFileType != "jpeg"
 && $imageFileType != "gif" && $imageFileType != "jfif" && $imageFileType != "webp" && $imageFileType != "tiff"
 && $imageFileType != "avif") {
   $data["error"]="Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
