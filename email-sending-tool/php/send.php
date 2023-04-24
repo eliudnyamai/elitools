@@ -57,7 +57,7 @@ foreach ($result as $row) {
         continue;
     }
     if (!empty($row['pdf'])) {
-        $mail->addStringAttachment($row['pdf'], $row['pdf'].'.pdf');
+        $mail->addAttachment($row['pdf'], $row['name'].'.pdf');
     }else{
         $err="NO PDF";
         $stmt = $pdo->prepare("INSERT INTO  failed_emails (name, email,error) VALUES (:name, :email, :error)");
