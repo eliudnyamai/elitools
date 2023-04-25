@@ -130,6 +130,9 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
   </li>
   <li><a href="?pageno=<?php echo $total_pages; ?>">Last</a></li>
 </ul>
+<div class="text-center">
+    <button type="button" name="clear" id="clear" class="btn btn-primary">CLEAR PDFs</button>
+  </div> 
 <form action="" id="send-form" method="post">							
     <p>Message Body</p>
     <div class="form-floating mb-3">

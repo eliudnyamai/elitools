@@ -50,11 +50,12 @@ $(document).ready(function() {
         }
          ,
       success: function(response) {
+        console.log(response);
         $('#sent-success').css('display','block')
         $('#send').text('SENT COMPLETE');
-        setTimeout(function() {
-          location.reload();
-        }, 3000);
+        // setTimeout(function() {
+        //   location.reload();
+        // }, 3000);
       }
     });
   });
@@ -134,7 +135,26 @@ $(document).ready(function() {
       return false;
     });
   });
+  $('#clear').click(function() {
+    console.log("here");
+    if(confirm("Do you want to continue clearing!")){
+
+    
+    $.ajax({
+      url: 'php/clear.php',
+      type: 'GET',
+      cache: false,
+        contentType: false,
+        processData: false,
+      success: function(response) {
+        alert(response);
+        location.reload()
+      }
+    });
+    }
+  });
   
+
   $(document).on("click", ".update", function () {
     var name = $(this).data('name');
     $(".modal-content #name").val( name );

@@ -3,12 +3,14 @@ include "../Database.php";
 define ('SITE_ROOT', realpath(dirname(__FILE__)));
 if (isset($_POST['name'])) {
     $name=$_POST['name'];
+    $name=trim($name);
 }
 else{
     exit();
 }
 if (isset($_POST['email'])) {
     $email=$_POST['email'];
+    $email=trim($email);
 }
 else{
     exit();

@@ -18,13 +18,14 @@ if(isset($_POST['message'])){
 }
 
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-				$siteName = 'Test.com'; 
-				$siteEmail = 'test.gmail.com'; 
-                $subject = 'test';   
+				$siteName = 'Karlis Vilmanis'; 
+				$siteEmail = 'baltscandlv@gmail.com'; 
+                $subject = 'Payslips';   
                 $headers = "MIME-Version: 1.0" . "\r\n";  
                 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";  
                 $headers .= "From: $siteName"." <".$siteEmail.">"; 
 require '../vendor/autoload.php';
+foreach ($result as $row) {
 $mail = new PHPMailer(true);
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                    
     $mail->isSMTP();                                         
@@ -34,17 +35,16 @@ $mail = new PHPMailer(true);
     $mail->Password   = 'uufvjiewfvawwiyj';                             
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;           
     $mail->Port       = 465;                                    
-    $mail->setFrom('baltscandlv@gmail.com', 'Dilans');
+    $mail->setFrom('baltscandlv@gmail.com', 'Karlis Vilmanis');
     $mail->addReplyTo('baltscandlv@gmail.com', 'Information');
-    $mail->addCC('eliudmitau@gmail.com');
+    $mail->addCC('baltscandlv@gmail.com');
     $mail->SMTPKeepAlive = true; 
     $mail->isHTML(true);                                  
     $mail->Subject = $subject;
     $mail->Body    = $message;
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->AltBody = $message;
 $index=0;
 $no_of_rows=count($result);
-foreach ($result as $row) {
     try {
         $mail->addAddress($row['email'], $row['name']);
     } catch (Exception $e) {
@@ -82,8 +82,9 @@ foreach ($result as $row) {
         $stmt->execute();
         $mail->getSMTPInstance()->reset();
     }
-    $mail->clearAddresses();
-    $mail->clearAttachments();
+    //$mail->clearAddresses();
+    //$mail->clearAttachments();
+    sleep(30);
     
 }       
 echo json_encode('Task  Complete'); 
