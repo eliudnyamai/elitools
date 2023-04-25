@@ -22,7 +22,7 @@ define ('SITE_ROOT', realpath(dirname(__FILE__)));
 }            
             fclose($file);  
             $data["success"]=true;
-            $data["message"]=$index."Files Inserted";
+            $data["message"]=$index."RECORDS CREATED";
             echo json_encode($data);
      }
   }   

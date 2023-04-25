@@ -17,7 +17,6 @@ else{
 
 $stmt = $pdo->prepare("DELETE FROM $table WHERE id=:id");
 $stmt->bindParam(':id', $id, PDO::PARAM_INT);
-
 if($stmt->execute()){
     $data["success"]=true;
     $data["message"]="RECORD DELETED";

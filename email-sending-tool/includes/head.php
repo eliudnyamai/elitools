@@ -6,9 +6,7 @@ function display_head($title,$desc){
   <title>'.$title.'</title>
   <meta content="" name="'.$title.'">
   <meta name="description" content="'.$desc.'">
-  <meta content="" name="free, online, resize image, text to sql, text to sql online free, remove background,resize image online">
   <meta property="og:title" content="'.$title.'"/>
-  <meta property="og:image" content="https://toolske.com/smpreview.png"/>
   <meta property="og:description" content="'.$desc.'"/>
   <meta property="og:url" content="toolske.com"/>
   <meta property="og:image:width" content="1200" />
@@ -28,9 +26,6 @@ function display_head($title,$desc){
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
- 
   <link href="assets/css/style.css" rel="stylesheet">
 </head>';
 }

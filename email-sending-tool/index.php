@@ -132,6 +132,7 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
 </ul>
 <div class="text-center">
     <button type="button" name="clear" id="clear" class="btn btn-primary">CLEAR PDFs</button>
+    <button type="button" name="clear-all" id="clear-all" class="btn btn-primary">CLEAR All</button>
   </div> 
 <form action="" id="send-form" method="post">							
     <p>Message Body</p>
@@ -214,8 +215,7 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
     </div>
   </div><!-- End Vertically centered Modal-->
 
-<script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+
 <?php include 'includes/footer.php'?>
 </body>
 

@@ -3,7 +3,7 @@ $(document).ready(function() {
       e.preventDefault();
       var formdata = new FormData(this);
       $.ajax({
-        url: 'php/savetodb.php',
+        url: 'php/insert_record.php',
         type: 'POST',
         data: formdata,
         cache: false,
@@ -35,7 +35,6 @@ $(document).ready(function() {
     e.preventDefault()
   formdata=new FormData(this)
   var message=$('#message').val();
-  //get value of text area jquery
   formdata.append('message', message)
     $.ajax({
       url: 'php/send.php',
@@ -62,10 +61,8 @@ $(document).ready(function() {
   
 
   $('.delete').click(function() {
-    console.log("here");
     var table=this.dataset.table
     var deleteID=$(this).attr('value');
-    console.log(deleteID);
     var formdata=new FormData();
     formdata.append('id',deleteID)
     formdata.append('table',table)
@@ -89,9 +86,8 @@ $(document).ready(function() {
   $('.savepdf-form').submit(function(e) {
     e.preventDefault();
     var formdata=new FormData(this);
-    console.log("here");
     $.ajax({
-      url: 'php/update_file.php',
+      url: 'php/update_files.php',
       type: 'POST',
       cache: false,
       data:formdata,
@@ -127,7 +123,7 @@ $(document).ready(function() {
         cache: false,
         contentType: false,
         processData: false,
-        success: function(response) {
+        success: function() {
           $('#csv-success').css('display','block')
           setTimeout(function() {
             location.reload();
@@ -137,11 +133,10 @@ $(document).ready(function() {
       return false;
     });
   });
+
   $('#clear').click(function() {
     console.log("here");
     if(confirm("Do you want to continue clearing!")){
-
-    
     $.ajax({
       url: 'php/clear.php',
       type: 'GET',
@@ -155,7 +150,23 @@ $(document).ready(function() {
     });
     }
   });
-  
+
+  $('#clear-all').click(function() {
+    console.log("here");
+    if(confirm("This will clear all your data. Click okay to continue!")){
+    $.ajax({
+      url: 'php/clear-all.php',
+      type: 'GET',
+      cache: false,
+        contentType: false,
+        processData: false,
+      success: function(response) {
+        alert(response);
+        location.reload()
+      }
+    });
+    }
+  });
 
   $(document).on("click", ".update", function () {
     var name = $(this).data('name');
