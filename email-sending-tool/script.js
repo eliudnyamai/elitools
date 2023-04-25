@@ -69,6 +69,7 @@ $(document).ready(function() {
     var formdata=new FormData();
     formdata.append('id',deleteID)
     formdata.append('table',table)
+    if(confirm("Do you want to continue Deleteing!")){
     $.ajax({
       url: 'php/delete.php',
       type: 'POST',
@@ -77,11 +78,12 @@ $(document).ready(function() {
         contentType: false,
         processData: false,
       success: function(response) {
-        alert(response);
+       var response=JSON.parse(response);
+        alert(response.message);
         location.reload()
-  
       }
     });
+  }
   });
   
   $('.savepdf-form').submit(function(e) {

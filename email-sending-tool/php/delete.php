@@ -20,7 +20,7 @@ $stmt->bindParam(':id', $id, PDO::PARAM_INT);
 
 if($stmt->execute()){
     $data["success"]=true;
-    $data["message"]="Delete";
+    $data["message"]="RECORD DELETED";
     echo json_encode($data);
     exit();
 }
