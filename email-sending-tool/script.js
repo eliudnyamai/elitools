@@ -53,9 +53,9 @@ $(document).ready(function() {
         console.log(response);
         $('#sent-success').css('display','block')
         $('#send').text('SENT COMPLETE');
-        // setTimeout(function() {
-        //   location.reload();
-        // }, 3000);
+        setTimeout(function() {
+          location.reload();
+        }, 3000);
       }
     });
   });
