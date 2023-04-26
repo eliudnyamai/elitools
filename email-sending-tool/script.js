@@ -167,7 +167,7 @@ $(document).ready(function() {
     });
     }
   });
-
+//
   $(document).on("click", ".update", function () {
     var name = $(this).data('name');
     $(".modal-content #name").val( name );
