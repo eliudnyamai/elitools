@@ -158,17 +158,21 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
       <thead>
          <h3 class="text-success" >Successfully Sent for previous sent</h3>
             <tr>
+            <th scope="col">No</th>
               <th scope="col">Name</th>
               <th scope="col">Email</th>
             </tr>
       </thead>
       <tbody class="text-success" id="sent-emails" >
         <?php
+        $index=1;
         foreach ($successfull_emails as $row) {
           echo '<tr>
+                  <td>'.$index.'</td>
                   <td>'.$row['name'].'</td>
                   <td>'.$row['email'].'</td>
                 </tr>';
+                $index++;
         }
         ?>
       </tbody>
@@ -179,6 +183,7 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
       <thead>
         <h3 class="text-danger" >Failed For Previous Sent</h3>
         <tr>
+        <th scope="col">ID</th>
           <th scope="col">Name</th>
           <th scope="col">Email</th>
           <th scope="col">Reason</th>
@@ -186,12 +191,15 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
       </thead>
       <tbody class="text-danger" >
         <?php
+        $index=1;
         foreach ($failed_emails as $row) {
           echo '<tr>
+                  <td >'.$index.'</td>
                   <td >'.$row['name'].'</td>
                   <td>'.$row['email'].'</td>
                   <td>'.$row['error'].'</td>
                 </tr>';
+                $index++;
           }
         ?>
       </tbody>
