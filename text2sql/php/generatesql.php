@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['sql-query'])) {
     $sql_query=$_POST['sql-query'];
-
+	$sql_query=trim($sql_query);
 $OPENAI_API_KEY="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";
 $curl = curl_init();
 curl_setopt_array($curl, [
