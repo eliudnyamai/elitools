@@ -68,7 +68,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
           <div class="form-floating mb-3">
                       <textarea class="form-control" placeholder="" required name="sql-query" id="sql-query" style="height: 100px;"></textarea>
                       <label for="floatingTextarea">E.G create a query to output all students whose age is greater than 2</label>
-          </div> 
+                    </div> 
           <button id="generate-sql" class="btn" type="submit">Generate SQL!</button>
           </form>   
           </div>   

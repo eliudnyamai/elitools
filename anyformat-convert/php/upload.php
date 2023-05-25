@@ -1,7 +1,13 @@
 <?php  
  session_start();
  include 'functions.php';
- $user=$_SESSION['user'];
+ if(isset($_SESSION['user'])){
+  $user=$_SESSION['user'];
+ }
+ else{
+  header("Location: ../");
+        exit;
+ }
  if (isset($_POST['image-format'])) {
   $image_format=$_POST['image-format'];
  }else{

@@ -1,7 +1,12 @@
 <?php
     //May this code glorify God
     session_start();
-    $filename =  $_SESSION['resized_img'];
+    if(isset($_SESSION['resized_img'])){
+        $filename =  $_SESSION['resized_img'];
+    }else{
+        header("Location: ../");
+        exit;
+    }
     if(file_exists($filename)) {
 
         //Define header information

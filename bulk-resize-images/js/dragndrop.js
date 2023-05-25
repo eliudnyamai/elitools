@@ -24,10 +24,6 @@ $(document).ready(function(){
 
       var formData = new FormData(this); //Creates new FormData object
       var $fileUpload = $("input[type='file']");
-      if (parseInt($fileUpload.get(0).files.length)>10){
-       alert("You can only upload a maximum of 10 files");
-       throw new Error("Something went badly wrong!");
-      }
       $.ajax({
           url: 'php/upload.php', // Url to which the request is send
           type: "POST",             // Type of request to be send, called as method
