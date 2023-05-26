@@ -14,8 +14,7 @@
   header('Location:../');
   exit();
  }
- 
-
+ set_time_limit(0);
     if(isset($_FILES['files'])){  
         $errors= array();
         $messages= array();
