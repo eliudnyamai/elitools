@@ -1,5 +1,6 @@
 <?php  
  session_start();
+ set_time_limit(0);
  include 'functions.php';
  if(isset($_SESSION['user'])){
   $user=$_SESSION['user'];
@@ -8,6 +9,7 @@
   header("Location: ../");
         exit;
  }
+
     if(isset($_FILES['files'])){  
         $errors= array();
         $messages= array();
