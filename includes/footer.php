@@ -13,8 +13,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
-  <script src="assets/vendor/quill/quill.min.js"></script>
-
   <script src="js/contact.js"></script>
    <script src="https://toolske.com/newsletter/js/subscribe.js"></script>
   <script>
@@ -32,7 +30,6 @@ crossorigin="anonymous"></script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag("js", new Date());
-
 gtag("config", "G-BVTQJVB94K");
 </script>
   <!-- Template Main JS File -->
