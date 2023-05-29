@@ -1,5 +1,12 @@
 <?php
     echo '<footer id="footer" class="footer">
+    <div class=" text-center social-links mt-2">
+                  <a href="https://twitter.com/Toolskecom" target="_blank" class=""><i class="bi bi-twitter"></i>Twitter |</a>
+                  <a href="https://www.tiktok.com/@eliudmitau" target="_blank" class=""><i class="bi bi-tiktok"></i>Tiktok  |</a>
+                  <a href="https://www.youtube.com/channel/UCo1pKQOzTy0wU3WyOAD3PKQ" target="_blank" class=""><i class="bi bi-youtube"></i>Youtube  |</a>
+                  <a href="https://linktr.ee/eliud_mitau?subscribe" target="_blank" class=""><i class="bi bi-linktree"></i>Linktree  |</a>
+                  <a href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" target="_blank" class=""><i class="bi bi-linktree"></i>Upwork|  </a>
+  </div>
     <div class="copyright">
       &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
     </div>
