@@ -41,6 +41,13 @@ echo '  <!-- ======= Sidebar ======= -->
     <span>Bulk Grayscale Images</span>
   </a>
 </li>
+
+<li class="nav-item">
+<a class="nav-link " href="/bulk-compress-images/">
+  <i class="bi bi-image"></i>
+  <span>Bulk compress Images</span>
+</a>
+</li>
   
     <li class="nav-heading">Code</li>
     <li class="nav-item">
