@@ -182,7 +182,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <h5 class="card-title animated">Bulk Compress Images</h5>
               <h6 class="card-subtitle mb-2 text-muted">Compress Images Online</h6>
               <p class="card-text">Bulk Compress PNG, JPG, WEBP, AVIF, TIFF and WBMP files online for free</p>
-              <p class="card-text"><a href="/bulk-compress-images" class="btn btn-primary" disabled>Bulk Compress</a></p>
+              <p class="card-text"><a href="/bulk-compress-images" class="btn btn-primary" disabled>Compress Images</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 

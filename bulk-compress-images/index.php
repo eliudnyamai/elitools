@@ -81,7 +81,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
             <div class="advert">
 
             </div>
-           <h2>Upload your Images to convert to compress</h2> <br>
+           <h2>Upload your Images to compress</h2> <br>
 <div class="row">
             <div class="card-body col-md-6">
               <h5 class="card-title">Upload Your Images to compress </h5>
@@ -94,7 +94,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
                 <div class="row mb-3">          
                   <div class="row mt-3 mb-3">
                   <div class="col-sm-10">
-                    <button id="convert" type="submit" class="btn btn-primary">compress</button>
+                    <button id="convert" type="submit" class="btn btn-primary">compress Images</button>
                   </div>
                 </div>
 </form>
