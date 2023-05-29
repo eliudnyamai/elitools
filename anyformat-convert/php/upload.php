@@ -18,7 +18,7 @@
     if(isset($_FILES['files'])){  
         $errors= array();
         $messages= array();
-        $allowed_extensions = array('jpg','JPG', 'jpeg','JPEG','PNG', 'png','gif','GIF','wbmp','WBMP', 'WEBP','webp','avif','AVIF','jfif','JFIF');
+        $allowed_extensions = array('jpg','JPG', 'jpeg','JPEG','PNG', 'png','gif','GIF','wbmp','WBMP', 'WEBP','webp','avif','AVIF','jfif','JFIF','tiff','TIFF');
         foreach($_FILES['files']['tmp_name'] as $key => $tmp_name ){
           $file_name = $key.$_FILES['files']['name'][$key];
           $extension = pathinfo($file_name, PATHINFO_EXTENSION);
