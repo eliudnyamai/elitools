@@ -43,7 +43,7 @@
               }
               if(is_dir("$desired_dir/".$file_name)==false){ //check if the file already exists in the desired directory or not. If not then move it. 
                   if(move_uploaded_file($file_tmp,"$desired_dir/".$file_name)){
-                    $file=realpath("$desired_dir/".$file_name); 
+                    $file="$desired_dir/".$file_name; 
                     $ffmpegCommand = "ffmpeg -i $file  $desired_dir/output.mp3";
                     shell_exec($ffmpegCommand);
                 }
