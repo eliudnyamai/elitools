@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Bulk compress Images Online','toolske, toolske.com, compress multiple images, convert images to black and white');
+display_head('Bulk compress Images Online','toolske, toolske.com, compress multiple images');
 ?>
 <body>
    <?php include '../includes/header.php';?>
