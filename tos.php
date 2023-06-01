@@ -8,11 +8,11 @@ display_head('Terms of service','Text to sql for free online, image resizing fre
    <?php include 'includes/sidebar.php';?>
   <main id="main" class="main">
     <div class="pagetitle">
-      <h1>About Toolske</h1>
+      <h1>Toolske TOS</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/">Toolske.com</a></li>
-          <li class="breadcrumb-item active">About Toolske</li>
+          <li class="breadcrumb-item active">Toolske TOS</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
