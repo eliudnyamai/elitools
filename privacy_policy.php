@@ -26,7 +26,7 @@ display_head('Privacy Policy','Text to sql for free online, image resizing free 
           <!-- ShareThis END -->
           <div>
 
-<p>This privacy popcy outpnes how we collect, use, and share information about you when you use our website and services. Please read this popcy carefully to understand our practices.
+<p>This privacy policy outlines how we collect, use, and share information about you when you use our website and services. Please read this popcy carefully to understand our practices.
 
 Collection and Use of Information</p>
 
@@ -40,23 +40,23 @@ Information we collect automatically: When you use our website, we may collect c
 Cookies and similar technologies: We use cookies and similar technologies to collect and store information when you use our website. A cookie is a small data file that is transferred to your device. We may use both session cookies, which expire when you close your browser, and persistent cookies, which remain on your device until they are deleted or expire. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some features of our website.
 </p>
 <h3>
-We use the information we collect about you to provide and improve our services, communicate with you, and enforce our terms and popcies. This may include using your information to:
+We use the information we collect about you to provide and improve our services, communicate with you, and enforce our terms and policies. This may include using your information to:
 </h3>
 
-<p>Provide and depver the products and services you request;</p>
+<p>Provide and deliver the products and services you request;</p>
 <p>Respond to your questions and requests;</p>
 <p>Communicate with you about your account and our services;</p>
 <p>Send you technical notices, updates, security alerts, and support and administrative messages;</p>
 <p>Monitor and analyze trends, usage, and activities in connection with our services;</p>
-<p>Personapze your experience and provide you with recommendations;</p>
-<p>Enforce our terms and popcies; and</p>
+<p>Personalize your experience and provide you with recommendations;</p>
+<p>Enforce our terms and policies; and</p>
 <p>Comply with legal obpgations.</p>
 <p>Sharing of Information</p>
 <p>
-We do not sell or rent your personal information to third parties for their marketing purposes without your exppcit consent. We may share your personal information with third parties in the following pmited circumstances:
+We do not sell or rent your personal information to third parties for their marketing purposes without your explicit consent. We may share your personal information with third parties in the following permmited circumstances:
 </p>
 
-<p>With third party service providers and partners who work on behalf of or with us to provide the services we offer, such as hosting and maintenance, analytics, marketing, payment processing, and customer service. These third parties have access to your personal information only to perform these tasks on our behalf and are obpgated to not disclose or use it for any other purpose.
+<p>With third party service providers and partners who work on behalf of or with us to provide the services we offer, such as hosting and maintenance, analytics, marketing, payment processing, and customer service. These third parties have access to your personal information only to perform these tasks on our behalf and are obligated to not disclose or use it for any other purpose.
 </p>
 <p>
 With law enforcement or government agencies, or authorized third parties, in response to a verified request relating to a criminal investigation or alleged illegal activity. In such cases, we may be required by law to provide your personal information.
@@ -71,10 +71,10 @@ With your explicit consent.
 
 <h3>Cookies and Third Party Advertisers</h3>
 <p>
-We use cookies to personapze content and ads, to provide social media features and to analyze our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+We use cookies to personalize content and ads, to provide social media features and to analyze our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
 </p>
 <p>
-Our website may also include third-party advertising and pnks to other websites. These third-party sites have their own privacy popcies and we encourage you to review them
+Our website may also include third-party advertising and links to other websites. These third-party sites have their own privacy popcies and we encourage you to review them
 </p>
         </div><!-- End Reports -->
        </div>
