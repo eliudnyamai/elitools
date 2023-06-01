@@ -27,7 +27,7 @@ $(document).ready(function(){
                 $("#uploadForm")[0].reset();
                 $("#zip-success").css('display','block')
                 $("#zip").html(data.message);
-                $('#convert').text('Convert');
+                $('#convert').text('Compress Images');
                 $("#zip-fail").css('display','none');
               }
               else{
