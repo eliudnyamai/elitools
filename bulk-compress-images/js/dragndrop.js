@@ -36,7 +36,7 @@ $(document).ready(function(){
                 $("#zip-success").css('display','none')
                 $("#zip-fail").css('display','block');
                 $("#zip-fail").html(data.error);
-                $('#convert').text('Convert');
+                $('#convert').text('Compress Images');
               }
               //dynamic value in string js
           }        
