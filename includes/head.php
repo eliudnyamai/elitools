@@ -31,5 +31,8 @@ function display_head($title,$desc){
   <!-- Template Main CSS File -->
  
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3457332264604722"
+     crossorigin="anonymous"></script>
 </head>';
 }
