@@ -49,7 +49,7 @@ display_head('Resize Image For Free Online','toolske, toolske.com, picture resiz
   </form>
 </div>
 
-<!-- JavaScript code to open and close the popup -->
+<!-- JavaScript code to open and close the  -->
 <script>
 if (document.cookie.indexOf("subemail") < 0) {
 setTimeout(function() {
