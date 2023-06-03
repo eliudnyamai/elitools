@@ -125,7 +125,6 @@ document.getElementById("close-btn").addEventListener("click", function() {
                 <a href="https://www.tiktok.com/@eliudmitau" target="_blank" class="text-white"><i class="bi bi-tiktok"></i>Tiktok  |</a>
                 <a href="https://www.youtube.com/channel/UCo1pKQOzTy0wU3WyOAD3PKQ" target="_blank" class="text-white"><i class="bi bi-youtube"></i>Youtube  |</a>
                 <a href="https://linktr.ee/eliud_mitau?subscribe" target="_blank" class="text-white"><i class="bi bi-linktree"></i>Linktree  |</a>
-                <a href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" target="_blank" class="text-white"><i class="bi bi-linktree"></i>Upwork|  </a>
 </div>
                 <button id="close" type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
