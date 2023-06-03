@@ -107,7 +107,6 @@ document.getElementById("close-btn").addEventListener("click", function() {
            <div class="images">
                <div class="input-image">
                   <img id="uploaded_img" src="" alt="" srcset="">          
-                  <!-- image presets dropdown menu -->
                   <div id="social-media-presets" class="social-media-presets">
                   <div class="dropdown">
                       <br>
