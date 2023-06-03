@@ -15,9 +15,14 @@ echo ' <!-- ======= Header ======= -->
 
   <nav class="header-nav mx-auto">
     <ul class="d-flex  align-items-center">
-    <li class="nav-item ">
+    <li class="nav-item px-3 ">
       <a href="https://toolske.com/blog/" class="nav-link " >
         Blog
+      </a>
+    </li>
+    <li class="nav-item ">
+      <a href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" class="nav-link " >
+        Pro Services
       </a>
     </li>
     </ul>
