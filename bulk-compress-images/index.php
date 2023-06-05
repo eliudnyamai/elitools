@@ -198,11 +198,11 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">compress Tiff images for free online</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-
           </div>
           <div>
           
         </div>
+        <a href="https://www.producthunt.com/posts/bulk-images-compressor?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-bulk&#0045;images&#0045;compressor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=397474&theme=light" alt="Bulk&#0032;Images&#0032;Compressor - Compress&#0032;with&#0032;zero&#0032;quality&#0032;loss | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
         <p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->
        </div>
