@@ -207,6 +207,10 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text"><a href="/bulk-compress-images" class="btn btn-primary" disabled>Compress Images</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
+           <!-- Card with titles, buttons, and links -->
+           <div class="card container bg-transparent   col-lg-4 ">
+           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.407&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.407&subid=0&type=4&gridnum=12"></a>          
+          </div><!-- End Card with titles, buttons, and links -->
 
               <div class=" p-3 d-flex justify-content-between flex-lg-row-reverse container-fluid blog-cto">
               <button class="breathing-button" class="floatleft"><a href="https://toolske.com/blog/">VISIT BLOG</a></button>
