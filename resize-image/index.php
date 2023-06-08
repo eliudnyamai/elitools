@@ -104,6 +104,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
     <input type="file" hidden>
   </div>
 </div>
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.25&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.25&subid=0&type=4&gridnum=0"></a>
            <div class="images">
                <div class="input-image">
                   <img id="uploaded_img" src="" alt="" srcset="">          
@@ -433,9 +434,18 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">A free social media image resizer for Youtube</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-          </div>
-<p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
+           <!-- Card with titles, buttons, and links -->
+           <div class="card container  col-lg-4 ">
+           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.407&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.407&subid=0&type=4&gridnum=12"></a>          </div><!-- End Card with titles, buttons, and links -->
+           <!-- Card with titles, buttons, and links -->
+           <div class="card container  col-lg-4 ">
+           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.11&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.11&subid=0&type=4&gridnum=14"></a>
+          </div><!-- End Card with titles, buttons, and links -->
+               <!-- Card with titles, buttons, and links -->
+               <div class="card container  col-lg-4 ">
+               <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1330663.6&subid=0&type=4"><IMG border="0"   alt="Express Software" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1330663.6&subid=0&type=4&gridnum=0">
         </div>
+        </a><p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->
        </div>
       </div><!-- End Left side columns -->
