@@ -94,7 +94,9 @@ document.getElementById("close-btn").addEventListener("click", function() {
                 <a href="https://linktr.ee/eliud_mitau?subscribe" target="_blank" class=""><i class="bi bi-linktree"></i>Linktree  |</a>
                 <a href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" target="_blank" class=""><i class="bi bi-linktree"></i>Upwork|  </a>
 </div>
-          <br>
+<br>
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.415&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.415&subid=0&type=4&gridnum=0"></a>
+          <br> <br>
          <h2>How To convert Text To SQL Online-No Sign Up Needed</h2>
         <p> With the text2sql tool from toolske.com, you can now convert natural language to an SQL query free online.  With text2sql you can create a simple select query as well as more complicated queries such as joins.</p>
 <OL>

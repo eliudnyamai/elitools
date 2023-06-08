@@ -130,6 +130,28 @@ document.getElementById("close-btn").addEventListener("click", function() {
                 <!-- Card with titles, buttons, and links -->
           <div class="card  col-lg-4 ">
             <div class="card-body">
+            <span class="badge rounded-pill bg-info">AD</span>
+
+              <h5 class="card-title animated">Free Online Store Builder</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Ecwid</h6>
+              <p class="card-text">Become the next online success story — sell anything, anywhere, to anyone.</p>
+              <p class="card-text"><a href="http://go.ecwid.com/6s66z2" class="btn btn-primary">Start Selling!!</a></p>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+           <!-- Card with titles, buttons, and links -->
+           <div class="card  col-lg-4 ">
+            <div class="card-body">
+            <span class="badge rounded-pill bg-info">AD</span>
+
+              <h5 class="card-title animated">Free Email Marketing</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Aweber</h6>
+              <p class="card-text">Powerfully-simple email marketing designed to help your small business grow - now for free.</p>
+              <p class="card-text"><a href="https://www.aweber.com/easy-email.htm?id=544297" class="btn btn-primary">Check it out</a></p>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+                <!-- Card with titles, buttons, and links -->
+          <div class="card  col-lg-4 ">
+            <div class="card-body">
               <h5 class="card-title animated">Free Online Image Resizer</h5>
               <h6 class="card-subtitle mb-2 text-muted">Resize Images</h6>
               <p class="card-text">Resize all types of images you want online. Use the preset social media image sizes to make your work fast.</p>
