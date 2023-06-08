@@ -106,7 +106,27 @@ document.getElementById("close-btn").addEventListener("click", function() {
 </OL>
 
         </div>
+ <div class="row mx-auto align-items-top">
+                <!-- Card with titles, buttons, and links -->
+          <div class="card container   col-lg-4">
+            <div class="card-body">
+            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1173638.80&subid=0&type=4"><IMG border="0"   alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1173638.80&subid=0&type=4&gridnum=14"></a>            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+          <div class="card container  col-lg-4">
+            <div class="card-body">
+            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a>            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+              
 
+              
+
+          <!-- Card with titles, buttons, and links -->
+          <div class="card container bg-transparent   col-lg-4 ">
+                <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002804&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002804&subid=0&type=4&gridnum=13"></a>          </div><!-- End Card with titles, buttons, and links -->
+          </div>
+          <div>
+          
+        </div>
         </div><!-- End Reports -->
        </div>
       </div><!-- End Left side columns -->
