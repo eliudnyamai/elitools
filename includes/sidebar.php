@@ -52,8 +52,25 @@ echo '  <!-- ======= Sidebar ======= -->
     <li class="nav-heading">Code</li>
     <li class="nav-item">
       <a class="nav-link " href="/text2sql/">
-        <i class="ri-database-2-fill"></i>
+        <i class="bi bi-server"></i>
         <span>Text To SQL</span>
+      </a>
+    </li>
+    
+    <li class="nav-heading">Stores</li>
+    <li class="nav-item">
+      <a class="nav-link " href="http://go.ecwid.com/6s66z2">
+        <i class="bi bi-shop"></i>
+        <span>Ecwid Store Builder</span>
+      </a>
+    </li>
+
+     
+    <li class="nav-heading">Email</li>
+    <li class="nav-item">
+      <a class="nav-link " href="http://go.ecwid.com/6s66z2">
+        <i class="bi bi-envelope"></i>
+        <span>Free Email Marketing</span>
       </a>
     </li>
     

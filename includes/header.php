@@ -17,22 +17,17 @@ echo ' <!-- ======= Header ======= -->
     <ul class="d-flex  align-items-center">
     <li class="nav-item px-2 ">
       <a href="https://toolske.com/blog/" class="nav-link " >
-        Blog
+        BLOG
       </a>
     </li>
     <li class="nav-item px-2 ">
       <a href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" class="nav-link " >
-        Pro Services
+        PRO SERVICES
       </a>
     </li>
     <li class="nav-item px-2 ">
       <a href="https://www.aweber.com/easy-email.htm?id=544297" class="nav-link " >
-        Email Services
-      </a>
-    </li>
-    <li class="nav-item ">
-      <a href="http://go.ecwid.com/6s66z2" class="nav-link " >
-        Ecommerce solutions
+        EMAIL SERVICES
       </a>
     </li>
     </ul>
