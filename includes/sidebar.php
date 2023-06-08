@@ -68,7 +68,7 @@ echo '  <!-- ======= Sidebar ======= -->
      
     <li class="nav-heading">Email</li>
     <li class="nav-item">
-      <a class="nav-link " href="http://go.ecwid.com/6s66z2">
+      <a class="nav-link " href="https://www.aweber.com/easy-email.htm?id=544297">
         <i class="bi bi-envelope"></i>
         <span>Free Email Marketing</span>
       </a>
