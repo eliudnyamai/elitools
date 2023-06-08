@@ -26,7 +26,7 @@ display_head('Privacy Policy','Text to sql for free online, image resizing free 
           <!-- ShareThis END -->
           <div>
 
-<p>This privacy policy outlines how we collect, use, and share information about you when you use our website and services. Please read this popcy carefully to understand our practices.
+<p>This privacy policy outlines how we collect, use, and share information about you when you use our website and services. Please read this policy carefully to understand our practices.
 
 Collection and Use of Information</p>
 
@@ -50,7 +50,7 @@ We use the information we collect about you to provide and improve our services,
 <p>Monitor and analyze trends, usage, and activities in connection with our services;</p>
 <p>Personalize your experience and provide you with recommendations;</p>
 <p>Enforce our terms and policies; and</p>
-<p>Comply with legal obpgations.</p>
+<p>Comply with legal obligations.</p>
 <p>Sharing of Information</p>
 <p>
 We do not sell or rent your personal information to third parties for their marketing purposes without your explicit consent. We may share your personal information with third parties in the following permmited circumstances:
@@ -74,7 +74,7 @@ With your explicit consent.
 We use cookies to personalize content and ads, to provide social media features and to analyze our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
 </p>
 <p>
-Our website may also include third-party advertising and links to other websites. These third-party sites have their own privacy popcies and we encourage you to review them
+Our website may also include third-party advertising and links to other websites. These third-party sites have their own privacy policies and we encourage you to review them
 </p>
         </div><!-- End Reports -->
        </div>

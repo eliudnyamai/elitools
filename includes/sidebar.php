@@ -61,7 +61,7 @@ echo '  <!-- ======= Sidebar ======= -->
     <li class="nav-item">
       <a class="nav-link " href="http://go.ecwid.com/6s66z2">
         <i class="bi bi-shop"></i>
-        <span>Ecwid Store Builder</span>
+        <span>Ecwid Store Builder<span class="badge rounded-pill bg-info">AD</span></span>
       </a>
     </li>
 
@@ -70,7 +70,8 @@ echo '  <!-- ======= Sidebar ======= -->
     <li class="nav-item">
       <a class="nav-link " href="https://www.aweber.com/easy-email.htm?id=544297">
         <i class="bi bi-envelope"></i>
-        <span>Free Email Marketing</span>
+        <span>Free Email Marketing <span class="badge rounded-pill bg-info">AD</span>
+        </span>
       </a>
     </li>
     
