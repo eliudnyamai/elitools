@@ -227,6 +227,10 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">Convert all types of images to tiff in bulk</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
+           <!-- Card with titles, buttons, and links -->
+           <div class="card col-lg-4 ">
+           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002816&subid=0&type=4"><IMG border="0"   alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>
+          </div><!-- End Card with titles, buttons, and links -->
 
           </div>
           <div>
