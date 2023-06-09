@@ -104,12 +104,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
     <input type="file" hidden>
   </div>
 </div>
-<div class="ad-big">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.25&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.25&subid=0&type=4&gridnum=0"></a>
-</div>
-<div class="ad-small">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.16&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.16&subid=0&type=4&gridnum=13"></a>
-</div>
+
            <div class="images">
                <div class="input-image">
                   <img id="uploaded_img" src="" alt="" srcset="">          
@@ -272,10 +267,16 @@ document.getElementById("close-btn").addEventListener("click", function() {
                 <a href="https://linktr.ee/eliud_mitau?subscribe" target="_blank" class=""><i class="bi bi-linktree"></i>Linktree  |</a>
 </div>  
                         </form>
-                        
+           
                     </div>
-
-           </div>    
+          
+           </div>   
+           <div class="ad-big">
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.25&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.25&subid=0&type=4&gridnum=0"></a>
+</div>
+<div class="ad-small">
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.16&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.16&subid=0&type=4&gridnum=13"></a>
+</div> 
           </div>
           <div>
           <h2>How To Resize Images Online For Free-No Sign Up Needed</h2>

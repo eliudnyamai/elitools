@@ -74,7 +74,9 @@ echo '  <!-- ======= Sidebar ======= -->
         </span>
       </a>
     </li>
-    
+    <li class="nav-item">
+    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="eliudmitauN" data-color="#ffffff" data-emoji=""  data-font="Poppins" data-text="Keep It Free" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>   
+    </li><!-- End TOS -->
     <!-- End Dashboard Nav -->
     <li class="nav-heading">Pages</li>
     <li class="nav-item">
@@ -99,10 +101,7 @@ echo '  <!-- ======= Sidebar ======= -->
         <span>Terms Of Service</span>
       </a>
     </li><!-- End TOS -->
-    <li class="nav-item">
-    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="eliudmitauN" data-color="#ffffff" data-emoji=""  data-font="Poppins" data-text="Keep It Free" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>   
-
-    </li><!-- End TOS -->
+   
   </ul>
 
 
