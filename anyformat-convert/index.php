@@ -233,10 +233,18 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">Convert all types of images to tiff in bulk</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
+          
            <!-- Card with titles, buttons, and links -->
            <div class="card col-lg-4 ">
            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002816&subid=0&type=4"><IMG border="0"   alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>
           </div><!-- End Card with titles, buttons, and links -->
+           <!-- Card with titles, buttons, and links -->
+           <div class="card col-lg-4 ">
+           <a href="https://click.linksynergy.com/link?id=MyzlSQhI*M8&offerid=1160033.245422769478538&type=2&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fp%2Fstriker-zone-war-shooting-games%2F9PPFRZB5MJRQ"><IMG border=0 src="https://store-images.s-microsoft.com/image/apps.4439.14325729045794215.f6d41da9-4999-4d14-8307-607ab94fbcb5.4c3d87a4-2d5a-4880-b50a-a62c1bb93553" ></a><IMG border=0 width=1 height=1 src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.245422769478538&type=2&subid=0" >
+                    </div><!-- End Card with titles, buttons, and links -->
+           <!-- Card with titles, buttons, and links -->
+           <div class="card col-lg-4 ">
+           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.15&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.15&subid=0&type=4&gridnum=13"></a>          </div><!-- End Card with titles, buttons, and links -->
 
           </div>
           <div>

@@ -77,11 +77,15 @@ document.getElementById("close-btn").addEventListener("click", function() {
           <textarea class="form-control"  id="generated-sql" style="height: 100px;">
           Your sql will appear here
           </textarea>
-          <div>
-          <button onclick="copy()" id="copy" class="btn mt-3">Copy Text</button>
-          <div id="copy-success" class="alert alert-success" role="alert">
-            Copied!
-</div>
+          <div class="d-flex">
+              <button onclick="copy()" id="copy" class="btn mt-3">Copy Text</button>
+              <div id="copy-success" class="alert alert-success" role="alert">
+                Copied!
+              </div>
+              <div class="mt-1">
+
+              </div>
+
           </div>
          </div>
 
