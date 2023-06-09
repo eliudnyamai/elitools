@@ -46,6 +46,12 @@ h6 {
   transition: all 0.3s;
   min-height: 500px;
 }
+.ad-small{
+  display: none;
+}
+.ad-big{
+  display: block;
+}
 
 @media (max-width: 1199px) {
   #main {
@@ -1283,6 +1289,12 @@ p{
     
 }
 @media only screen and (max-width: 900px) {
+  .ad-small{
+    display: block;
+  }
+  .ad-big{
+    display:none;
+  }
     .images {
         grid-template-columns: 1fr;
         grid-template-areas: 

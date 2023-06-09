@@ -121,8 +121,14 @@ document.getElementById("close-btn").addEventListener("click", function() {
                 
       </div>
 </div>
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1327140.11&subid=0&type=4"><IMG border="0"   alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1327140.11&subid=0&type=4&gridnum=0"></a><div class=" col-12 mt-3">
+
             <div class="card-body">
+            <div class="ad-big">
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1327140.11&subid=0&type=4"><IMG border="0"   alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1327140.11&subid=0&type=4&gridnum=0"></a>
+</div>
+<div class="ad-small">
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1327140.19&subid=0&type=4"><IMG border="0"   alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1327140.19&subid=0&type=4&gridnum=13"></a>
+</div>
               <h5 class="animated  card-title">How to compress Images online in bulk - 3 easy steps </h5>
               <div class="row align-items-top">
                   <div class="col-12 col-md-4">

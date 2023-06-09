@@ -159,6 +159,12 @@ h6 {
 .dropdown-menu .dropdown-item:hover {
   background-color: #f6f9ff;
 }
+.ad-big{
+  display: block;
+}
+.ad-small{
+  display: none;
+}
 
 @media (min-width: 768px) {
   .dropdown-menu-arrow::before {
@@ -423,6 +429,7 @@ h6 {
 }
 
 @media (max-width: 1199px) {
+  
   .header .search-bar {
     position: fixed;
     top: 50px;
@@ -1288,6 +1295,12 @@ p{
     
 }
 @media only screen and (max-width: 900px) {
+  .ad-big{
+    display: none;
+  }
+  .ad-small{
+    display: block;
+  }
     .images {
         grid-template-columns: 1fr;
         grid-template-areas: 
