@@ -21,7 +21,7 @@ echo ' <!-- ======= Header ======= -->
       </a>
     </li>
     <li class="nav-item px-2 ">
-      <a href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" class="nav-link " >
+      <a target="_blank" href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" class="nav-link " >
         PRO SERVICES
       </a>
     </li>
