@@ -74,6 +74,14 @@ echo '  <!-- ======= Sidebar ======= -->
         </span>
       </a>
     </li>
+    <li class="nav-heading">Video</li>
+    <li class="nav-item">
+      <a class="nav-link " href="https://fliki.ai/?via=eliud">
+        <i class="bi bi-envelope"></i>
+        <span>Create Tiktoks Fast<span class="badge rounded-pill bg-info">AD</span>
+        </span>
+      </a>
+    </li>
     <li class="nav-item">
     <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="eliudmitauN" data-color="#ffffff" data-emoji=""  data-font="Poppins" data-text="Keep It Free" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>   
     </li><!-- End TOS -->
