@@ -124,10 +124,14 @@ document.getElementById("close-btn").addEventListener("click", function() {
 
             <div class="card-body">
             <div class="ad-big">
+            <div style="text-align:center;">
 <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1327140.11&subid=0&type=4"><IMG border="0"   alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1327140.11&subid=0&type=4&gridnum=0"></a>
 </div>
+</div>
 <div class="ad-small">
+<div style="text-align:center;">
 <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1327140.19&subid=0&type=4"><IMG border="0"   alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1327140.19&subid=0&type=4&gridnum=13"></a>
+</div>
 </div>
               <h5 class="animated  card-title">How to compress Images online in bulk - 3 easy steps </h5>
               <div class="row align-items-top">
@@ -205,16 +209,19 @@ document.getElementById("close-btn").addEventListener("click", function() {
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 <!-- Card with titles, buttons, and links -->
-<div class="card container bg-transparent   col-lg-4 ">
+<div class="card container bg-transparent shadow-none   col-lg-4 ">
+<div style="text-align:center;">
+
            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.407&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.407&subid=0&type=4&gridnum=12"></a>          
-          </div><!-- End Card with titles, buttons, and links -->
+          </div>
+           </div><!-- End Card with titles, buttons, and links -->
 
           </div>
           <div>
           
         </div>
-        <a href="https://www.producthunt.com/posts/bulk-images-compressor?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-bulk&#0045;images&#0045;compressor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=397474&theme=light" alt="Bulk&#0032;Images&#0032;Compressor - Compress&#0032;with&#0032;zero&#0032;quality&#0032;loss | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-        <p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
+        <a href="https://www.producthunt.com/products/bulk-images-compressor/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-bulk&#0045;images&#0045;compressor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=537081&theme=light" alt="Bulk&#0032;Images&#0032;Compressor - Compress&#0032;with&#0032;zero&#0032;quality&#0032;loss | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>    
+            <p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->
        </div>
       </div><!-- End Left side columns -->

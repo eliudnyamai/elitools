@@ -100,10 +100,14 @@ document.getElementById("close-btn").addEventListener("click", function() {
 </div>
 <br>
 <div class="ad-big">
+<div style="text-align:center;">
 <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.415&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.415&subid=0&type=4&gridnum=0"></a>
 </div>
+</div>
 <div class="ad-small">
+<div style="text-align:center;">
 <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.407&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.407&subid=0&type=4&gridnum=12"></a>
+</div>
 </div>
           <br> <br>
          <h2>How To convert Text To SQL Online-No Sign Up Needed</h2>
@@ -116,22 +120,27 @@ document.getElementById("close-btn").addEventListener("click", function() {
 
         </div>
  <div class="row mx-auto align-items-top">
-                <!-- Card with titles, buttons, and links -->
-          <div class="card container   col-lg-4">
-            <div class="card-body">
-            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1173638.80&subid=0&type=4"><IMG border="0"   alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1173638.80&subid=0&type=4&gridnum=14"></a>            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-          <div class="card container  col-lg-4">
-            <div class="card-body">
-            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a>            </div>
+                     <!-- Card with titles, buttons, and links -->
+<div class="card container bg-transparent shadow-none   col-lg-4 ">
+<div style="text-align:center;">
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4"><IMG border="0" alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>    
+  </div>
+</div><!-- End Card with titles, buttons, and links -->
+          <div class="card container shadow-none bg-transparent  col-lg-4">
+          <div style="text-align:center;">
+            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a>  
+            </div>
           </div><!-- End Card with titles, buttons, and links -->
               
 
               
 
           <!-- Card with titles, buttons, and links -->
-          <div class="card container bg-transparent   col-lg-4 ">
-                <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002804&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002804&subid=0&type=4&gridnum=13"></a>          </div><!-- End Card with titles, buttons, and links -->
+          <div class="card container bg-transparent shadow-none  col-lg-4 ">
+          <div style="text-align:center;">
+                <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002804&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002804&subid=0&type=4&gridnum=13"></a>          
+              </div>
+</div><!-- End Card with titles, buttons, and links -->
           </div>
           <div>
           

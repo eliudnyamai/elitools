@@ -266,12 +266,15 @@ document.getElementById("close-btn").addEventListener("click", function() {
 </div>
 <div class=" col-12 mt-3">
   <div class="ad-big">
+  <div style="text-align:center;">
   <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002815&subid=0&type=4"><IMG border="0"   alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002815&subid=0&type=4&gridnum=0"></a>
   </div>
+</div>
   <div class="ad-small">
-
+  <div style="text-align:center;">
 <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.407&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.407&subid=0&type=4&gridnum=12"></a>
-  </div>
+</div> 
+</div>
             <div class="card-body">
               <h5 class="animated  card-title">How to resize Images In bulk - 4 easy steps </h5>
               <div class="row align-items-top">
@@ -377,12 +380,16 @@ document.getElementById("close-btn").addEventListener("click", function() {
           </div><!-- End Card with titles, buttons, and links -->
 <!-- Card with titles, buttons, and links -->
 <div class="card container bg-transparent   col-lg-4 ">
+<div style="text-align:center;">
 <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1327140.3&subid=0&type=4"><IMG border="0"   alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1327140.3&subid=0&type=4&gridnum=13"></a> 
- </div><!-- End Card with titles, buttons, and links -->
+ </div>
+</div><!-- End Card with titles, buttons, and links -->
           <!-- Card with titles, buttons, and links -->
 <div class="card container bg-transparent   col-lg-4 ">
+<div style="text-align:center;">
 <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002804&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002804&subid=0&type=4&gridnum=13"></a>        
-  </div><!-- End Card with titles, buttons, and links -->
+  </div>
+</div><!-- End Card with titles, buttons, and links -->
           </div>
           <div>
             

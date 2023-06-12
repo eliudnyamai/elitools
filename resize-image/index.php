@@ -272,10 +272,14 @@ document.getElementById("close-btn").addEventListener("click", function() {
           
            </div>   
            <div class="ad-big">
+           <div style="text-align:center;">
 <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.25&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.25&subid=0&type=4&gridnum=0"></a>
 </div>
+</div>
 <div class="ad-small">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.16&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.16&subid=0&type=4&gridnum=13"></a>
+<div style="text-align:center;">
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4"><IMG border="0" alt="Quizplus for an A&#43;" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4&gridnum=14"></a>
+</div>
 </div> 
           </div>
           <div>
@@ -321,6 +325,8 @@ document.getElementById("close-btn").addEventListener("click", function() {
 <h3>Supported Image types by the resizing tool:</h3>
 
 <div class="row mx-auto align-items-top">
+  
+
                 <!-- Card with titles, buttons, and links -->
           <div class="card container  col-lg-4 ">
             <div class="card-body">
@@ -431,10 +437,6 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">A free social media image resizer for Tumblr</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-   <!-- Card with titles, buttons, and links -->
-   <div class="card container    col-lg-4 ">
-           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.407&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.407&subid=0&type=4&gridnum=12"></a>          
-          </div><!-- End Card with titles, buttons, and links -->
             <!-- Card with titles, buttons, and links -->
             <div class="card container  col-lg-4 ">
             <div class="card-body">
@@ -443,10 +445,24 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">A free social media image resizer for Youtube</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
+         <!-- Card with titles, buttons, and links -->
+<div class="card container bg-transparent shadow-none   col-lg-4 ">
+<div style="text-align:center;">
+<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4"><IMG border="0" alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>    
+  </div>
+</div><!-- End Card with titles, buttons, and links -->
+ 
+          
+
+          
         
            <!-- Card with titles, buttons, and links -->
-           <div class="card container bg-transparent   col-lg-4 ">
-           <a href="https://click.linksynergy.com/link?id=MyzlSQhI*M8&offerid=1160033.245423006027875&type=2&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fp%2Fmodern-combat-versus%2F9PF4LXG1L4PD"><IMG border=0 src="https://store-images.s-microsoft.com/image/apps.15542.14207353759780917.a0b601ff-2005-47cb-b653-b55bfac9b2df.3c3c3861-db26-49be-8ad9-51525e27b2d8" ></a><IMG border=0 width=1 height=1 src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.245423006027875&type=2&subid=0" >            </div><!-- End Card with titles, buttons, and links -->
+           <div class="card container bg-transparent shadow-none   col-lg-4 ">
+           <div style="text-align:center;">
+           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1327140.14&bids=1327140.14&subid=0&type=4"><IMG border="0" alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1327140.14&bids=1327140.14&subid=0&type=4&gridnum=13"></a>  
+          </div>
+          </div><!-- End Card with titles, buttons, and links -->
+
         </a><p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->
        </div>

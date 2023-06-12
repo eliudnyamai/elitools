@@ -134,11 +134,15 @@ document.getElementById("close-btn").addEventListener("click", function() {
 </div>
 <div class=" col-12 mt-3">
   <div class="ad-big ">
+  <div style="text-align:center;">
   <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002749&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002749&subid=0&type=4&gridnum=16"></a>
   </div>
+</div>
   <div class="mx-auto ad-small">
+  <div style="text-align:center;">
   <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a> 
  </div>
+</div>
             <div class="card-body">
               <h5 class="animated  card-title">How to Convert Images to Any Format in bulk - 4 easy steps </h5>
               <div class="row align-items-top">
@@ -235,17 +239,21 @@ document.getElementById("close-btn").addEventListener("click", function() {
           </div><!-- End Card with titles, buttons, and links -->
           
            <!-- Card with titles, buttons, and links -->
-           <div class="card col-lg-4 ">
+           <div class="card col-lg-4 bg-transparent shadow-none">
+           <div style="text-align:center;">
            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002816&subid=0&type=4"><IMG border="0"   alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>
+</div>
           </div><!-- End Card with titles, buttons, and links -->
            <!-- Card with titles, buttons, and links -->
-           <div class="card col-lg-4 ">
-           <a href="https://click.linksynergy.com/link?id=MyzlSQhI*M8&offerid=1160033.245422769478538&type=2&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fp%2Fstriker-zone-war-shooting-games%2F9PPFRZB5MJRQ"><IMG border=0 src="https://store-images.s-microsoft.com/image/apps.4439.14325729045794215.f6d41da9-4999-4d14-8307-607ab94fbcb5.4c3d87a4-2d5a-4880-b50a-a62c1bb93553" ></a><IMG border=0 width=1 height=1 src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.245422769478538&type=2&subid=0" >
-                    </div><!-- End Card with titles, buttons, and links -->
+           <div class="card col-lg-4 bg-transparent shadow-none">
+           <div style="text-align:center;">
+           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002637&bids=1160033.10002637&subid=0&type=4"><IMG border="0" alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002637&bids=1160033.10002637&subid=0&type=4&gridnum=13"></a>          </div>          
+          </div><!-- End Card with titles, buttons, and links -->
            <!-- Card with titles, buttons, and links -->
-           <div class="card col-lg-4 ">
-           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.15&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.15&subid=0&type=4&gridnum=13"></a>          </div><!-- End Card with titles, buttons, and links -->
-
+           <div class="card col-lg-4 bg-transparent shadow-none">
+           <div style="text-align:center;">
+           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4"><IMG border="0" alt="Quizplus for an A&#43;" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4&gridnum=14"></a>           </div><!-- End Card with titles, buttons, and links -->
+           </div>
           </div>
           <div>
           

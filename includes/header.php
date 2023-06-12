@@ -25,11 +25,7 @@ echo ' <!-- ======= Header ======= -->
         PRO SERVICES
       </a>
     </li>
-    <li class="nav-item px-2 ">
-      <a href="https://www.aweber.com/easy-email.htm?id=544297" class="nav-link " >
-        EMAIL MARKETING <span class="badge rounded-pill bg-info">AD</span>
-      </a>
-    </li>
+   
    
     </ul>
   </nav><!-- End Icons Navigation -->

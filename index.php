@@ -127,6 +127,33 @@ document.getElementById("close-btn").addEventListener("click", function() {
             </div>
           </div><!-- End Default Card -->
           <div class="row mx-auto align-items-top">
+ <!-- Card with titles, buttons, and links -->
+   <div class="card container shadow-none bg-transparent col-lg-4 ">
+            <div class="card-body">
+            <div style="text-align:center;">
+            <div style="text-align:center;">
+            <div style="text-align:center;">
+                  <a href="https://www.aweber.com/easy-email.htm?id=544297&utm_source=advocate&utm_medium=banner&utm_campaign=static&utm_content=free">
+                  <img src="https://www.aweber.com/banners/free/aweber-free-250x250.jpg" alt="AWeber Free: Email marketing for free. No credit card required." style="border:none;" /></a>
+                  </div>
+              </div>
+            </div>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+          <!-- Card with titles, buttons, and links -->
+   <div class="card container shadow-none bg-transparent col-lg-4 ">
+   <div style="text-align:center;">
+            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1321193.58&bids=1321193.58&subid=0&type=4"><IMG border="0" alt="Microsoft365 for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1321193.58&bids=1321193.58&subid=0&type=4&gridnum=13"></a>                
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+           <!-- Card with titles, buttons, and links -->
+   <div class="card container shadow-none bg-transparent col-lg-4 ">
+   <div style="text-align:center;">
+
+            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1321193.109&bids=1321193.109&subid=0&type=4"><IMG border="0" alt="Microsoft365 for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1321193.109&bids=1321193.109&subid=0&type=4&gridnum=13"></a>   
+            </div>
+            </div><!-- End Card with titles, buttons, and links -->
+
                 <!-- Card with titles, buttons, and links -->
           <div class="card  col-lg-4 ">
             <div class="card-body">
@@ -136,17 +163,6 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <h6 class="card-subtitle mb-2 text-muted">Ecwid</h6>
               <p class="card-text">Become the next online success story — sell anything, anywhere, to anyone.</p>
               <p class="card-text"><a href="http://go.ecwid.com/6s66z2" class="btn btn-primary">Start Selling!!</a></p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-           <!-- Card with titles, buttons, and links -->
-           <div class="card  col-lg-4 ">
-            <div class="card-body">
-            <span class="badge rounded-pill bg-info">AD</span>
-
-              <h5 class="card-title animated">Free Email Marketing</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Aweber</h6>
-              <p class="card-text">Powerfully-simple email marketing designed to help your small business grow - now for free.</p>
-              <p class="card-text"><a href="https://www.aweber.com/easy-email.htm?id=544297" class="btn btn-primary">Check it out</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
                 <!-- Card with titles, buttons, and links -->
@@ -208,9 +224,19 @@ document.getElementById("close-btn").addEventListener("click", function() {
             </div>
           </div><!-- End Card with titles, buttons, and links -->
            <!-- Card with titles, buttons, and links -->
-           <div class="card container bg-transparent   col-lg-4 ">
-           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.407&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.407&subid=0&type=4&gridnum=12"></a>          
+           <div class="card col-lg-4 bg-transparent shadow-none ">
+           <div style="text-align:center;">
+            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4"><IMG border="0" alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>    
+            </div>
           </div><!-- End Card with titles, buttons, and links -->
+            <!-- Card with titles, buttons, and links -->
+            <div class="card col-lg-4 bg-transparent mx-auto shadow-none ">
+            <div style="text-align:center;">
+
+            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002268&bids=1160033.10002268&subid=0&type=4"><IMG border="0" alt="Microsoft Surface Book 3" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002268&bids=1160033.10002268&subid=0&type=4&gridnum=13"></a>           
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+    
 
               <div class=" p-3 d-flex justify-content-between flex-lg-row-reverse container-fluid blog-cto">
               <button class="breathing-button" class="floatleft"><a href="https://toolske.com/blog/">VISIT BLOG</a></button>
