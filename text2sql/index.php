@@ -7,7 +7,6 @@ display_head('text to sql online free','toolske, toolske.com, Convert text to sq
    <?php include '../includes/header.php';?>
    <?php include '../includes/sidebar.php';?>
 
-
 <!-- HTML code for the popup -->
 <div id="popup" >
 <button id="close-btn" style="">X</button>

@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Bulk compress Images Online','toolske, toolske.com, compress multiple images');
+display_head('Bulk compress Images Online','toolske, toolske.com, batch compress images, reduce image size, compress multiple images');
 ?>
 <body>
    <?php include '../includes/header.php';?>
@@ -220,7 +220,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
           <div>
           
         </div>
-        <a href="https://www.producthunt.com/products/bulk-images-compressor/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-bulk&#0045;images&#0045;compressor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=537081&theme=light" alt="Bulk&#0032;Images&#0032;Compressor - Compress&#0032;with&#0032;zero&#0032;quality&#0032;loss | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>    
+        <a href="https://www.producthunt.com/products/bulk-images-compressor/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-bulk&#0045;images&#0045;compressor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=537081&theme=light" alt="Bulk&#0032;Images&#0032;Compressor - Compress&#0032;with&#0032;zero&#0032;quality&#0032;loss | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>  
             <p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->
        </div>
