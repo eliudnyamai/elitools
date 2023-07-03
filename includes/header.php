@@ -16,13 +16,13 @@ echo ' <!-- ======= Header ======= -->
   <nav class="header-nav mx-auto">
     <ul class="d-flex  align-items-center">
     <li class="nav-item px-2 ">
-      <a href="https://toolske.com/blog/" class="nav-link " >
+      <a href="/blog/" class="nav-link " >
         BLOG
       </a>
     </li>
     <li class="nav-item px-2 ">
-      <a target="_blank" href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" class="nav-link " >
-        PRO SERVICES
+      <a target="_blank" href="/ChatGPT-Plugins/" class="nav-link " >
+        CHATGPT PLUGINS
       </a>
     </li>
    
