@@ -15,7 +15,7 @@
         $messages= array();
         $allowed_extensions = array('jpg','JPG','JPEG', 'jpeg', 'png','PNG', 'gif','GIF','wbmp', 'WBMP','webp','WEBP','avif','AVIF','JFIF','jfif','TIFF','tiff');
         foreach($_FILES['files']['tmp_name'] as $key => $tmp_name ){
-          $file_name = $key.$_FILES['files']['name'][$key];
+          $file_name = $_FILES['files']['name'][$key];
           $extension = pathinfo($file_name, PATHINFO_EXTENSION);
           $file_size =$_FILES['files']['size'][$key];
           $file_tmp =$_FILES['files']['tmp_name'][$key];

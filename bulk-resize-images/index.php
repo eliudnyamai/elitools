@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('resize images in bulk free','toolske, toolske.com,resize images in bulk, resize  asocial media images in bulk');
+display_head('resize images in bulk free','bulk resize images','toolske', 'toolske.com','resize images in bulk','bulk image resizer');
 ?>
 <body>
    <?php include '../includes/header.php';?>

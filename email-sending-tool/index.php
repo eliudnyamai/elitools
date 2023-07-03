@@ -137,7 +137,10 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
 <form action="" id="send-form" method="post">							
     <p>Message Body</p>
     <div class="form-floating mb-3">
-                      <textarea class="form-control" required placeholder="Type Your Message" name="message" id="message" style="height: 100px;"></textarea>
+                      <textarea class="form-control" required placeholder="Type Your Message" name="message" id="message" style="height: 100px;">
+                    </textarea>
+                    <div id="editor"></div>
+
                       <label for="message">Type Your Message To Rescipients</label>
                     </div>
   <div class="text-center">
@@ -222,6 +225,7 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
       </div>
     </div>
   </div><!-- End Vertically centered Modal-->
+  <script src="https://cdn.ckeditor.com/ckeditor5/38.0.1/classic/ckeditor.js"></script>
 
 
 <?php include 'includes/footer.php'?>
