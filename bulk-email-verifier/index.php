@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Bulk Grayscale Images Online','toolske, toolske.com, grayscale multiple images, convert images to black and white');
+display_head('Bulk verify emails Online','toolske, toolske.com, grayscale multiple images, convert images to black and white');
 ?>
 <body>
    <?php include '../includes/header.php';?>
@@ -62,11 +62,11 @@ document.getElementById("close-btn").addEventListener("click", function() {
 
   <main id="main" class="main">
     <div class="pagetitle">
-      <h1>Bulk Grayscale Images</h1>
+      <h1>Bulk verify emails</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/">Toolske.com</a></li>
-          <li class="breadcrumb-item active">Bulk Grayscale Images</li>
+          <li class="breadcrumb-item active">Bulk verify emails</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -81,20 +81,20 @@ document.getElementById("close-btn").addEventListener("click", function() {
             <div class="advert">
 
             </div>
-           <h2>Upload your Images to convert to Grayscale</h2> <br>
+           <h2>Upload A CSV With Emails To Verify</h2> <br>
 <div class="row">
             <div class="card-body col-md-6">
-              <h5 class="card-title">Upload Your Images to Grayscale </h5>
+              <h5 class="card-title">Upload Your CSV <span>As long as the csv has an email somewhere the email will be verified</span></h5>
               <form id="uploadForm" action="php/upload.php" method="post" enctype="multipart/form-data">
                 <div class="row mb-3">
                   <div class="">
-                  <input class="form-control" style="" required type="file" name="files[]" multiple>
+                  <input class="form-control" style="" required type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" multiple>
                   </div>
                 </div>
                 <div class="row mb-3">          
                   <div class="row mt-3 mb-3">
                   <div class="col-sm-10">
-                    <button id="convert" type="submit" class="btn btn-primary">Grayscale</button>
+                    <button id="convert" type="submit" class="btn btn-primary">Verify Emails</button>
                   </div>
                 </div>
 </form>
@@ -134,13 +134,13 @@ document.getElementById("close-btn").addEventListener("click", function() {
  </div>
 </div>
             <div class="card-body">
-              <h5 class="animated  card-title">How to Grayscale Images online in bulk - 3 easy steps </h5>
+              <h5 class="animated  card-title">How to verify emails online in bulk - 3 easy steps </h5>
               <div class="row align-items-top">
                   <div class="col-12 col-md-4">
                   <!-- Card with an image on bottom -->
                   <div class="">
                   <img src="assets/img/one.png" class="card-img-bottom" alt="...">
-                    <h5 class="card-title text-center">Choose files</h5>
+                    <h5 class="card-title text-center">Upload CSV file</h5>
                   </div><!-- End Card with an image on bottom -->
                   </div>
                   <div class="col-12 col-md-4">
@@ -148,7 +148,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
                   <div class="">
                   <img src="assets/img/two.png" class="card-img-bottom" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title text-center">Grayscale</h5>
+                    <h5 class="card-title text-center">Click verify emails</h5>
                   </div>
                   </div><!-- End Card with an image on bottom -->
                   </div>
@@ -157,7 +157,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
                    <div class="">
                   <img src="assets/img/three.png" class="card-img-bottom" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title text-center ">Download</h5>
+                    <h5 class="card-title text-center ">Download CSV report</h5>
                   </div>
                   </div><!-- End Card with an image on bottom -->
                   </div>

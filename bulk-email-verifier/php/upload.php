@@ -1,12 +1,22 @@
 <?php
+ session_start();
+ set_time_limit(0);
+ include 'functions.php';
+ if(isset($_SESSION['user'])){
+  $user=$_SESSION['user'];
+ }
 
+ else{
+  header("Location: ../");
+        exit;
+ }
 require '../../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
 
 use GuzzleHttp\Client;
 
 function verifyEmails($filePath)
 {
-    $client = new Client();
+    $client = new Client(array( 'curl' => array( CURLOPT_SSL_VERIFYPEER => false, ), ));
 
     // Read the CSV file
     $file = fopen($filePath, 'r');
@@ -16,7 +26,7 @@ function verifyEmails($filePath)
     }
 
     // Open a new file for writing the updated rows
-    $outputFile = fopen('output.csv', 'w');
+    $outputFile = fopen('uploads/'.$user.'.csv', 'w');
 
     if ($outputFile === false) {
         die("Unable to open the output file.");
@@ -34,11 +44,10 @@ function verifyEmails($filePath)
 
                 // Parse the response and get the verification result
                 $result = json_decode($response->getBody(), true);
-                $verificationStatus = $result['status'] === 'success' ? 'verified' : 'not verified';
+                $verificationStatus = $result['data']['deliverable'] == 'true' ? 'verified' : 'not verified';
 
                 // Update the cell with the verification status
-                $cell = $verificationStatus;
-
+                $row[] = $verificationStatus;
                 $verifiedEmail = true;
                 break;
             }
@@ -46,7 +55,7 @@ function verifyEmails($filePath)
 
         if (!$verifiedEmail) {
             // No valid email found in the row
-            array_unshift($row, 'no email');
+            $row[] = 'no email';
         }
 
         // Write the updated row to the output file
