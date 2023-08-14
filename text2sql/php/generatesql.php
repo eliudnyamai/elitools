@@ -36,7 +36,7 @@ curl_setopt_array($curl, [
 	CURLOPT_CUSTOMREQUEST => "POST",
 	CURLOPT_POSTFIELDS => '{
         "model": "text-davinci-003",
-        "prompt": "'.$sql_query.'",
+        "prompt": "convert this to a sql query.'.$sql_query.'",
         "temperature": 0.3,
         "max_tokens": 100,
         "top_p": 1,
