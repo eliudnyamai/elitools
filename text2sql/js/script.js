@@ -34,12 +34,17 @@ $("#generate-sql-form").submit(function(e) {
       });
     
     
-
+      function isCaptchaChecked() {
+        return grecaptcha && grecaptcha.getResponse().length !== 0;
+      }
+      
+     
 $('#sql-query').keypress(function(event) {
   if (event.keyCode == 13 || event.which == 13) {
     console.log('here');
     var form = $('#generate-sql-form');
     var url = form.attr('action');
+    if (isCaptchaChecked()) {
     $.ajax({
            type: "POST",
            url: url,
@@ -65,6 +70,7 @@ $('#sql-query').keypress(function(event) {
 
  });
   }
+}
 });
 function copy() {
   // Get the text field
