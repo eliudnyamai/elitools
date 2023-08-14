@@ -4,6 +4,12 @@ if(!isset($_SESSION['user'])){
     header('Location:../');
 	exit();
 }
+if(isset($_POST['g-recaptcha-response'])){
+	$data["error"]=$_POST['g-recaptcha-response'];
+	$data["success"]=false;
+	echo json_encode($data);
+	exit();
+}
 if (isset($_POST['sql-query'])) {
     $sql_query=$_POST['sql-query'];
 	$sql_query=trim($sql_query);
