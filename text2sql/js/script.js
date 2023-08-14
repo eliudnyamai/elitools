@@ -70,6 +70,9 @@ $('#sql-query').keypress(function(event) {
 
  });
   }
+  else{
+    $('#generated-sql').text("CHECK THE RECAPTCHA");  
+  }
 }
 });
 function copy() {
