@@ -3,7 +3,7 @@ $("#generate-sql-form").submit(function(e) {
     console.log('here');
     grecaptcha.ready(function() {
       grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
-          // Add your logic to submit to your backend server here.
+          //  logic to submit to your backend server here.
           var form = $(this);
     var url = form.attr('action');
     $.ajax({
