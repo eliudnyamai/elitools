@@ -1,3 +1,6 @@
+function recaptchaCallback() {
+  $('#generate-sql').removeAttr('disabled');
+};
 $("#generate-sql-form").submit(function(e) {
     e.preventDefault(); 
           var form = $(this);
