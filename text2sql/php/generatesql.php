@@ -1,4 +1,8 @@
 <?php
+if(isset($_POST['g-recaptcha-response'])){
+echo $_POST['g-recaptcha-response'];
+}
+
 if (isset($_POST['sql-query'])) {
     $sql_query=$_POST['sql-query'];
 	$sql_query=trim($sql_query);

@@ -35,5 +35,7 @@ gtag("js", new Date());
 gtag("config", "G-BVTQJVB94K");
 </script>
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>';
+  <script src="assets/js/main.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcOP6UnAAAAAMDz7Mc2AMxsvv4ujgEHEwDRtib4"></script>
+  ';
 ?>

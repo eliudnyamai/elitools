@@ -1,7 +1,10 @@
 $("#generate-sql-form").submit(function(e) {
     e.preventDefault(); 
     console.log('here');
-    var form = $(this);
+    grecaptcha.ready(function() {
+      grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
+          // Add your logic to submit to your backend server here.
+          var form = $(this);
     var url = form.attr('action');
     $.ajax({
            type: "POST",
@@ -25,8 +28,11 @@ $("#generate-sql-form").submit(function(e) {
               $('#generate-sql').text('Try again');
             }  
             }
-
  });
+      });
+    });
+
+    
 });
 $('#sql-query').keypress(function(event) {
   if (event.keyCode == 13 || event.which == 13) {
