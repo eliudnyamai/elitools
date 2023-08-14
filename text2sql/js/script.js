@@ -20,14 +20,17 @@ $("#generate-sql-form").submit(function(e) {
               $('#generated-sql').text(data.sql);  
               $('#generate-sql').text('Generate SQL!');
               $('#sql-query').text("");  
-             // $('#generate-sql').attr('disabled', true);
+              $('#generate-sql').attr('disabled', true);
+              grecaptcha.reset();
               
             }
             else{
               console.log(data);
               $('#generated-sql').text(data.error);  
               $('#generate-sql').text('Try again');
-              //$('#generate-sql').attr('disabled',true);
+              $('#generate-sql').attr('disabled',true);
+              grecaptcha.reset();
+
             }  
             }
  });
