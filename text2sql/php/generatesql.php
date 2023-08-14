@@ -4,7 +4,7 @@ if(!isset($_SESSION['user'])){
     header('Location:../');
 	exit();
 }
-if($_POST['g-recaptcha-response']){
+if(isset($_POST['g-recaptcha-response'])){
 	echo $_POST['g-recaptcha-response'];
 }
 if (isset($_POST['sql-query'])) {

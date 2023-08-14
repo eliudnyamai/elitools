@@ -1,9 +1,5 @@
 $("#generate-sql-form").submit(function(e) {
     e.preventDefault(); 
-    console.log('here');
-    grecaptcha.ready(function() {
-      grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
-          //  logic to submit to your backend server here.
           var form = $(this);
     var url = form.attr('action');
     $.ajax({
@@ -30,10 +26,9 @@ $("#generate-sql-form").submit(function(e) {
             }
  });
       });
-    });
-
     
-});
+    
+
 $('#sql-query').keypress(function(event) {
   if (event.keyCode == 13 || event.which == 13) {
     console.log('here');
