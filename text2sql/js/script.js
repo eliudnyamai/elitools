@@ -20,6 +20,7 @@ $("#generate-sql-form").submit(function(e) {
               $('#generated-sql').text(data.sql);  
               $('#generate-sql').text('Generate SQL!');
               $('#sql-query').text("");  
+              $('#generate-sql').attr('disabled');
             }
             else{
               console.log(data);
