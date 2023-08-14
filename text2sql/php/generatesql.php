@@ -4,8 +4,8 @@ if(!isset($_SESSION['user'])){
     header('Location:../');
 	exit();
 }
-if(isset($_POST['g-recaptcha-response'])){
-	$data["error"]=$_POST['g-recaptcha-response'];
+if(!isset($_POST['g-recaptcha-response'])){
+	$data["error"]="CHECK RECAPTCHA";
 	$data["success"]=false;
 	echo json_encode($data);
 	exit();
