@@ -4,11 +4,16 @@ if(!isset($_SESSION['user'])){
     header('Location:../');
 	exit();
 }
-if(!isset($_POST['g-recaptcha-response'])){
-	$data["error"]="CHECK RECAPTCHA";
-	$data["success"]=false;
-	echo json_encode($data);
-	exit();
+$secretKey  = '6LcU76UnAAAAAFdj00pGQqBOe2USeOJShmt41lM8'; 
+if(!isset($_POST['g-recaptcha-response'])&&!empty($_POST['g-recaptcha-response'])){	 // Verify the reCAPTCHA API response 
+	 $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secretKey.'&response='.$_POST['g-recaptcha-response']); 
+		$responseData = json_decode($verifyResponse);
+		if(!$responseData->success){ 
+	    $data["error"]="CHECK RECAPTCHA";
+	    $data["success"]=false;
+	    echo json_encode($data);
+	    exit();
+}
 }
 if (isset($_POST['sql-query'])) {
     $sql_query=$_POST['sql-query'];
