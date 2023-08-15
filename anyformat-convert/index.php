@@ -248,7 +248,8 @@ document.getElementById("close-btn").addEventListener("click", function() {
            <!-- Card with titles, buttons, and links -->
            <div class="card col-lg-4 bg-transparent shadow-none">
            <div style="text-align:center;">
-           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002637&bids=1160033.10002637&subid=0&type=4"><IMG border="0" alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002637&bids=1160033.10002637&subid=0&type=4&gridnum=13"></a>          </div>          
+           <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>
+                  </div>          
           </div><!-- End Card with titles, buttons, and links -->
            <!-- Card with titles, buttons, and links -->
            <div class="card col-lg-4 bg-transparent shadow-none">

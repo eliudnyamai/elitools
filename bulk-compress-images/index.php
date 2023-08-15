@@ -125,7 +125,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
             <div class="card-body">
             <div class="ad-big">
             <div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1327140.11&subid=0&type=4"><IMG border="0"   alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1327140.11&subid=0&type=4&gridnum=0"></a>
+            <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270410"></script>
 </div>
 </div>
 <div class="ad-small">
