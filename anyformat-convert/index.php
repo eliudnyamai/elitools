@@ -135,12 +135,13 @@ document.getElementById("close-btn").addEventListener("click", function() {
 <div class=" col-12 mt-3">
   <div class="ad-big ">
   <div style="text-align:center;">
-  <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002749&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002749&subid=0&type=4&gridnum=16"></a>
-  </div>
+  <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270410"></script>
+</div>
 </div>
   <div class="mx-auto ad-small">
   <div style="text-align:center;">
-  <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a> 
+  <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7267694"></script> 
+ </div>
  </div>
 </div>
             <div class="card-body">
@@ -252,7 +253,9 @@ document.getElementById("close-btn").addEventListener("click", function() {
            <!-- Card with titles, buttons, and links -->
            <div class="card col-lg-4 bg-transparent shadow-none">
            <div style="text-align:center;">
-           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4"><IMG border="0" alt="Quizplus for an A&#43;" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4&gridnum=14"></a>           </div><!-- End Card with titles, buttons, and links -->
+           <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>
+
+            </div><!-- End Card with titles, buttons, and links -->
            </div>
           </div>
           <div>
