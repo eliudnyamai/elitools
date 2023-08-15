@@ -107,7 +107,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
 <br>
 <div class="ad-big">
 <div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.415&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.415&subid=0&type=4&gridnum=0"></a>
+<script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270410"></script>  
 </div>
 </div>
 <div class="ad-small">
