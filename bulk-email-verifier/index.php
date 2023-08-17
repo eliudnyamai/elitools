@@ -190,7 +190,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <p class="card-text">Grayscale Avif images for free online</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-                <!-- Card with titles, buttons, and links -->
+                <!-- Card with titles, butand links -->
           <div class="card col-lg-4 ">
           <div class="card-body">
               <h5 class="card-title animated">Grayscale webp Images</h5>
