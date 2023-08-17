@@ -174,55 +174,31 @@ document.getElementById("close-btn").addEventListener("click", function() {
           
           <div class="row mx-auto align-items-top">
                 <!-- Card with titles, buttons, and links -->
-          <div class="card container  col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">Grayscale PNG Images</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Grayscale PNG</h6>
-              <p class="card-text">Grayscale PNG images for free online</p>
-            </div>
+          
           </div><!-- End Card with titles, buttons, and links -->
            
                 <!-- Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">Grayscale Avif Images</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Grayscale AVIF</h6>
-              <p class="card-text">Grayscale Avif images for free online</p>
-            </div>
+          <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>          
           </div><!-- End Card with titles, buttons, and links -->
+
                 <!-- Card with titles, butand links -->
           <div class="card col-lg-4 ">
-          <div class="card-body">
-              <h5 class="card-title animated">Grayscale webp Images</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Grayscale webp</h6>
-              <p class="card-text">Grayscale webp images for free online</p>
-            </div>
+          <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>          
+
           </div><!-- End Card with titles, buttons, and links -->
 
                <!-- Card with titles, buttons, and links -->
                <div class="card col-lg-4 ">
-               <div class="card-body">
-              <h5 class="card-title animated">Grayscale jpeg Images</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Grayscale jpg</h6>
-              <p class="card-text">Grayscale jpeg images for free online</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
+               <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7280362"></script>              </div>
+              <!-- End Card with titles, buttons, and links -->
 
                <!-- Card with titles, buttons, and links -->
                <div class="card col-lg-4 ">
-               <div class="card-body">
-              <h5 class="card-title animated">Grayscale Tiff Images</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Grayscale Tiff</h6>
-              <p class="card-text">Grayscale Tiff images for free online</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-<!-- Card with titles, buttons, and links -->
-<div class="card container bg-transparent shadow-none  col-lg-4 ">
-<div style="text-align:center;">
+               <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>     
+               </div><!-- End Card with titles, buttons, and links -->
 
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1327140.3&subid=0&type=4"><IMG border="0"   alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1327140.3&subid=0&type=4&gridnum=13"></a> 
- </div>
-</div><!-- End Card with titles, buttons, and links -->
+              
           </div>
           <div>
           
