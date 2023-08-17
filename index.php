@@ -224,6 +224,15 @@ document.getElementById("close-btn").addEventListener("click", function() {
             </div>
           </div><!-- End Card with titles, buttons, and links -->
            <!-- Card with titles, buttons, and links -->
+           <div class="card col-lg-4 ">
+            <div class="card-body">
+              <h5 class="card-title animated">Bulk Email Verifier</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Verify Emails In Bulk Online</h6>
+              <p class="card-text">Bulk verify emails online for free</p>
+              <p class="card-text"><a href="/bulk-email-verifier" class="btn btn-primary" disabled>Verify Emails</a></p>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+           <!-- Card with titles, buttons, and links -->
            <div class="card col-lg-4 bg-transparent shadow-none ">
            <div style="text-align:center;">
             <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4"><IMG border="0" alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>    
