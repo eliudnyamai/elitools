@@ -105,15 +105,14 @@ document.getElementById("close-btn").addEventListener("click", function() {
 <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270410"></script>
 </div>
 
-<div style="overflow-x:auto; max-height: 300px;">
 <div class="card">
+<div style="overflow-x:auto; max-height: 300px;">
             <div class="card-body">
               <h5 class="card-title">Your Verified Emails Will Appear Here</h5>
   <table class="table table-striped" id="csvTable">
 
 </table>
 </div>
-
 </div>
 </div>
 <div id="zip">
