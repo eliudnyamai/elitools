@@ -1,5 +1,5 @@
 <?php
- session_start();
+session_start();
  set_time_limit(0);
  include 'functions.php';
  if(isset($_SESSION['user'])){
