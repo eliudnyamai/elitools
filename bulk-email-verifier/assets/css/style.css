@@ -1740,3 +1740,6 @@ z-index: 100;
   border: none;
   background: none;
 }
+#csv-display{
+  display: none;
+}

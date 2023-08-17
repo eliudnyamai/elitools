@@ -5,31 +5,63 @@
  if(isset($_SESSION['user'])){
   $user=$_SESSION['user'];
  }
-
  else{
   header("Location: ../");
-        exit;
+exit;
  }
+define ('SITE_ROOT', realpath(dirname(__FILE__)));
+$target_dir = SITE_ROOT.'/uploads/';
+$target_file = $target_dir .basename($_FILES["file"]["name"]);
+$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+$data=array();
+
+if(!isset($_FILES["file"])) {
+  header('location: ../');
+  exit();
+}
+
+// Check file size
+if ($_FILES["file"]["size"] > file_upload_max_size() ) {
+  $data["error"]="Sorry, your file is too large.";
+  $data["success"]=false;
+  echo json_encode($data);
+  exit();
+}
+
+if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
+    $_SESSION["uploaded_file_path"]='uploads/'.basename( $_FILES["file"]["name"]);
+    $_SESSION["filename"]=basename( $_FILES["file"]["name"]);
+    $data["success"]=true;
+    $data["uploaded_file"]='php/uploads/'.basename( $_FILES["file"]["name"]);
+  }
+
+
 require '../../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
 
 use GuzzleHttp\Client;
 
-function verifyEmails($filePath)
-{
+$filePath= $_SESSION["uploaded_file_path"];
+
     $client = new Client(array( 'curl' => array( CURLOPT_SSL_VERIFYPEER => false, ), ));
 
     // Read the CSV file
     $file = fopen($filePath, 'r');
 
     if ($file === false) {
-        die("Unable to open the file.");
+        $data["error"]="Unable to open the file";
+        $data["success"]=false;
+        echo json_encode($data);
+        exit();
     }
 
     // Open a new file for writing the updated rows
     $outputFile = fopen('uploads/'.$user.'.csv', 'w');
 
     if ($outputFile === false) {
-        die("Unable to open the output file.");
+        $data["error"]="Unable to output the file";
+            $data["success"]=false;
+            echo json_encode($data);
+            exit();;
     }
 
     while (($row = fgetcsv($file)) !== false) {
@@ -65,8 +97,8 @@ function verifyEmails($filePath)
     fclose($file);
     fclose($outputFile);
 
-    echo "Verification completed. Output file created.";
-}
+    $data["message"]="<a href='php/uploads/$user.csv'  download><button  id='download-btn' class='btn btn-primary'>Download Your CSV</button></a>";
+    $data["success"]=true;
+    echo json_encode($data);
+    exit();
 
-// Example usage
-verifyEmails('uploads/subscriber.csv');

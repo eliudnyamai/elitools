@@ -88,13 +88,13 @@ document.getElementById("close-btn").addEventListener("click", function() {
               <form id="uploadForm" action="php/upload.php" method="post" enctype="multipart/form-data">
                 <div class="row mb-3">
                   <div class="">
-                  <input class="form-control" style="" required type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" multiple>
+                  <input class="form-control" style=""name="file" required type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
                   </div>
                 </div>
                 <div class="row mb-3">          
                   <div class="row mt-3 mb-3">
                   <div class="col-sm-10">
-                    <button id="convert" type="submit" class="btn btn-primary">Verify Emails</button>
+                    <button id="verify" type="submit" class="btn btn-primary">Verify Emails</button>
                   </div>
                 </div>
 </form>
@@ -132,6 +132,31 @@ document.getElementById("close-btn").addEventListener("click", function() {
 
   <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a> 
  </div>
+</div>
+<div id="csv-display">
+<?php
+$filename = $_SERVER['DOCUMENT_ROOT'].'/php/uploads/'.$_SESSION['user'].'.csv'; // Replace with your CSV file's name
+if (($handle = fopen($filename, 'r')) !== false) {
+    echo '<table>';
+    $firstRow = true;
+    while (($data = fgetcsv($handle)) !== false) {
+        echo '<tr>';
+        foreach ($data as $cell) {
+            if ($firstRow) {
+                echo '<th>' . htmlspecialchars($cell) . '</th>';
+            } else {
+                echo '<td>' . htmlspecialchars($cell) . '</td>';
+            }
+        }
+        echo '</tr>';
+        $firstRow = false;
+    }
+    echo '</table>';
+    fclose($handle);
+} else {
+    echo 'Unable to open the file.';
+}
+?>
 </div>
             <div class="card-body">
               <h5 class="animated  card-title">How to verify emails online in bulk - 3 easy steps </h5>
