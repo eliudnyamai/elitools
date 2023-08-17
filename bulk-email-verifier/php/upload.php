@@ -87,7 +87,7 @@ $filePath= $_SESSION["uploaded_file_path"];
 
         if (!$verifiedEmail) {
             // No valid email found in the row
-            $row[] = 'no email';
+            $row[] = 'No Email';
         }
 
         // Write the updated row to the output file

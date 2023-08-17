@@ -102,25 +102,31 @@ document.getElementById("close-btn").addEventListener("click", function() {
 </div>
 
 <div id="" class="col-md-6">
-  <h5 class="card-title" >The zip with your files will appear here <span>If you upload too many files or files with a big bundle size, it will take longer. Please wait</span></h5>
-  <div id="zip">
+<script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270410"></script>
+</div>
+
+<div style="overflow-x:auto; max-height: 300px;">
+<div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Your Verified Emails Will Appear Here</h5>
+  <table class="table table-striped" id="csvTable">
+
+</table>
+</div>
 
 </div>
-   <div id="zip-success" class="alert mt-3 alert-success bg-success text-light border-0 alert-dismissible fade show" role="alert">
-                Your zip is ready for download. close this to start afresh
-                <div class=" social-links mt-2">
-  Liked It? Check Our Online Profiles
-                <a href="https://twitter.com/Toolskecom" target="_blank" class="text-white"><i class="bi bi-twitter"></i>Twitter |</a>
-                <a href="https://www.tiktok.com/@eliudmitau" target="_blank" class="text-white"><i class="bi bi-tiktok"></i>Tiktok  |</a>
-                <a href="https://www.youtube.com/channel/UCo1pKQOzTy0wU3WyOAD3PKQ" target="_blank" class="text-white"><i class="bi bi-youtube"></i>Youtube  |</a>
-                <a href="https://linktr.ee/eliud_mitau?subscribe" target="_blank" class="text-white"><i class="bi bi-linktree"></i>Linktree  |</a>
 </div>
+<div id="zip">
+
+</div>
+<div id="zip-success" class="alert mt-3 alert-success bg-success text-light border-0 alert-dismissible fade show" role="alert">
+                Your zip is ready for download. close this to start afresh
+              
                 <button id="close" type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
       <div id="zip-fail" class="alert mt-3 alert-danger bg-danger text-light border-0 alert-dismissible fade show" role="alert">
                 
       </div>
-</div>
 <div class=" col-12 mt-3">
 <div class="ad-big ">
 <div style="text-align:center;">
@@ -133,31 +139,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
   <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a> 
  </div>
 </div>
-<div id="csv-display">
-<?php
-$filename = $_SERVER['DOCUMENT_ROOT'].'/php/uploads/'.$_SESSION['user'].'.csv'; // Replace with your CSV file's name
-if (($handle = fopen($filename, 'r')) !== false) {
-    echo '<table>';
-    $firstRow = true;
-    while (($data = fgetcsv($handle)) !== false) {
-        echo '<tr>';
-        foreach ($data as $cell) {
-            if ($firstRow) {
-                echo '<th>' . htmlspecialchars($cell) . '</th>';
-            } else {
-                echo '<td>' . htmlspecialchars($cell) . '</td>';
-            }
-        }
-        echo '</tr>';
-        $firstRow = false;
-    }
-    echo '</table>';
-    fclose($handle);
-} else {
-    echo 'Unable to open the file.';
-}
-?>
-</div>
+
             <div class="card-body">
               <h5 class="animated  card-title">How to verify emails online in bulk - 3 easy steps </h5>
               <div class="row align-items-top">

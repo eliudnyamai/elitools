@@ -68,6 +68,13 @@ echo '  <!-- ======= Sidebar ======= -->
      
     <li class="nav-heading">Email</li>
     <li class="nav-item">
+    <a class="nav-link " href="/bulk-compress-images/">
+      <i class="bi bi-envelope"></i>
+      <span>Bulk Email Verifier
+      </span>
+    </a>
+  </li>
+    <li class="nav-item">
       <a class="nav-link " href="https://www.aweber.com/easy-email.htm?id=544297">
         <i class="bi bi-envelope"></i>
         <span>Free Email Marketing <span class="badge rounded-pill bg-info">AD</span>
@@ -77,7 +84,7 @@ echo '  <!-- ======= Sidebar ======= -->
     <li class="nav-heading">Video</li>
     <li class="nav-item">
       <a class="nav-link " href="https://fliki.ai/?via=eliud">
-        <i class="bi bi-envelope"></i>
+        <i class="bi bi-camera-video-fill "></i>
         <span>Create Tiktoks Fast<span class="badge rounded-pill bg-info">AD</span>
         </span>
       </a>

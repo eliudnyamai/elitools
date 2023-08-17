@@ -1743,3 +1743,7 @@ z-index: 100;
 #csv-display{
   display: none;
 }
+#table-container{
+  overflow-x:auto;
+  max-height: 500px;
+}

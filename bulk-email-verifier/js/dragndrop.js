@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('#uploadForm').on('submit', function(e){
       e.preventDefault(); //Prevent Default action. 
-      //setInterval(get_csv, 10000);
+    
       var formData = new FormData(this); //Creates new FormData object
       var $fileUpload = $("input[type='file']");
 
@@ -28,6 +28,7 @@ $(document).ready(function(){
                 $('#verify').text('Verify Emails');
                 $("#zip-fail").css('display','none');
                 $("#csv-display").css('display','block');
+                get_csv();
                
               }
               else{
@@ -59,7 +60,22 @@ function get_csv(){
     processData:false,   
     success: function(data){   // A function to be called if request succeeds 
       console.log(data);
-      data=JSON.parse(data)   
+      data=JSON.parse(data);
+      const table = document.getElementById('csvTable');
+      table.classList.add('table','table-striped', 'table-responsive');
+
+for (let i = 0; i < data.length; i++) {
+    const row = document.createElement('tr');
+    const rowData = data[i];
+
+    for (let j = 0; j < rowData.length; j++) {
+        const cell = (i === 0) ? document.createElement('th') : document.createElement('td');
+        cell.textContent = rowData[j];
+        row.appendChild(cell);
+    }
+
+    table.appendChild(row);
+}
     }        
   })
 }
