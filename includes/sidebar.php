@@ -68,7 +68,7 @@ echo '  <!-- ======= Sidebar ======= -->
      
     <li class="nav-heading">Email</li>
     <li class="nav-item">
-    <a class="nav-link " href="/bulk-compress-images/">
+    <a class="nav-link " href="/bulk-email-verifier/">
       <i class="bi bi-envelope"></i>
       <span>Bulk Email Verifier
       </span>
