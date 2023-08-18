@@ -106,8 +106,9 @@ document.getElementById("close-btn").addEventListener("click", function() {
 </div>
 
 <div class="card">
-<div style="overflow-x:auto; max-height: 300px;">
+
             <div class="card-body">
+            <div style="overflow-x:auto; max-height: 300px;">
               <h5 class="card-title">Your Verified Emails Will Appear Here</h5>
   <table class="table table-striped" id="csvTable">
 
