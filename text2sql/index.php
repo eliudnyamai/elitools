@@ -79,7 +79,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
           </form>   
           </div>   
          <div class="col-6 " >
-          <!-- <div class="border border-info" id="generated-sql" style="height: 100px;"> -->
+          <!-- <div class="border border-info"-sql" style="height: 100px;"> -->
           <textarea class="form-control"  id="generated-sql" style="height: 100px;">
           Your sql will appear here
           </textarea>
