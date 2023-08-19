@@ -1,10 +1,8 @@
 $(document).ready(function(){
   $('#uploadForm').on('submit', function(e){
       e.preventDefault(); //Prevent Default action. 
-    
       var formData = new FormData(this); //Creates new FormData object
       var $fileUpload = $("input[type='file']");
-
       $.ajax({
           url: 'php/upload.php', // Url to which the request is send
           type: "POST",             // Type of request to be send, called as method
@@ -28,8 +26,8 @@ $(document).ready(function(){
                 $('#verify').text('Verify Emails');
                 $("#zip-fail").css('display','none');
                 $("#csv-display").css('display','block');
+                const table = document.getElementById('csvTable').innerHTML="";
                 get_csv();
-               
               }
               else{
                 console.log("here")
