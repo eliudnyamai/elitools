@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Bulk verify emails Online','toolske, toolske.com, grayscale multiple images, convert images to black and white');
+display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, verify emails in bulk online');
 ?>
 <body>
    <?php include '../includes/header.php';?>
