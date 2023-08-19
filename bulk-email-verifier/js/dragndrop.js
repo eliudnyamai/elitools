@@ -4,7 +4,7 @@ $(document).ready(function(){
       var formData = new FormData(this); //Creates new FormData object
       var $fileUpload = $("input[type='file']");
       $.ajax({
-          url: 'php/upload.php', // Url to which the request is send
+          url: 'php/upload.php', 
           type: "POST",             // Type of request to be send, called as method
           data: formData, // Data sent to server, a set of key/value pairs (i.e. form fields and values)
           contentType: false,       // The content type used when sending data to the server. Default is: "application/x-www-form-urlencoded" 
