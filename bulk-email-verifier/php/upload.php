@@ -53,7 +53,7 @@ $filePath= $_SESSION["uploaded_file_path"];
         echo json_encode($data);
         exit();
     }
-    // Open a new file for writing the updated rows
+    // Open a new file for writing the  rows
     $outputFile = fopen('uploads/'.$user.'.csv', 'w');
 
     if ($outputFile === false) {
