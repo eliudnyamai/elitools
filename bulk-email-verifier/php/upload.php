@@ -53,7 +53,6 @@ $filePath= $_SESSION["uploaded_file_path"];
         echo json_encode($data);
         exit();
     }
-
     // Open a new file for writing the updated rows
     $outputFile = fopen('uploads/'.$user.'.csv', 'w');
 
@@ -96,7 +95,7 @@ $filePath= $_SESSION["uploaded_file_path"];
 
     fclose($file);
     fclose($outputFile);
-
+    unlink($_SESSION["uploaded_file_path"]);
     $data["message"]="<a href='php/uploads/$user.csv'  download><button  id='download-btn' class='btn btn-primary'>Download Your CSV</button></a>";
     $data["success"]=true;
     echo json_encode($data);
