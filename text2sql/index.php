@@ -66,7 +66,23 @@ document.getElementById("close-btn").addEventListener("click", function() {
 
             </div>
             <br>
+            <div class="ad-big">
+<div style="text-align:center;">
+<a href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
+<img style="width:100%" src="assets/img/Desktop.png" alt="" srcset="">
+</a>
+</div>
+</div>
+<div class="ad-small">
+<div style="text-align:center;">
+<a href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
+<img style="width:100%" src="assets/img/Mobile.png" alt="" srcset="">
+</a>
+</div>
+</div>
+          <br>
         <div class="row">
+   
          <div class="col-6">
           <form id="generate-sql-form" action="php/generatesql.php" method="post">
           <div class="form-floating mb-3">
@@ -96,23 +112,19 @@ document.getElementById("close-btn").addEventListener("click", function() {
          </div>
 
          <div>
-         <div class=" social-links mt-2">
-  Liked It? Check Our Online Profiles
-                <a href="https://twitter.com/Toolskecom" target="_blank" class=""><i class="bi bi-twitter"></i>Twitter |</a>
-                <a href="https://www.tiktok.com/@eliudmitau" target="_blank" class=""><i class="bi bi-tiktok"></i>Tiktok  |</a>
-                <a href="https://www.youtube.com/channel/UCo1pKQOzTy0wU3WyOAD3PKQ" target="_blank" class=""><i class="bi bi-youtube"></i>Youtube  |</a>
-                <a href="https://linktr.ee/eliud_mitau?subscribe" target="_blank" class=""><i class="bi bi-linktree"></i>Linktree  |</a>
-                <a href="https://www.upwork.com/freelancers/~019e7ab551fe9fb113" target="_blank" class=""><i class="bi bi-linktree"></i>Upwork|  </a>
-</div>
-<br>
+          <br>
 <div class="ad-big">
 <div style="text-align:center;">
-<script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270410"></script>  
+<a href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
+<img style="width:100%" src="assets/img/Desktop.png" alt="" srcset="">
+</a>
 </div>
 </div>
 <div class="ad-small">
 <div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1321193.407&subid=0&type=4"><IMG border="0"   alt="Microsoft for Business" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1321193.407&subid=0&type=4&gridnum=12"></a>
+<a href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
+<img style="width:100%" src="assets/img/Mobile.png" alt="" srcset="">
+</a>
 </div>
 </div>
           <br> <br>
@@ -159,7 +171,7 @@ document.getElementById("close-btn").addEventListener("click", function() {
 </section>
 </main><!-- End #main -->
   <!-- ======= Footer ======= -->
- <?php include '../includes/footer.php'?>
+ <?php include '../includes/footer1.php'?>
 </body>
 
 </html>
