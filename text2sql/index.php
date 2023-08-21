@@ -35,7 +35,7 @@ display_head('text to sql online free','toolske, text2sql, toolske.com, Convert 
 </div>
 
 <!-- JavaScript code to open and close the popup -->
-<script>
+<!-- <script>
 if (document.cookie.indexOf("subemail") < 0) {
 setTimeout(function() {
   document.getElementById("popup").style.display = "block";
@@ -44,7 +44,7 @@ setTimeout(function() {
 document.getElementById("close-btn").addEventListener("click", function() {
   document.getElementById("popup").style.display = "none";
 });
-</script>
+</script> -->
 
   <main id="main" class="main">
     <div class="pagetitle">
