@@ -37,6 +37,5 @@ gtag("config", "G-BVTQJVB94K");
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-   <script data-cfasync="false" type="text/javascript" data-adel="atag" src="//acdcdn.com/script/atg.js" czid="scpjw8xp2q"></script>
   ';
 ?>
