@@ -24,40 +24,6 @@ $_SESSION['user']=generateRandomString();
 display_head('Free Online Tools','toolske, toolske.com, Resize an image online for free,you can resizea jpg image online for free, resize a photo online for free, resize a png image online for free,resize a tiff image online for free. Text to sql, No signup needed');
 ?>
 <body>
-
-
-<div id="popup" >
-<button id="close-btn" style="">X</button>
-  <h4>Be the first to know when we release a new tool</h4>
-  <div class="text-info status"></div>						
-  <form action="" id="subscribeForm" method="post">							
-  <div class="col-12">
-                  <label for="inputNanme4"  class="form-label">Your Name</label>
-                  <input type="text" class="form-control"  name="name" id="name" >
-                  <span class="text-danger hidden" id="nameError"></span>
-                </div>
-                <div class="col-12">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" name="email" id="email">
-                  <span class="text-danger hidden" id="emailError"></span>
-                </div>
-                <div class="text-center">
-                  <button type="submit" name="subscribe" id="subscribe" class="btn btn-primary">Subscribe Now</button>
-                </div> 
-  </form>
-</div>
-
-<!-- JavaScript code to open and close the popup -->
-<script>
-if (document.cookie.indexOf("subemail") < 0) {
-setTimeout(function() {
-  document.getElementById("popup").style.display = "block";
-}, 5000); // 5000ms = 5 seconds
-}
-document.getElementById("close-btn").addEventListener("click", function() {
-  document.getElementById("popup").style.display = "none";
-});
-</script>
    <?php include 'includes/header.php';?>
    <?php include 'includes/sidebar.php';?>
   <main id="main" class="main">
