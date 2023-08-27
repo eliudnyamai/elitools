@@ -75,7 +75,7 @@ $filePath= $_SESSION["uploaded_file_path"];
 
                 // Parse the response and get the verification result
                 $result = json_decode($response->getBody(), true);
-                $verificationStatus = $result['data']['deliverable'] == 'true' ? 'verified' : 'not verified';
+                $verificationStatus = $result['data']['deliverable'] == 'true' ? 'verified' : 'undeliverable';
 
                 // Update the cell with the verification status
                 $row[] = $verificationStatus;
