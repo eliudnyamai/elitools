@@ -92,6 +92,7 @@ display_head('text to sql online free','toolske, text2sql, toolske.com, Convert 
 </a>
 </div>
 </div>
+<br><br>
 <div class="ml-embedded" data-form="HVcMuY"></div>
           <br> <br>
          <h2>How To convert Text To SQL Online-No Sign Up Needed</h2>
