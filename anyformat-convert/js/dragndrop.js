@@ -37,7 +37,6 @@ $(document).ready(function(){
                 $("#zip-fail").html(data.error);
                 $('#convert').text('Convert');
               }
-              //dynamic value in string js
           }        
       });
   });    
