@@ -21,7 +21,6 @@ $("#upload-form").submit(function(e) {
     e.preventDefault(); 
     var form = $(this);
     var url = form.attr('action');
-    console.log(url);
     $.ajax({
            type: "POST",
            url: url,
@@ -35,15 +34,12 @@ $("#upload-form").submit(function(e) {
            },
            success: function(data)
            {
-            console.log(data);
-            console.log("here");
                data=JSON.parse(data)
                if(data.success){
                 height_input.value = data.size[1];
                 width_input.value = data.size[0];
                 height_range.value = data.size[1];
                 width_range.value = data.size[0];
-                console.log(data.uploaded_file);
                 $('#uploaded_img').css('display', 'block');
                 $('#uploaded_img').attr('src',data.uploaded_file);
                 $('#submit-img').val('upload');
@@ -60,7 +56,6 @@ $("#upload-form").submit(function(e) {
 });
 $("#resize-form").submit(function(e) {
     e.preventDefault(); 
-    console.log('here');
     var form = $(this);
     var url = form.attr('action');
     $.ajax({
@@ -88,16 +83,11 @@ $(document).ready(function() {
     $('.image-presets').click(function() {
       var buttonText = $(this).val();
       var res = buttonText.split("x", 2);
-      console.log(res)
       width_input.value = width_range.value=res[0];
       height_input.value = height_range.value=res[1]; 
-      console.log(width_range.value);
     });
     $('.fractions').click(function() {
       var fraction = $(this).val();
-      console.log(width_range.value);
-      console.log(height_range.value);
-      console.log(fraction);
       width_input.value =width_range.value= Math.round(width_range.value*fraction);
       height_input.value =height_range.value= Math.round(height_range.value*fraction); 
     });

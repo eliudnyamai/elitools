@@ -38,7 +38,7 @@ $(document).ready(function(){
           }
            ,
           success: function(data){   // A function to be called if request succeeds 
-            console.log(data);
+            
                 data=JSON.parse(data)
               if(data.success){
                 $("#upload-form")[0].reset();
@@ -50,7 +50,6 @@ $(document).ready(function(){
                   clearTimeout(timeout);
               }
               else{
-                console.log("here")
                 var message=data.error;
                 $("#zip-success").css('display','none')
                 $("#zip-fail").css('display','block');
@@ -70,7 +69,6 @@ $(document).ready(function() {
     e.preventDefault(); //Prevent Default action. 
     var buttonText = $(this).val();
     var res = buttonText.split("x", 2);
-    console.log(res)
     width_input.value = width_range.value=res[0];
     height_input.value = height_range.value=res[1]; 
   });
@@ -95,7 +93,6 @@ $(document).ready(function() {
         }
          ,
         success: function(data){   // A function to be called if request succeeds 
-          console.log(data);
               data=JSON.parse(data)
             if(data.success){
               $("#upload-form")[0].reset();
@@ -107,7 +104,6 @@ $(document).ready(function() {
                 clearTimeout(timeout);
             }
             else{
-              console.log("here")
               var message=data.error;
               $("#zip-success").css('display','none')
               $("#zip-fail").css('display','block');

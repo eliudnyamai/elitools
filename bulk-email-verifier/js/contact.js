@@ -1,11 +1,10 @@
 
 $("#contact-form").submit(function(e) {
-    console.log("hhh");
+  
     e.preventDefault(); 
     var form = $(this);
     var url = form.attr('action');
-    console.log(url);
-    console.log('here');
+  
     $.ajax({
       type: "POST",
       url: url,
@@ -18,7 +17,7 @@ $("#contact-form").submit(function(e) {
            },
            success: function(data)
            {
-            console.log(data);
+           
                if(data.success){
                 $('#send-email').val('Sent');
                 $('.status').text(" We have Received your email. We will get back to you ASAP");

@@ -20,7 +20,7 @@ $(document).ready(function(){
           }
            ,
           success: function(data){   // A function to be called if request succeeds 
-            console.log(data);
+            
                 data=JSON.parse(data)
               if(data.success){
                 $("#uploadForm")[0].reset();
@@ -30,7 +30,7 @@ $(document).ready(function(){
                 $("#zip-fail").css('display','none');
               }
               else{
-                console.log("here")
+                
                 var message=data.error;
                 $("#zip-success").css('display','none')
                 $("#zip-fail").css('display','block');

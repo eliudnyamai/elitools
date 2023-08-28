@@ -25,7 +25,6 @@ $("#generate-sql-form").submit(function(e) {
               
             }
             else{
-              console.log(data);
               $('#generated-sql').text(data.error);  
               $('#generate-sql').text('Try again');
               $('#generate-sql').attr('disabled',true);
@@ -44,7 +43,6 @@ $("#generate-sql-form").submit(function(e) {
      
 $('#sql-query').keypress(function(event) {
   if (event.keyCode == 13 || event.which == 13) {
-    console.log('here');
     var form = $('#generate-sql-form');
     var url = form.attr('action');
     if (isCaptchaChecked()) {
@@ -67,7 +65,7 @@ $('#sql-query').keypress(function(event) {
               grecaptcha.reset();
             }
             else{
-              console.log(data);
+              
               $('#generated-sql').text(data.error);  
               $('#generate-sql').text('Try again');
               $('#generate-sql').attr('disabled', true);
