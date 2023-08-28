@@ -54,4 +54,7 @@ function deleteOldContents($dir) {
 deleteOldContents('bulk-resize-images/php/uploads/');
 deleteOldContents('anyformat-convert/php/uploads/');
 deleteOldContents('bulk-grayscale-images/php/uploads/');
+deleteOldContents('bulk-email-verifier/php/uploads/');
+deleteOldContents('bulk-compress-images/php/uploads/');
+
 
