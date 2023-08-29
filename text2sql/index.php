@@ -77,23 +77,6 @@ display_head('text to sql online free','toolske, text2sql, toolske.com, Convert 
          </div>
 
          <div>
-          <br>
-<div class="ad-big">
-<div style="text-align:center;">
-<a href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
-<img style="width:100%" src="assets/img/Desktop.png" alt="" srcset="">
-</a>
-</div>
-</div>
-<div class="ad-small">
-<div style="text-align:center;">
-<a href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
-<img style="width:100%" src="assets/img/Mobile.png" alt="" srcset="">
-</a>
-</div>
-</div>
-<br><br>
-<div class="ml-embedded" data-form="HVcMuY"></div>
           <br> <br>
          <h2>How To convert Text To SQL Online-No Sign Up Needed</h2>
         <p> With the text2sql tool from toolske.com, you can now convert natural language to an SQL query free online.  With text2sql you can create a simple select query as well as more complicated queries such as joins.</p>
