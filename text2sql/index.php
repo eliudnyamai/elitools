@@ -138,7 +138,7 @@ display_head('text to sql online free','toolske, text2sql, toolske.com, Convert 
 </section>
 </main><!-- End #main -->
   <!-- ======= Footer ======= -->
- <?php include '../includes/footer1.php'?>
+ <?php include '../includes/footer.php'?>
 </body>
 
 </html>
