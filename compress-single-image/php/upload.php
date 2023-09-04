@@ -43,7 +43,7 @@ if (isset($_FILES['file'])) {
     $before=filesize($desired_dir."".$file_name);
     if (move_uploaded_file($file_tmp, $desired_dir.$file_name)) {
       $compressed_image_name = $desired_dir."compressed_".$file_name;
-      $image = new \Imagick(realpath($compressed_image_name));
+      $image = new \Imagick(realpath($desired_dir.$file_name));
         $image->setImageFormat('jpg');
         $image->setImageCompression(Imagick::COMPRESSION_JPEG);
         $image->setImageCompressionQuality(20);
@@ -51,7 +51,7 @@ if (isset($_FILES['file'])) {
       $after=filesize($compressed_image_name);
       $percentageReduction =round((($before - $after) / $before) * 100, 2);
         $data["success"] = true;
-        $data["message"] = "<h3 class='text-success'>Image Compressed Successfully!!.Bundle Size Reduced BY:$percentageReduction%</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a>";
+        $data["message"] = "<h3 class='text-success'>Image Compressed Successfully!!.Bundle Size Reduced BY: $percentageReduction%</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a>";
       } else {
         $error = $_FILES['file']['error'];
         $data["error"] = "$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";

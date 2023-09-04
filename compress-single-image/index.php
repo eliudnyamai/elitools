@@ -51,7 +51,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
             </div>
           <div style="min-height:200px;" class="col-md-12">
 
-           <h2>Upload your Image to compress</h2> <br>
+           <h2>Upload Your Image To Compress</h2> <br>
 
 
            <!-- <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
