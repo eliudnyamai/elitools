@@ -39,7 +39,7 @@ if (isset($_FILES['file'])) {
     if (is_dir($desired_dir) == false) {
         mkdir("$desired_dir", 0700); // Create directory if it does not exist
     }
-    $compressed_image_name = "$desired_dir/compressed_$file_name";
+    $compressed_image_name = $desired_dir."compressed_".$file_name;
 
     if (move_uploaded_file($file_tmp, $compressed_image_name)) {
    
