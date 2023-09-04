@@ -49,7 +49,7 @@ if (isset($_FILES['file'])) {
         $image->setImageCompressionQuality(20);
         $image->writeImage($compressed_image_name);
         $data["success"] = true;
-        $data["message"] = "<h3 class='text-success'>Image compressed successfully!!.</h3> </br>: <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a>";
+        $data["message"] = "<h3 class='text-success'>Image Compressed Successfully!!.</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a>";
       } else {
         $error = $_FILES['file']['error'];
         $data["error"] = "$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
