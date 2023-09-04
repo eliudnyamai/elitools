@@ -71,7 +71,7 @@ function showFile(){
              $('#file-upload-error').text("");
              dropArea.classList.remove("active");
              $('#download-link').html(data.message);
-             $('#download-link').addClass('bg-success');
+             $('#download-link').addClass('rounded border border-success');
             }
             else{
              $('#file-upload-error').text(data.error)
