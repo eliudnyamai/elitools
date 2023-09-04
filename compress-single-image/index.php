@@ -69,7 +69,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
 </div>
 <div  class="">
           <div class="text-center" id="download-link">
-            <h3>Your Download Link Will Appear Here.</h3>
+            <h3 class="text-success">Your Download Link Will Appear Here.</h3>
           </div>
             <div class=" social-links mt-2">
                 Check Our Online Profiles
