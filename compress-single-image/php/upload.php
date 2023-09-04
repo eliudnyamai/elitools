@@ -43,7 +43,7 @@ if (isset($_FILES['file'])) {
     $before=filesize("$desired_dir.$file_name");
     if (move_uploaded_file($file_tmp, $desired_dir."/".$file_name)) {
       $compressed_image_name = $desired_dir."compressed_".$file_name;
-      $image = new \Imagick(realpath(compressed_image_name));
+      $image = new \Imagick(realpath($compressed_image_name));
         $image->setImageFormat('jpg');
         $image->setImageCompression(Imagick::COMPRESSION_JPEG);
         $image->setImageCompressionQuality(20);
