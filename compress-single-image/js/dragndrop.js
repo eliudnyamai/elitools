@@ -70,7 +70,7 @@ function showFile(){
              $('#compress-form').css('display', 'block');
              $('#file-upload-error').text("");
              dropArea.classList.remove("active");
-             $('#download-link').innerHTML=data.message;
+             $('#download-link').html(data.message);
             }
             else{
              $('#file-upload-error').text(data.error)
