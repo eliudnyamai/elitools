@@ -71,7 +71,7 @@ function showFile(){
              $('#file-upload-error').text("");
              dropArea.classList.remove("active");
              $('#download-link').html(data.message);
-             $('#download-link').addClass('bg-green');
+             $('#download-link').addClass('bg-success');
             }
             else{
              $('#file-upload-error').text(data.error)

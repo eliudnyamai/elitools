@@ -71,8 +71,8 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
           <div class="text-center" id="download-link">
             Your Download Link Will Appear Here.
           </div>
-                            <div class=" social-links mt-2">
-  Liked It? Check Our Online Profiles
+            <div class=" social-links mt-2">
+                Check Our Online Profiles
                 <a href="https://twitter.com/Toolskecom" target="_blank" class=""><i class="bi bi-twitter"></i>Twitter |</a>
                 <a href="https://www.tiktok.com/@eliudmitau" target="_blank" class=""><i class="bi bi-tiktok"></i>Tiktok  |</a>
                 <a href="https://www.youtube.com/channel/UCo1pKQOzTy0wU3WyOAD3PKQ" target="_blank" class=""><i class="bi bi-youtube"></i>Youtube  |</a>
