@@ -76,7 +76,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
                   </form>       
                 </div>
               </div>
-                  <div  class="output-image">
+                  <div  class="">
                         <div id="download-link">
 
                         </div>
