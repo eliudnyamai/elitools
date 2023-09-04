@@ -50,8 +50,6 @@ if (isset($_FILES['file'])) {
         $image->writeImage($compressed_image_name);
         $data["success"] = true;
         $data["message"] = "Image compressed successfully. Compressed image saved at: $compressed_image_name";
-        echo "here";
-        exit();  
       } else {
         $error = $_FILES['file']['error'];
         $data["error"] = "$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
