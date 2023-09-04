@@ -80,9 +80,9 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
                         <div class="output-image-container">
                             <img id="compressd_img" src="" alt="" srcset="">
                         </div>
-                        <div id="output-image-info"></div>
-                        <form id="download-form" method="post" action="php/download.php">
-                            <button class="download-btn btn" type="submit">Download</button>  
+                        <div id="download-link">
+
+                        </div>
                             <div class=" social-links mt-2">
   Liked It? Check Our Online Profiles
                 <a href="https://twitter.com/Toolskecom" target="_blank" class=""><i class="bi bi-twitter"></i>Twitter |</a>

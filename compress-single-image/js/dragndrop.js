@@ -66,10 +66,6 @@ function showFile(){
           console.log(data)
             data=JSON.parse(data)
             if(data.success){
-             height_input.value = data.size[1];
-             width_input.value = data.size[0];
-             height_range.value = data.size[1];
-             width_range.value = data.size[0];
              console.log(data.uploaded_file);
              $('#uploaded_img').css('display', 'block');
              //$('#uploaded_img').attr('src',data.uploaded_file);
@@ -77,6 +73,8 @@ function showFile(){
              $('#compress-form').css('display', 'block');
              $('#file-upload-error').text("");
              dropArea.classList.remove("active");
+
+             $('#download-link').innerHTML=data.message;
             }
             else{
              $('#file-upload-error').text(data.error)
