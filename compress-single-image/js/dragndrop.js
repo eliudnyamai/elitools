@@ -67,7 +67,6 @@ function showFile(){
             if(data.success){
              $('#uploaded_img').css('display', 'block');
              //$('#uploaded_img').attr('src',data.uploaded_file);
-             $('#compress-submit').val('upload');
              $('#compress-form').css('display', 'block');
              $('#file-upload-error').text("");
              dropArea.classList.remove("active");

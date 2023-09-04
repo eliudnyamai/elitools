@@ -67,19 +67,10 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
     <input type="file" hidden>
   </div>
 </div>
+<div  class="">
+          <div id="download-link">
 
-           <div class="images">
-               <div class="input-image">
-                  <img id="uploaded_img" src="" alt="" srcset="">   
-                  <form method="post" action="php/upload.php" id="compress-form" class="">
-                      <input id="compress-submit" class="compress-btn btn" name="compress" value="compress image" type="submit">
-                  </form>       
-                </div>
-              </div>
-                  <div  class="">
-                        <div id="download-link">
-
-                        </div>
+          </div>
                             <div class=" social-links mt-2">
   Liked It? Check Our Online Profiles
                 <a href="https://twitter.com/Toolskecom" target="_blank" class=""><i class="bi bi-twitter"></i>Twitter |</a>
@@ -87,9 +78,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
                 <a href="https://www.youtube.com/channel/UCo1pKQOzTy0wU3WyOAD3PKQ" target="_blank" class=""><i class="bi bi-youtube"></i>Youtube  |</a>
                 <a href="https://linktr.ee/eliud_mitau?subscribe" target="_blank" class=""><i class="bi bi-linktree"></i>Linktree  |</a>
 </div>  
-                        </form>
-           
-                    </div>
+</div>
           
            </div>   
            <div class="ad-big">
