@@ -50,6 +50,8 @@ if (isset($_FILES['file'])) {
         $image->writeImage($compressed_image_name);
       $after=filesize($compressed_image_name);
       $percentageReduction = (($before - $after) / $before) * 100;
+      $data["a"] = $after;
+      $data["b"] = $before;
         $data["success"] = true;
         $data["message"] = "<h3 class='text-success'>Image Compressed Successfully!!.Bundle Size Reduced BY:$percentageReduction%</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a>";
       } else {
