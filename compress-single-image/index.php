@@ -69,7 +69,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
 </div>
 <div  class="">
           <div id="download-link">
-
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus dolorem officiis, aut harum exercitationem deserunt velit, eveniet amet praesentium error vero explicabo ipsam iusto, quae odio maiores perferendis vel nulla!
           </div>
                             <div class=" social-links mt-2">
   Liked It? Check Our Online Profiles
