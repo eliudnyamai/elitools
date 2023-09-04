@@ -72,7 +72,7 @@ function showFile(){
              console.log(data.uploaded_file);
              $('#uploaded_img').css('display', 'block');
              //$('#uploaded_img').attr('src',data.uploaded_file);
-             $('#submit-img').val('upload');
+             $('#compress-submit').val('upload');
              $('#compress-form').css('display', 'block');
              $('#file-upload-error').text("");
              dropArea.classList.remove("active");

@@ -70,12 +70,12 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
 
            <div class="images">
                <div class="input-image">
-                  <img id="uploaded_img" src="" alt="" srcset="">          
-                </div>
-                <form method="post" action="php/compress.php" id="compress-form" class="">
+                  <img id="uploaded_img" src="" alt="" srcset="">   
+                  <form method="post" action="php/compress.php" id="compress-form" class="">
                       <input id="compress-submit" class="compress-btn btn" name="compress" value="compress image" type="submit">
-                </form>
-                  </div>
+                  </form>       
+                </div>
+              </div>
                   <div  class="output-image">
                         <div class="output-image-container">
                             <img id="compressd_img" src="" alt="" srcset="">
