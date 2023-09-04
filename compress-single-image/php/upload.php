@@ -40,14 +40,16 @@ if (isset($_FILES['file'])) {
         mkdir("$desired_dir", 0700); // Create directory if it does not exist
     }
     $compressed_image_name = $desired_dir."compressed_".$file_name;
-
-    if (move_uploaded_file($file_tmp, $compressed_image_name)) {
    
+    if (move_uploaded_file($file_tmp, $compressed_image_name)) {
+     
       $image = new \Imagick(realpath($compressed_image_name));
         $image->setImageFormat('jpg');
         $image->setImageCompression(Imagick::COMPRESSION_JPEG);
         $image->setImageCompressionQuality(20);
         $image->writeImage($compressed_image_name);
+        echo filesize($compressed_image_name);
+        exit();
         $data["success"] = true;
         $data["message"] = "<h3 class='text-success'>Image Compressed Successfully!!.</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a>";
       } else {

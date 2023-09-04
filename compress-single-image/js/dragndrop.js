@@ -63,6 +63,7 @@ function showFile(){
         },
         success: function(data)
         {
+          console.log(data);
             data=JSON.parse(data)
             if(data.success){
              $('#uploaded_img').css('display', 'block');

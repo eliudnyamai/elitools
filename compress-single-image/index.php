@@ -68,10 +68,10 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
   </div>
 </div>
 <div  class="">
-          <div class="text-center" id="download-link">
+          <div class="text-center p-2" id="download-link">
             <h3 class="text-success">Your Download Link Will Appear Here.</h3>
           </div>
-            <div class=" social-links mt-2">
+            <div class=" text-center social-links mt-2">
                 Check Our Online Profiles
                 <a href="https://twitter.com/Toolskecom" target="_blank" class=""><i class="bi bi-twitter"></i>Twitter |</a>
                 <a href="https://www.tiktok.com/@eliudmitau" target="_blank" class=""><i class="bi bi-tiktok"></i>Tiktok  |</a>
