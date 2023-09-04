@@ -66,14 +66,12 @@ function showFile(){
           console.log(data)
             data=JSON.parse(data)
             if(data.success){
-             console.log(data.uploaded_file);
              $('#uploaded_img').css('display', 'block');
              //$('#uploaded_img').attr('src',data.uploaded_file);
              $('#compress-submit').val('upload');
              $('#compress-form').css('display', 'block');
              $('#file-upload-error').text("");
              dropArea.classList.remove("active");
-
              $('#download-link').innerHTML=data.message;
             }
             else{
