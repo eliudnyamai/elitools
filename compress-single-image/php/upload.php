@@ -49,7 +49,7 @@ if (isset($_FILES['file'])) {
         $image->setImageCompressionQuality(20);
         $image->writeImage($compressed_image_name);
       $after=filesize($compressed_image_name);
-      $percentageReduction =round((($before - $after) / $before) * 100, 2);
+      $percentageReduction =abs(round((($before - $after) / $before) * 100, 2));
       $data["a"] = $after;
       $data["b"] = $before;
         $data["success"] = true;
