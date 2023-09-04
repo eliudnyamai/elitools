@@ -39,10 +39,10 @@ if (isset($_FILES['file'])) {
     if (is_dir($desired_dir) == false) {
         mkdir("$desired_dir", 0700); // Create directory if it does not exist
     }
-    $compressed_image_name = $desired_dir."compressed_".$file_name;
-   
-    if (move_uploaded_file($file_tmp, $compressed_image_name)) {
-      $before=filesize($compressed_image_name);
+
+    $before=filesize("$desired_dir/$file_name");
+    if (move_uploaded_file($file_tmp, $desired_dir."/".$file_name)) {
+      $compressed_image_name = $desired_dir."compressed_".$file_name;
       $image = new \Imagick(realpath($compressed_image_name));
         $image->setImageFormat('jpg');
         $image->setImageCompression(Imagick::COMPRESSION_JPEG);
