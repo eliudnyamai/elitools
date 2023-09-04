@@ -47,7 +47,7 @@ if (isset($_FILES['file'])) {
       $image = new \Imagick(realpath($desired_dir.$file_name));
         $image->setImageFormat('jpg');
         $image->setImageCompression(Imagick::COMPRESSION_JPEG);
-        $image->setImageCompressionQuality(20);
+        $image->setImageCompressionQuality(80);
         $image->writeImage($compressed_image_name);
       $after=filesize($compressed_image_name);
       $percentageReduction =round((($before - $after) / $before) * 100, 2);
