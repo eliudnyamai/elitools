@@ -39,18 +39,20 @@ if (isset($_FILES['file'])) {
     if (is_dir($desired_dir) == false) {
         mkdir("$desired_dir", 0700); // Create directory if it does not exist
     }
-
     $compressed_image_name = "$desired_dir/compressed_$file_name";
 
     if (move_uploaded_file($file_tmp, $compressed_image_name)) {
-        $image = new \Imagick(realpath($compressed_image_name));
+   
+      $image = new \Imagick(realpath($compressed_image_name));
         $image->setImageFormat('jpg');
         $image->setImageCompression(Imagick::COMPRESSION_JPEG);
         $image->setImageCompressionQuality(20);
         $image->writeImage($compressed_image_name);
         $data["success"] = true;
         $data["message"] = "Image compressed successfully. Compressed image saved at: $compressed_image_name";
-    } else {
+        echo "here";
+        exit();  
+      } else {
         $error = $_FILES['file']['error'];
         $data["error"] = "$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
         $data["success"] = false;

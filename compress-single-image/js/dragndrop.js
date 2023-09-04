@@ -59,10 +59,11 @@ function showFile(){
         processData:false,
         beforeSend : function()
         {
-         $('#submit-img').val('Sending...');
+         $('#compress-submit').val('Sending...');
         },
         success: function(data)
         {
+          console.log(data)
             data=JSON.parse(data)
             if(data.success){
              height_input.value = data.size[1];
