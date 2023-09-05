@@ -72,7 +72,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
 <a href="https://crst.co/ELIUDMIT" target="_blank"><img style="width:90%; align:center" src="assets/img/careerist-mobile.jpg" alt="" srcset=""></a>
 </div>
 </div> <br>
-           <h2 class="text-center">Upload Your Image To Compress<small class="text-muted"><a href="/blog/all-image-formats-and-their-file-samples/"> >>Get File Samples To Test<<</a></small></h2> <br>
+           <h2 class="text-center">Upload Your Image To Compress<small class="text-muted"><a target="_blank"  href="/blog/all-image-formats-and-their-file-samples/"> >>Get File Samples To Test<<</a></small></h2> <br>
 
 
            <!-- <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
