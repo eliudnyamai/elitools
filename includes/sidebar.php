@@ -48,6 +48,13 @@ echo '  <!-- ======= Sidebar ======= -->
   <span>Bulk compress Images</span>
 </a>
 </li>
+
+<li class="nav-item">
+<a class="nav-link " href="/compress-single-image/">
+  <i class="bi bi-image"></i>
+  <span>compress Single Image</span>
+</a>
+</li>
   
     <li class="nav-heading">Code</li>
     <li class="nav-item">
