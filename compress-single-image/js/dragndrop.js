@@ -83,6 +83,10 @@ function showFile(){
              $('#download-link').addClass('rounded border border-success');
             }
             else{
+              setTimeout(() => {
+                overlay.style.display = "none";
+            centeredDiv.style.display = "none";
+              }, 3500);
               $('#download-link').html(data.error);
             }
          }
