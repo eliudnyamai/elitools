@@ -90,7 +90,7 @@ display_head('Bulk compress Images Online','toolske, toolske.com, batch compress
             <div class="card-body">
             <div class="ad-big">
             <div style="text-align:center;">
-            <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270410"></script>
+            <a target="_blank" href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1410710.32&bids=1410710.32&subid=0&type=4"><IMG border="0" alt="Careerist" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1410710.32&bids=1410710.32&subid=0&type=4&gridnum=0"></a>
 </div>
 </div>
 <div class="ad-small">
