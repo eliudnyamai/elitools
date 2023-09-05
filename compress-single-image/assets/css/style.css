@@ -1760,6 +1760,10 @@ z-index: 100;
   .centered-div {
     top: 7%;
   }
+  .loader-img{
+    width: 20px;
+    height: auto;
+  }
 }
 
 

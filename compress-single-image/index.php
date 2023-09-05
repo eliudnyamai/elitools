@@ -41,7 +41,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
     <div class="text-center text-success rounded border border-success border-3 centered-div" id="centeredDiv">
         <!-- Content for the centered div goes here -->
         <h3 class="text-success">Compression In Progress <small class="text-muted">Big Images Will Take Some Time</small></h3>
-        <img class="img-fluid" src="assets/img/loader-loading.gif" alt="loading-gif" srcset="">
+        <img class="loader-img  img-fluid" src="assets/img/loader-loading.gif" alt="loading-gif" srcset="">
         <div>As you wait check out our partner. Page will open in a new tab	&#128073;
           <a href="https://crst.co/ELIUDMIT" target="_blank" rel="noopener noreferrer">
             <img src="assets/img/careerist.png" alt="" srcset=""></a>
