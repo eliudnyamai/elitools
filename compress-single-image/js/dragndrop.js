@@ -88,6 +88,9 @@ function showFile(){
             centeredDiv.style.display = "none";
               }, 3500);
               $('#download-link').html(data.error);
+              $("#close").click(function(){
+                location.reload();
+             });
             }
          }
 });
