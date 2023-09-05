@@ -83,8 +83,7 @@ function showFile(){
              $('#download-link').addClass('rounded border border-success');
             }
             else{
-             $('#file-upload-error').text(data.error)
-             $('#submit-img').val('upload');
+              $('#download-link').html(data.error);
             }
          }
 });
@@ -97,3 +96,9 @@ function showFile(){
   }
 }
   //document this code
+  $("#close").click(function(){
+    location.reload();
+ });
+ $("#close1").click(function(){
+   location.reload();
+ });
