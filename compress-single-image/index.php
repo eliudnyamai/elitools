@@ -20,7 +20,7 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('compress Image For Free Online','toolske, toolske.com, picture compressr, compress your images online for free including resizing png images, resizing jpg images and resizing tiff images, no signup needed');
+display_head('compress Image For Free Online','toolske, toolske.com, picture compressr, compress your images online for free including compressing png images, compressing jpg images and compressing tiff images, no signup needed');
 ?>
 <body>
    <?php include '../includes/header.php';?>
@@ -43,7 +43,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
         <h3 class="text-success">Compression In Progress <small class="text-muted">Big Images Will Take Some Time</small></h3>
         <img class="loader-img  img-fluid" src="assets/img/loader-loading.gif" alt="loading-gif" srcset="">
         <div>As you wait check out our partner. Page will open in a new tab	&#128073;
-          <a href="https://crst.co/ELIUDMIT" target="_blank" rel="noopener noreferrer">
+          <a href="https://crst.co/ELIUDMIT" target="_blank">
             <img src="assets/img/careerist.png" alt="" srcset=""></a>
 </div>
     </div>
@@ -62,7 +62,16 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
 
             </div>
           <div style="min-height:200px;" class="col-md-12">
-
+<div class="ad-big">
+           <div style="text-align:center;">
+           <a href="https://crst.co/ELIUDMIT" target="_blank"><img style="width:90%; align:center" src="assets/img/careerist-banner2.jfif" alt="" srcset=""></a>
+</div>
+</div>
+<div class="ad-small">
+<div style="text-align:center;">
+<a href="https://crst.co/ELIUDMIT" target="_blank"><img style="width:90%; align:center" src="assets/img/careerist-mobile.jpg" alt="" srcset=""></a>
+</div>
+</div> 
            <h2>Upload Your Image To Compress</h2> <br>
 
 
@@ -93,49 +102,32 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
 </div>
           
            </div>   
-           <div class="ad-big">
-           <div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.25&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.25&subid=0&type=4&gridnum=0"></a>
-</div>
-</div>
-<div class="ad-small">
-<div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4"><IMG border="0" alt="Quizplus for an A&#43;" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4&gridnum=14"></a>
-</div>
-</div> 
+           
           </div>
           <div>
           <h2>How To compress Images Online For Free-No Sign Up Needed</h2>
           <div class="row align-items-top">
-                  <div class="col-12 col-md-3">
+                  <div class="col-12 col-md-4">
                   <!-- Card with an image on bottom -->
                   <div class="">
                   <img src="assets/img/one.png" class="card-img-bottom" alt="...">
                     <h5 class="card-title text-center">Choose Image</h5>
                   </div><!-- End Card with an image on bottom -->
                   </div>
-                  <div class="col-12 col-md-3">
-                       <!-- Card with an image on bottom -->
-                  <div class="">
-                  <img src="assets/img/two.png" class="card-img-bottom" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Choose Size</h5>
-                  </div>
-                  </div><!-- End Card with an image on bottom -->
-                  </div>
-                  <div class="col-12 col-md-3">
+                
+                  <div class="col-12 col-md-4">
                    <!-- Card with an image on bottom -->
                    <div class="">
-                  <img src="assets/img/three.png" class="card-img-bottom" alt="...">
+                  <img src="assets/img/two.png" class="card-img-bottom" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center ">compress</h5>
                   </div>
                   </div><!-- End Card with an image on bottom -->
                   </div>
-                  <div class="col-12 col-md-3">
+                  <div class="col-12 col-md-4">
                        <!-- Card with an image on bottom -->
                   <div class="">
-                  <img src="assets/img/four.png" class="card-img-bottom" alt="...">
+                  <img src="assets/img/three.png" class="card-img-bottom" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center">Download </h5>
                   </div>
@@ -144,7 +136,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
               </div>
             </div>
           </div><!-- End Default Card -->  
-<h3>Supported Image types by the resizing tool:</h3>
+<h3>Supported Image types by the compressing tool:</h3>
 
 <div class="row mx-auto align-items-top">
   
@@ -154,7 +146,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
             <div class="card-body">
               <h5 class="card-title animated">compress Jpeg files </h5>
               <h6 class="card-subtitle mb-2 text-muted">JPG,JPEG</h6>
-              <p class="card-text">A free online tool for resizing jpeg files</p>
+              <p class="card-text">A free online tool for compressing jpeg files</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
            
@@ -163,7 +155,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
             <div class="card-body">
               <h5 class="card-title animated">compress PNG files </h5>
               <h6 class="card-subtitle mb-2 text-muted">PNG</h6>
-              <p class="card-text">A free online tool for resizing PNG files</p>
+              <p class="card-text">A free online tool for compressing PNG files</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
                 <!-- Card with titles, buttons, and links -->
@@ -171,7 +163,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
             <div class="card-body">
               <h5 class="card-title animated">compress JFIF files </h5>
               <h6 class="card-subtitle mb-2 text-muted">JFIF</h6>
-              <p class="card-text">A free online tool for resizing JFIF files</p>
+              <p class="card-text">A free online tool for compressing JFIF files</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
@@ -180,7 +172,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
             <div class="card-body">
               <h5 class="card-title animated">compress webp images</h5>
               <h6 class="card-subtitle mb-2 text-muted">WEBP</h6>
-              <p class="card-text">A free online tool for resizing webp files</p>
+              <p class="card-text">A free online tool for compressing webp files</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
@@ -189,7 +181,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
             <div class="card-body">
               <h5 class="card-title animated">compress TIFF images</h5>
               <h6 class="card-subtitle mb-2 text-muted">TIFF</h6>
-              <p class="card-text">A free online tool for resizing TIFF files</p>
+              <p class="card-text">A free online tool for compressing TIFF files</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
@@ -198,93 +190,12 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
             <div class="card-body">
               <h5 class="card-title animated">compress avif images</h5>
               <h6 class="card-subtitle mb-2 text-muted">AVIF</h6>
-              <p class="card-text">A free online tool for resizing AVIF files</p>
+              <p class="card-text">A free online tool for compressing AVIF files</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
           </div>
-
-          <h3>Popular Use cases:</h3>
-          
 <div class="row mx-auto align-items-top">
-            <!-- Card with titles, buttons, and links -->
-            <div class="card col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">compress images For 16:9 aspect ratio</h5>
-              <h6 class="card-subtitle mb-2 text-muted">images for 16:9 aspect ratio</h6>
-              <p class="card-text">compress images to all aspect ratio sizes</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-           
-                <!-- Card with titles, buttons, and links -->
-                <div class="card container  col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">compress for Facebook </h5>
-              <h6 class="card-subtitle mb-2 text-muted">Facebook</h6>
-              <p class="card-text">A free social media image compressr for facebook</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-                <!-- Card with titles, buttons, and links -->
-                <div class="card container  col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">compress for Twitter </h5>
-              <h6 class="card-subtitle mb-2 text-muted">Twitter</h6>
-              <p class="card-text">A free social media image compressr for Twitter</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-
-               <!-- Card with titles, buttons, and links -->
-               <div class="card container  col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">compress for Linkedin </h5>
-              <h6 class="card-subtitle mb-2 text-muted">Linkedin</h6>
-              <p class="card-text">A free social media image compressr for Linkedin</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-
-               <!-- Card with titles, buttons, and links -->
-               <div class="card container  col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">compress for Pintrest </h5>
-              <h6 class="card-subtitle mb-2 text-muted">Pintrest</h6>
-              <p class="card-text">A free social media image compressr for Pintrest</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-
-               <!-- Card with titles, buttons, and links -->
-               <div class="card container  col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">compress for Tumblr </h5>
-              <h6 class="card-subtitle mb-2 text-muted">Tumblr</h6>
-              <p class="card-text">A free social media image compressr for Tumblr</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-            <!-- Card with titles, buttons, and links -->
-            <div class="card container  col-lg-4 ">
-            <div class="card-body">
-              <h5 class="card-title animated">compress for Youtube </h5>
-              <h6 class="card-subtitle mb-2 text-muted">Youtube</h6>
-              <p class="card-text">A free social media image compressr for Youtube</p>
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
-         <!-- Card with titles, buttons, and links -->
-<div class="card container bg-transparent shadow-none   col-lg-4 ">
-<div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4"><IMG border="0" alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>    
-  </div>
-</div><!-- End Card with titles, buttons, and links -->
- 
-          
-
-          
-        
-           <!-- Card with titles, buttons, and links -->
-           <div class="card container bg-transparent shadow-none   col-lg-4 ">
-           <div style="text-align:center;">
-           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1327140.14&bids=1327140.14&subid=0&type=4"><IMG border="0" alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1327140.14&bids=1327140.14&subid=0&type=4&gridnum=13"></a>  
-          </div>
-          </div><!-- End Card with titles, buttons, and links -->
-
         </a><p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->
        </div>
