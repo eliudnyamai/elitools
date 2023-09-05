@@ -106,3 +106,4 @@ function showFile(){
  $("#close1").click(function(){
    location.reload();
  });
+ document.getElementById("close").addEventListener("click", location.reload());
