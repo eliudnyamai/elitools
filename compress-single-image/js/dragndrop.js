@@ -50,6 +50,9 @@ function showFile(){
       //  dropArea.innerHTML = imgTag; 
       var formdata= new FormData();
       formdata.append("file", file);
+      const showDivButton = document.getElementById("showDiv");
+        const overlay = document.getElementById("overlay");
+        const centeredDiv = document.getElementById("centeredDiv")
       $.ajax({
         type: "POST",
         url: 'php/upload.php',
@@ -59,13 +62,19 @@ function showFile(){
         processData:false,
         beforeSend : function()
         {
-         $('#compress-submit').val('Sending...');
+         // Show the overlay and centered div
+         overlay.style.display = "block";
+         centeredDiv.style.display = "block";
         },
         success: function(data)
         {
           console.log(data);
             data=JSON.parse(data)
             if(data.success){
+              setTimeout(() => {
+                container.style.display = "none";
+            centeredDiv.style.display = "none";
+              }, 3500);
              $('#uploaded_img').css('display', 'block');
              //$('#uploaded_img').attr('src',data.uploaded_file);
              $('#compress-form').css('display', 'block');
