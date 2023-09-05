@@ -76,7 +76,6 @@ function showFile(){
             centeredDiv.style.display = "none";
               }, 3500);
              $('#uploaded_img').css('display', 'block');
-             //$('#uploaded_img').attr('src',data.uploaded_file);
              $('#compress-form').css('display', 'block');
              $('#file-upload-error').text("");
              dropArea.classList.remove("active");
