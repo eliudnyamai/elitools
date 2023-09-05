@@ -1754,16 +1754,18 @@ z-index: 100;
 @media (max-width: 768px) {
   .centered-div {
     top: 5%;
+
+  }
+  .loader-img{
+    width: 20px;
+    height: auto;
   }
 }
 @media (min-height: 1024px) {
   .centered-div {
     top: 7%;
   }
-  .loader-img{
-    width: 20px;
-    height: auto;
-  }
+  
 }
 
 
