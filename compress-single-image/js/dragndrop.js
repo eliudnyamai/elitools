@@ -72,7 +72,7 @@ function showFile(){
             data=JSON.parse(data)
             if(data.success){
               setTimeout(() => {
-                container.style.display = "none";
+                overlay.style.display = "none";
             centeredDiv.style.display = "none";
               }, 3500);
              $('#uploaded_img').css('display', 'block');
