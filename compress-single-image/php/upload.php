@@ -54,7 +54,7 @@ if (isset($_FILES['file'])) {
       $data["a"] = $after;
       $data["b"] = $before;
         $data["success"] = true;
-        $data["message"] = "<h3 class='text-success'>$file_name Compressed Successfully!!.Bundle Size Reduced BY: $percentageReduction%</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a>";
+        $data["message"] = "<h3 class='text-success'>$file_name Compressed Successfully!!.Bundle Size Reduced BY: $percentageReduction%</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a> </br><a target='_blank'  href='/anyformat-convert/'> >>Convert Image Format Here<<</a></small>";
       } else {
         $error = $_FILES['file']['error'];
         $data["error"] = "$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
