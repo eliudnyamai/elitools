@@ -1753,7 +1753,7 @@ z-index: 100;
 }
 @media (max-width: 768px) {
   .centered-div {
-    top: 30%;
+    top: 10%;
 
   }
   .loader-img{
