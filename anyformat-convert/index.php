@@ -102,10 +102,10 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
   <div style="">
   <a target="_blank" href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1410710.27&bids=1410710.27&subid=0&type=4"><IMG border="0" alt="Careerist" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1410710.27&bids=1410710.27&subid=0&type=4&gridnum=0"></a></div>
 </div>
-  <div class="mx-auto  ad-small">
-  <div style="text-align:center;">
-  <a target="_blank" href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1410710.27&bids=1410710.27&subid=0&type=4"><IMG border="0" alt="Careerist" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1410710.27&bids=1410710.27&subid=0&type=4&gridnum=0"></a> </div>
- </div>
+<div class="ad-small">
+<div style="text-align:center;">
+<a href="https://crst.co/ELIUDMIT" target="_blank"><img style="width:90%; align:center" src="assets/img/careerist-mobile.jpg" alt="" srcset=""></a>
+</div>
 </div>
             <div class="card-body">
               <h5 class="animated  card-title">How to Convert Images to Any Format in bulk - 4 easy steps </h5>
