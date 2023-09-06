@@ -41,7 +41,7 @@ if (isset($_FILES['file'])) {
     }
 
    
-    if (!move_uploaded_file($file_tmp, $desired_dir.$file_name)) {
+    if (move_uploaded_file($file_tmp, $desired_dir.$file_name)) {
          $before=filesize($desired_dir."".$file_name);
       $compressed_image_name = $desired_dir."compressed_".$file_name;
       $image = new \Imagick(realpath($desired_dir.$file_name));
