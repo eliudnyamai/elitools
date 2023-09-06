@@ -229,10 +229,9 @@ display_head('resize images in bulk free','bulk resize images','toolske', 'tools
       </div>
 </div>
 <div class=" col-12 mt-3">
-  <div class="ad-big">
+<div class="ad-big  ">
   <div style="text-align:center;">
-  <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270410"></script>  
-  </div>
+  <a target="_blank" href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1410710.27&bids=1410710.27&subid=0&type=4"><IMG border="0" alt="Careerist" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1410710.27&bids=1410710.27&subid=0&type=4&gridnum=0"></a></div>
 </div>
   <div class="ad-small">
   <div style="text-align:center;">

@@ -208,18 +208,7 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002816&subid=0&type=4"><IMG border="0"   alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>
 </div>
           </div><!-- End Card with titles, buttons, and links -->
-           <!-- Card with titles, buttons, and links -->
-           <div class="card col-lg-4 bg-transparent shadow-none">
-           <div style="text-align:center;">
-           <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>
-                  </div>          
-          </div><!-- End Card with titles, buttons, and links -->
-           <!-- Card with titles, buttons, and links -->
-           <div class="card col-lg-4 bg-transparent shadow-none">
-           <div style="text-align:center;">
-           <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>
-
-            </div><!-- End Card with titles, buttons, and links -->
+          
            </div>
           </div>
           <div>
