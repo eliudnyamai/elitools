@@ -108,7 +108,7 @@ display_head('Contact Us','Text to sql for free online, image resizing free onli
             </li>
 
             <li><i class="fa fa-envelope mt-4 fa-2x"></i>
-                <p>eliudmitau@gmail.com</p>
+                <p>eliud@toolske.com</p>
             </li>
         </ul>
     </div>

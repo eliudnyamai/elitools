@@ -1747,3 +1747,6 @@ z-index: 100;
   overflow-x:auto;
   max-height: 500px;
 }
+#download-csv{
+display: none;
+}
