@@ -71,7 +71,7 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
     <a target="_blank" href="https://www.aweber.com/easy-email.htm?id=544297&utm_source=advocate&utm_medium=banner&utm_campaign=static&utm_content=free">
     <img src="https://www.aweber.com/banners/free/aweber-free-320x100.jpg" alt="AWeber Free: Email marketing for free. No credit card required." style="border:none;" /></a>
 </div>  
-<div style="text-align:center;">
+<div id="aff" style="text-align:center;">
 <img style="width:50px" src="assets/img/pointupindex.gif" alt="" srcset=""><br>
   As You Wait Check Out Affiliate offer. Opens In A New Page.
 </div>
@@ -172,6 +172,8 @@ $file = fopen($filePath, 'r');
                 e.innerHTML='Now Verifying: ".$email."';
                 progress.innerHTML='Percentage Verified: ".$perc."%';
                 progress.style.width = '".$perc."%';
+                var aff = document.getElementById('aff');
+                aff.style.display='block';
                 </script>";
                 ob_flush();
                 flush();

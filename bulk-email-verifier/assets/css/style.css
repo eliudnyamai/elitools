@@ -1750,3 +1750,6 @@ z-index: 100;
 #download-csv{
 display: none;
 }
+#aff{
+  display: none;
+}
