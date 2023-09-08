@@ -93,7 +93,7 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
   <?php
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-  echo "here";
+  echo "heree";
   exit();
   define ('SITE_ROOT', realpath(dirname(__FILE__)));
 $target_dir = SITE_ROOT.'/php/uploads/';
