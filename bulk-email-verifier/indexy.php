@@ -87,9 +87,10 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
   <table class="table table-striped" id="emails-table">
       <tbody></tbody>
   </table>
-  <div id="download-csv"><a href="php/uploads/<?php echo $user?>.csv" download><button  id='download-btn' class='btn btn-primary'>Download Your CSV</button></a></div>
 
   </div>
+  <div id="download-csv"><a href="php/uploads/<?php echo $user?>.csv" download><button  id='download-btn' class='btn btn-primary'>Download Your CSV</button></a></div>
+
   <?php
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
