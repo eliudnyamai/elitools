@@ -157,7 +157,7 @@ $file = fopen($filePath, 'r');
     }
     $x=1;
     while (($row = fgetcsv($file)) !== false) {
-      echo "here";
+    
         $verifiedEmail = false;
       
         foreach ($row as &$cell) {
