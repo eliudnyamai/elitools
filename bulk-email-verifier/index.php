@@ -1,5 +1,6 @@
 <?php
  session_start();
+ use GuzzleHttp\Client;
  include 'php/functions.php';
  if(isset($_SESSION['uploaded_file_path'])){
       $uploaded_file=$_SESSION['uploaded_file_path'];
@@ -10,12 +11,12 @@
 
  if(isset($_SESSION['resized_img'])){
      $resized_img=$_SESSION['resized_img'];
-    
 }
 else{
     $resized_img="php/uploads/germany.png";
 }
 $_SESSION['user']=generateRandomString();
+$user=$_SESSION['user'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,8 +52,7 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
 <div class="row">
             <div class="card-body col-md-6">
               <h5 class="card-title">Upload Your CSV <span>As long as the csv has an email somewhere the email will be verified</span></h5>
-              <form id="uploadForm" action="php/upload.php" method="post" enctype="multipart/form-data">
-                <div class="row mb-3">
+              <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" enctype="multipart/form-data" method="post">                <div class="row mb-3">
                   <div class="">
                   <input class="form-control" style=""name="file" required type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
                   </div>
@@ -60,43 +60,155 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
                 <div class="row mb-3">          
                   <div class="row mt-3 mb-3">
                   <div class="col-sm-10">
-                    <button id="verify" type="submit" class="btn btn-primary">Verify Emails</button>
+                    <button  type="submit" class="btn btn-primary">Verify Emails</button>
                   </div>
                 </div>
 </form>
 </div>
 </div>
-
 <div id="" class="col-md-6">
 <div style="text-align:center;">
-    <a href="https://www.aweber.com/easy-email.htm?id=544297&utm_source=advocate&utm_medium=banner&utm_campaign=static&utm_content=free">
+    <a target="_blank" href="https://www.aweber.com/easy-email.htm?id=544297&utm_source=advocate&utm_medium=banner&utm_campaign=static&utm_content=free">
     <img src="https://www.aweber.com/banners/free/aweber-free-320x100.jpg" alt="AWeber Free: Email marketing for free. No credit card required." style="border:none;" /></a>
-</div>
-      
+</div>  
+<div style="text-align:center;">
+<img style="width:50px" src="assets/img/pointupindex.gif" alt="" srcset=""><br>
+  As You Wait Check Out Affiliate offer. Opens In A New Page.
 </div>
 
+
+</div>
+<h4 class="text-success text-center" id="e"></h4>
 <div class="card">
-
-            <div class="card-body">
-            <div style="overflow-x:auto; max-height: 300px;">
-              <h5 class="card-title">Your Verified Emails Will Appear Here [Time taken depends on the No of emails and network speed]</h5>
-              <div id="zip-success" class="alert mt-3 alert-success bg-success text-light border-0 alert-dismissible fade show" role="alert">
-                Your verified emails CSV is ready for download. close this to start afresh
-                <button id="close" type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-      <div id="zip-fail" class="alert mt-3 alert-danger bg-danger text-light border-0 alert-dismissible fade show" role="alert">
-                
-      </div>
-  <table class="table table-striped" id="csvTable">
-
-</table>
+<div class="progress" style="height: 20px;">
+  <div id="progress-bar" class="progress-bar text-center" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-</div>
-</div>
-<div id="zip">
+  <div id="table-container" class="card table-responsive" id="x">
+  <table class="table table-striped" id="emails-table">
+      <tbody></tbody>
+  </table>
+  </div>
+  <div id="download-csv"><a href="php/uploads/<?php echo $user?>.csv" download><button  id='download-btn' class='btn btn-primary'>Download Your CSV</button></a></div>
+  <?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  define ('SITE_ROOT', realpath(dirname(__FILE__)));
+$target_dir = SITE_ROOT.'/php/uploads/';
+$target_file = $target_dir .basename($_FILES["file"]["name"]);
+$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+$data=array();
+$user=$_SESSION['user'];
+if(!isset($_FILES["file"])) {
+  header('location: ../');
+  exit();
+}
+if ($_FILES["file"]["size"] > file_upload_max_size() ) {
+  echo  "<script>
+  var e=document.getElementById('e');
+  e.classList.remove('text-success');
+  e.classList.add('text-danger');
+   e.innerHTML='Sorry, your file is too large.';
+  </script>";
+  exit();
+}
+if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
+    $_SESSION["uploaded_file_path"]='php/uploads/'.basename( $_FILES["file"]["name"]);
+    $_SESSION["filename"]=basename( $_FILES["file"]["name"]);
+    $data["success"]=true;
+    $data["uploaded_file"]='php/uploads/'.basename( $_FILES["file"]["name"]);
+  }
+require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
+$filePath= $_SESSION["uploaded_file_path"];
+    $client = new Client(array( 'curl' => array( CURLOPT_SSL_VERIFYPEER => false, ), ));
+    $rowCount = 0;
+if (($handle = fopen($filePath, "r")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+        $rowCount++;
+    }
+    fclose($handle);
+}
+$file = fopen($filePath, 'r');
+    if ($file === false) {
+        echo  "<script>
+       var e=document.getElementById('e');
+        e.innerHTML='Unable to open the file';
+        e.classList.remove('text-success');
+        e.classList.add('text-danger');
+       </script>";
+        exit();
+    }
+    // Open a new file for writing the  rows
+    $outputFile = fopen('php/uploads/'.$user.'.csv', 'w');
 
-</div>
+    if ($outputFile === false) {
+       echo  "<script>
+       var e=document.getElementById('e');
+       e.classList.remove('text-success');
+       e.classList.add('text-danger');
+        e.innerHTML='Unable to output the file';
 
+       </script>";
+      exit();;
+    }
+    $x=1;
+    while (($row = fgetcsv($file)) !== false) {
+    
+        $verifiedEmail = false;
+      
+        foreach ($row as &$cell) {
+            $email = trim($cell);
+
+            if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                $response = $client->get('https://api.eva.pingutil.com/email?email=' . urlencode($email));
+                $result = json_decode($response->getBody(), true);
+                $verificationStatus = $result['data']['deliverable'] == 'true' ? 'verified' : 'undeliverable';
+                $row[] = $verificationStatus;
+                $verifiedEmail = true;
+                $perc=round(($x/$rowCount)*100);
+                echo "<script>
+                var download= document.getElementById('download-csv');
+                download.style.display='none';
+                var progress=document.getElementById('progress-bar');
+                var e=document.getElementById('e');
+                e.innerHTML='Now Verifying: ".$email."';
+                progress.innerHTML='Percentage Verified: ".$perc."%';
+                progress.style.width = '".$perc."%';
+                </script>";
+                ob_flush();
+                flush();
+                echo "<script>
+                      document.addEventListener('DOMContentLoaded', function() {
+                      var selectedRow =".json_encode($row).";
+                      var table = document.getElementById('emails-table');
+                      var tbody = table.getElementsByTagName('tbody')[0];
+                          if (selectedRow && selectedRow.length > 0) {
+                              var row = document.createElement('tr');
+                              selectedRow.forEach(function(cellData) {
+                                  var cell = document.createElement('td');
+                                  cell.textContent = cellData;
+                                  row.appendChild(cell);
+                              });
+                              tbody.appendChild(row);
+                          } else {
+                              tbody.innerHTML = '<tr><td>No CSV data available for the selected row.</td></tr>';
+                          }
+                          var e=document.getElementById('e');
+                          e.innerHTML='Verifying Done Successfully';
+                          var download= document.getElementById('download-csv');
+                          download.style.display='block';
+                      });
+                  </script>";
+                break;
+            }
+        }
+        if (!$verifiedEmail) {
+            $row[] = 'No Email';
+            $tr=json_encode($row);  
+        }
+        fputcsv($outputFile, $row);
+    $x++; 
+    }
+ }?>
+</div>
 <div class=" col-12 mt-3">
 <div class="ad-big ">
 <div style="text-align:center;">
@@ -179,32 +291,8 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
                 <!-- Card with titles, buttons, and links -->
           
           </div><!-- End Card with titles, buttons, and links -->
-           
-                <!-- Card with titles, buttons, and links -->
-          <div class="card col-lg-4 ">
-          <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>          
-          </div><!-- End Card with titles, buttons, and links -->
-
-                <!-- Card with titles, butand links -->
-          <div class="card col-lg-4 ">
-          <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>          
-
-          </div><!-- End Card with titles, buttons, and links -->
-
-               <!-- Card with titles, buttons, and links -->
-               <div class="card col-lg-4 ">
-               <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7280362"></script>              </div>
-              <!-- End Card with titles, buttons, and links -->
-
-               <!-- Card with titles, buttons, and links -->
-               <div class="card col-lg-4 ">
-               <script data-cfasync="false" type="text/javascript" src="//predictivadvertising.com/a/display.php?r=7270414"></script>     
-               </div><!-- End Card with titles, buttons, and links -->
-
-              
           </div>
           <div>
-          
         </div>
         <p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->
