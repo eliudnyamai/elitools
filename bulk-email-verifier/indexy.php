@@ -93,8 +93,6 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
   <?php
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-  echo "heree";
-  exit();
   define ('SITE_ROOT', realpath(dirname(__FILE__)));
 $target_dir = SITE_ROOT.'/php/uploads/';
 $target_file = $target_dir .basename($_FILES["file"]["name"]);
@@ -159,6 +157,7 @@ $file = fopen($filePath, 'r');
     }
     $x=1;
     while (($row = fgetcsv($file)) !== false) {
+      echo "here";
         $verifiedEmail = false;
       
         foreach ($row as &$cell) {
