@@ -221,7 +221,6 @@ $file = fopen($filePath, 'r');
         }
 
         if (!$verifiedEmail) {
-            // No valid email found in the row
             $row[] = 'No Email';
             $tr=json_encode($row);
            
