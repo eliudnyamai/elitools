@@ -303,7 +303,7 @@ $file = fopen($filePath, 'r');
     </div>
   </div>
 </section>
-</main><!-- End #main -->
+</main><!-- End main -->
   <!-- ======= Footer ======= -->
  <?php include '../includes/footer.php'?>
 </body>
