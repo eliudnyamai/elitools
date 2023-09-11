@@ -16,7 +16,6 @@
   exit();
  }
     if(isset($_FILES['file'])){  
-      
         $allowed_extensions = array('jpg','JPG', 'jpeg','JPEG','PNG', 'png','gif','GIF','wbmp','WBMP', 'WEBP','webp','avif','AVIF','jfif','JFIF','tiff','TIFF');
           $file_name = $_FILES['file']['name'];
           $extension = pathinfo($file_name, PATHINFO_EXTENSION);
@@ -53,7 +52,7 @@
                     exit();
                 }
                   else{
-                    $error=$_FILES['files']['error'];
+                    $error=$_FILES['file']['error'];
                     $data["error"]="$error <button id='close1' type='button' class='btn-close btn-close-white' data-bs-dismiss='alert' aria-label='Close'></button>";
                     $data["success"]=false;
                     echo json_encode($data);
