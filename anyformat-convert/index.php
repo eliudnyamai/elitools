@@ -74,6 +74,8 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
                   </div>
                 </div>
 </form>
+<a href="/blog/all-image-formats-and-their-file-samples/" target="_blank" rel="noopener noreferrer">>>Access Image Samples To Test<<</a>
+
 </div>
 </div>
 
