@@ -81,6 +81,12 @@ echo '  <!-- ======= Sidebar ======= -->
       </span>
     </a>
   </li>
+  <li class="nav-item">
+  <a class="nav-link " href="/bulk-email-verifier/">
+    <i class="bi bi-envelope"></i>
+    <span>Verify Single Email</span>
+  </a>
+</li>
     <li class="nav-item">
       <a class="nav-link " href="https://www.aweber.com/easy-email.htm?id=544297">
         <i class="bi bi-envelope"></i>

@@ -98,6 +98,8 @@ require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
               $client = new Client(array( 'curl' => array( CURLOPT_SSL_VERIFYPEER => false, ), ));
                 $response = $client->get('https://api.eva.pingutil.com/email?email=' . urlencode($email));
                 $result = json_decode($response->getBody(), true);
+               
+                $email=$result['data']['email_address'];
                 $verificationStatus = $result['data']['deliverable'] == 'true' ? 'verified' : 'undeliverable';
                 $spam = $result['data']['spam'] == 'true' ? 'True' : 'False';
                 $webmail = $result['data']['webmail'] == 'true' ? 'True' : 'False';
@@ -109,6 +111,10 @@ require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
                 echo "<table class='w-50 mx-auto table table-striped'>
                 <h4 class='text-success text-center' >Results Are Ready</h4>
                 <tbody>
+                <tr>
+                    <td>Email</td>
+                    <td>".$email."</td>
+                    </tr>
                   <tr>
                     <td>Verification Status</td>
                     <td>".$verificationStatus."</td>
