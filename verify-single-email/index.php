@@ -33,7 +33,7 @@ display_head('verify email Online','toolske, toolske.com, verify email');
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/">Toolske.com</a></li>
-          <li class="breadcrumb-item active">Verify emails</li>
+          <li class="breadcrumb-item active">Verify email</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -48,7 +48,7 @@ display_head('verify email Online','toolske, toolske.com, verify email');
             <div class="advert">
 
             </div>
-           <h2>Upload A CSV With Emails To Verify</h2> <br>
+           <h2>Single Email Verifier</h2> <br>
 <div class="row">
             <div class="card-body col-md-6">
               <h5 class="card-title">Provide Your Email</h5>
@@ -165,68 +165,30 @@ require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
  </div>
 </div>
 
-            <div class="card-body">
-              <h5 class="animated  card-title">How to verify emails online in bulk - 3 easy steps </h5>
-              <div class="row align-items-top">
-                  <div class="col-12 col-md-4">
-                  <!-- Card with an image on bottom -->
-                  <div class="">
-                  <img src="assets/img/one.png" class="card-img-bottom" alt="...">
-                    <h5 class="card-title text-center">Upload CSV file</h5>
-                  </div><!-- End Card with an image on bottom -->
-                  </div>
-                  <div class="col-12 col-md-4">
-                       <!-- Card with an image on bottom -->
-                  <div class="">
-                  <img src="assets/img/two.png" class="card-img-bottom" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Click verify emails</h5>
-                  </div>
-                  </div><!-- End Card with an image on bottom -->
-                  </div>
-                  <div class="col-12 col-md-4">
-                   <!-- Card with an image on bottom -->
-                   <div class="">
-                  <img src="assets/img/three.png" class="card-img-bottom" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center ">Download CSV report</h5>
-                  </div>
-                  </div><!-- End Card with an image on bottom -->
-                  </div>
-              </div>
-            </div>
-          </div><!-- End Default Card -->     
+           
+                 
+                   
            <!-- Accordion without outline borders -->
  <h3 class="text-center my-5" >Frequently Asked Questions</h3>
  <div class="accordion accordion-flush mb-5 mx-auto" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h5 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      What Is The Toolske Bulk Email Verifier Tool?
+                      What Is The Toolske  Email Verifier Tool?
                     </button>
                   </h5>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">This bulk email verifier will help you check if an email is deliverable online. You only upload a csv file and wait. Then you download the verified emails report as a CSV</div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      Is There a specific format for the uploaded CSV?
-                    </button>
-                  </h5>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">No, there is no specific format. As long as your CSV has an email somewhere the tool will look for it and verify it</div>
+                    <div class="accordion-body">This email verifier will help you check if an email is deliverable online.</div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h5 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Is The Bulk Email Verifier tool free
+                      Is The Email Verifier tool free
                     </button>
                   </h5>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Yes, The bulk email verifier tool is 100% free</div>
+                    <div class="accordion-body">Yes, The email verifier tool is 100% free</div>
                   </div>
                 </div>
               </div><!-- End Accordion without outline borders -->
@@ -237,7 +199,6 @@ require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
           </div>
           <div>
         </div>
-        <p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->
        </div>
       </div><!-- End Left side columns -->
