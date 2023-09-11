@@ -47,7 +47,7 @@
                     file_put_contents("$desired_dir/$filenameminusextension.$image_format",$image);     
                     unlink("$desired_dir/$file_name"); 
                     $data["success"]=true;
-                    $data["message"]="<a href='php/uploads/$desired_dir/$filenameminusextension.$image_format'  download><button  id='download-btn' class='btn btn-primary'>Download Your Image</button></a>";
+                    $data["message"]="<a href='php/$desired_dir/$filenameminusextension.$image_format'  download><button  id='download-btn' class='btn btn-primary'>Download Your Image</button></a>";
                     echo json_encode($data);
                     exit();
                 }
