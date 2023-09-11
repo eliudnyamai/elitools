@@ -48,7 +48,7 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
             <div class="advert">
 
             </div>
-           <h2>Upload A CSV With Emails To Verify</h2> <br>
+           <h2>Upload A CSV With Emails To Verify <small class="text-muted"><a href="/verify-single-email" target="_blank" rel="noopener noreferrer"> or Test With A Single Email</a></small></h2> <br>
 <div class="row">
             <div class="card-body col-md-6">
               <h5 class="card-title">Upload Your CSV <span>As long as the csv has an email somewhere the email will be verified</span></h5>
