@@ -107,7 +107,7 @@ require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
                 $disposable = $result['data']['disposable'] == 'true' ? 'True' : 'False';
                 $webmail = $result['data']['webmail'] == 'true' ? 'True' : 'False';
                 echo "<table class='w-50 mx-auto table table-striped'>
-                <h4 class='text-success text-center' >Result Are Ready</h4>
+                <h4 class='text-success text-center' >Results Are Ready</h4>
                 <tbody>
                   <tr>
                     <td>Verification Status</td>
@@ -138,10 +138,13 @@ require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
                     <td>".$disposable."</t
                   </tr>
                 </tbody>
-              </table>>";
+              </table>";
             }
         }
 ?>
+</div>
+<div class="text-center">
+  <a href="/bulk-email-verifier" target="_blank" rel="noopener noreferrer">Try Out The Bulk Email Verifier</a>
 </div>
 <div class=" col-12 mt-3">
 <div class="ad-big ">

@@ -75,8 +75,6 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
 <img style="width:50px" src="assets/img/pointupindex.gif" alt="" srcset=""><br>
   As You Wait Check Out Affiliate offer. Opens In A New Page.
 </div>
-
-
 </div>
 <h4 class="text-success text-center" id="e"></h4>
 <div class="card">
