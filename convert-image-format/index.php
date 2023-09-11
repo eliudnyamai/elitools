@@ -46,7 +46,7 @@ display_head('Convert image to any format for free','toolske, toolske.com, Conve
             <div class="advert">
 
             </div>
-           <h2>Upload your image to Convert</h2> <br>
+           <h2>Upload your image to Convert <small class="text-muted"><a href="/anyformat-convert">Or Convert In Bulk</a></small></h2> <br>
 <div class="row">
             <div class="card-body col-md-6">
               <h5 class="card-title">Upload Your Image to Convert </h5>
