@@ -27,6 +27,12 @@ echo '  <!-- ======= Sidebar ======= -->
         <span>Convert Images</span>
       </a>
     </li>
+    <li class="nav-item">
+    <a class="nav-link " href="/convert-image-format/">
+      <i class="bi bi-image"></i>
+      <span>Convert Single Image</span>
+    </a>
+  </li>
 
     <li class="nav-item">
     <a class="nav-link " href="/bulk-resize-images/">
