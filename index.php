@@ -153,6 +153,14 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
 
           <div class="card col-lg-4 ">
             <div class="card-body">
+              <h5 class="card-title animated">Convert Single Image Format</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Convert Image</h6>
+              <p class="card-text">Convert an image to various formats for free online. Eg png to jpg, png to bmp, tiff to png etc.</p>
+              <p class="card-text"><a href="/convert-image-format" class="btn btn-primary" disabled>Convert Single Image!!</a></p>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+          <div class="card col-lg-4 ">
+            <div class="card-body">
               <h5 class="card-title animated">Any format converter</h5>
               <h6 class="card-subtitle mb-2 text-muted">Convert Images</h6>
               <p class="card-text">Convert images to various formats for free online. Eg png to jpg, png to bmp, tiff to png etc.</p>
@@ -179,7 +187,15 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
               <p class="card-text"><a href="/bulk-grayscale-images" class="btn btn-primary" disabled>Bulk Grayscale</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-
+<!-- Card with titles, buttons, and links -->
+<div class="card col-lg-4 ">
+            <div class="card-body">
+              <h5 class="card-title animated">Compress Single Image</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Compress Image Online</h6>
+              <p class="card-text">Compress a PNG, JPG, WEBP, AVIF, TIFF and WBMP files online for free</p>
+              <p class="card-text"><a href="/compress-single-image" class="btn btn-primary" disabled>Compress Single Image</a></p>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
            <!-- Card with titles, buttons, and links -->
            <div class="card col-lg-4 ">
             <div class="card-body">
@@ -187,6 +203,15 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
               <h6 class="card-subtitle mb-2 text-muted">Compress Images Online</h6>
               <p class="card-text">Bulk Compress PNG, JPG, WEBP, AVIF, TIFF and WBMP files online for free</p>
               <p class="card-text"><a href="/bulk-compress-images" class="btn btn-primary" disabled>Compress Images</a></p>
+            </div>
+          </div><!-- End Card with titles, buttons, and links -->
+                 <!-- Card with titles, buttons, and links -->
+                 <div class="card col-lg-4 ">
+            <div class="card-body">
+              <h5 class="card-title animated">Single Email Verifier</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Verify an Email  Online</h6>
+              <p class="card-text">Verify an email online for free</p>
+              <p class="card-text"><a href="/verify-single-email" class="btn btn-primary" disabled>Verify Single Email</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
            <!-- Card with titles, buttons, and links -->
