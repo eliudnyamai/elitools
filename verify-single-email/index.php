@@ -21,7 +21,7 @@ $user=$_SESSION['user'];
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, verify emails in bulk online');
+display_head('verify email Online','toolske, toolske.com, verify email');
 ?>
 <body>
    <?php include '../includes/header.php';?>
