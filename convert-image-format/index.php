@@ -20,18 +20,18 @@ $_SESSION['user']=generateRandomString();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Convert images to any format for free','toolske, toolske.com, Convert images in bulk, convert  any image to png in bulk, convert any image to png in bulk,  convert any image to webp, convert any image to wbmp in bulk');
+display_head('Convert image to any format for free','toolske, toolske.com, Convert image  , convert  any image to png  , convert any image to png  ,  convert any image to webp, convert any image to wbmp in bulk');
 ?>
 <body>
    <?php include '../includes/header.php';?>
    <?php include '../includes/sidebar.php';?>
   <main id="main" class="main">
     <div class="pagetitle">
-      <h1>Convert Image Formats</h1>
+      <h1>Convert Single Image Format</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/">Toolske.com</a></li>
-          <li class="breadcrumb-item active">Convert Image Formats</li>
+          <li class="breadcrumb-item active">Convert Image Format</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -46,10 +46,10 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
             <div class="advert">
 
             </div>
-           <h2>Upload your Images to Convert</h2> <br>
+           <h2>Upload your image to Convert</h2> <br>
 <div class="row">
             <div class="card-body col-md-6">
-              <h5 class="card-title">Upload Your Images to Convert </h5>
+              <h5 class="card-title">Upload Your Image to Convert </h5>
               <form id="uploadForm" action="php/upload.php" method="post" enctype="multipart/form-data">
                 <div class="row mb-3">
                   <div class="">
@@ -78,12 +78,12 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
 </div>
 
 <div id="" class="col-md-6">
-  <h5 class="card-title" >The zip with your files will appear here <span>If you upload too many files or files with a big bundle size, it will take longer. Please wait</span></h5>
+  <h5 class="card-title" >The Download Will Appear Here</h5>
   <div id="zip">
 
 </div>
    <div id="zip-success" class="alert mt-3 alert-success bg-success text-light border-0 alert-dismissible fade show" role="alert">
-                Your zip is ready for download. close this to start afresh
+                Your Image is ready for download. close this to start afresh
                 <div class=" social-links mt-2">
   Liked It? Check Our Online Profiles
                 <a href="https://twitter.com/Toolskecom" target="_blank" class="text-white"><i class="bi bi-twitter"></i>Twitter |</a>
@@ -108,13 +108,13 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
 </div>
 </div>
             <div class="card-body">
-              <h5 class="animated  card-title">How to Convert Images to Any Format in bulk - 4 easy steps </h5>
+              <h5 class="animated  card-title">How to Convert image to Any Format 4 easy steps </h5>
               <div class="row align-items-top">
                   <div class="col-12 col-md-3">
                   <!-- Card with an image on bottom -->
                   <div class="">
                   <img src="assets/img/one.png" class="card-img-bottom" alt="...">
-                    <h5 class="card-title text-center">Choose files</h5>
+                    <h5 class="card-title text-center">Choose file</h5>
                   </div><!-- End Card with an image on bottom -->
                   </div>
                   <div class="col-12 col-md-3">
@@ -140,7 +140,7 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
                   <div class="">
                   <img src="assets/img/four.png" class="card-img-bottom" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title text-center">Download Zip</h5>
+                    <h5 class="card-title text-center">Download Image</h5>
                   </div>
                   </div><!-- End Card with an image on bottom -->
                   </div>
@@ -152,53 +152,53 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
                 <!-- Card with titles, buttons, and links -->
           <div class="card container  col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert images to PNG</h5>
-              <h6 class="card-subtitle mb-2 text-muted">images to PNG</h6>
-              <p class="card-text">Convert all types of images to PNG in bulk</p>
+              <h5 class="card-title animated">Convert image to PNG</h5>
+              <h6 class="card-subtitle mb-2 text-muted">image to PNG</h6>
+              <p class="card-text">Convert all types of images to PNG </p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
            
                 <!-- Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert images to AVIF</h5>
-              <h6 class="card-subtitle mb-2 text-muted">images to AVIF</h6>
-              <p class="card-text">Convert all types of images to AVIF in bulk</p>
+              <h5 class="card-title animated">Convert image to AVIF</h5>
+              <h6 class="card-subtitle mb-2 text-muted">image to AVIF</h6>
+              <p class="card-text">Convert all types of images to AVIF </p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
                 <!-- Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert images to webp</h5>
-              <h6 class="card-subtitle mb-2 text-muted">images to Webp</h6>
-              <p class="card-text">Convert all types of images to webp in bulk</p>
+              <h5 class="card-title animated">Convert image to webp</h5>
+              <h6 class="card-subtitle mb-2 text-muted">image to Webp</h6>
+              <p class="card-text">Convert all types of images to webp </p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
                <!-- Card with titles, buttons, and links -->
                <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert images to wbmp</h5>
-              <h6 class="card-subtitle mb-2 text-muted">images to Wbmp</h6>
-              <p class="card-text">Convert all types of images to wbmp in bulk</p>
+              <h5 class="card-title animated">Convert image to wbmp</h5>
+              <h6 class="card-subtitle mb-2 text-muted">image to Wbmp</h6>
+              <p class="card-text">Convert all types of images to wbmp </p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
                <!-- Card with titles, buttons, and links -->
                <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert images to jpg</h5>
-              <h6 class="card-subtitle mb-2 text-muted">images to jpg</h6>
-              <p class="card-text">Convert all types of images to jpg IN BULK</p>
+              <h5 class="card-title animated">Convert image to jpg</h5>
+              <h6 class="card-subtitle mb-2 text-muted">image to jpg</h6>
+              <p class="card-text">Convert all types of images to jpg </p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 
                <!-- Card with titles, buttons, and links -->
                <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Convert images to tiff</h5>
-              <h6 class="card-subtitle mb-2 text-muted">images to tiff</h6>
-              <p class="card-text">Convert all types of images to tiff in bulk</p>
+              <h5 class="card-title animated">Convert image to tiff</h5>
+              <h6 class="card-subtitle mb-2 text-muted">image to tiff</h6>
+              <p class="card-text">Convert all types of images to tiff  </p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
           
