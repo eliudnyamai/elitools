@@ -108,7 +108,7 @@ display_head('Convert image to any format for free','toolske, toolske.com, Conve
 </div>
 </div>
             <div class="card-body">
-              <h5 class="animated  card-title">How to Convert an image to Any Format 4 easy steps </h5>
+              <h5 class="animated  card-title">How to Convert an image to Any Format - 4 easy steps </h5>
               <div class="row align-items-top">
                   <div class="col-12 col-md-3">
                   <!-- Card with an image on bottom -->
