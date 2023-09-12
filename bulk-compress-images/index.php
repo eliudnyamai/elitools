@@ -49,7 +49,7 @@ display_head('Bulk compress Images Online','toolske, toolske.com, batch compress
            <h2>Upload your Images to compress</h2> <br>
 <div class="row">
             <div class="card-body col-md-6">
-              <h5 class="card-title">Upload Your Images to compress <small class="text-muted"><a href="/compress-single-image">>>Convert A Single Image Instead<<</a></small> </h5>
+              <h5 class="card-title">Upload Your Images to compress <small class="text-muted"><a href="/compress-single-image">>>Compress A Single Image Instead<<</a></small> </h5>
               <form id="uploadForm" action="php/upload.php" method="post" enctype="multipart/form-data">
                 <div class="row mb-3">
                   <div class="">
