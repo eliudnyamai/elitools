@@ -88,7 +88,7 @@ echo '  <!-- ======= Sidebar ======= -->
     </a>
   </li>
   <li class="nav-item">
-  <a class="nav-link " href="/bulk-email-verifier/">
+  <a class="nav-link " href="/verify-single-email/">
     <i class="bi bi-envelope"></i>
     <span>Verify Single Email</span>
   </a>

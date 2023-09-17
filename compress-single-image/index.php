@@ -27,11 +27,11 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
    <?php include '../includes/sidebar.php';?>
   <main id="main" class="main">
     <div class="pagetitle">
-      <h1>compress Images</h1>
+      <h1>compress Image</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/">Toolske.com</a></li>
-          <li class="breadcrumb-item active">compress Images</li>
+          <li class="breadcrumb-item active">compress Image</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
