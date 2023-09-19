@@ -43,7 +43,7 @@ if (isset($_FILES['file'])) {
    
     if (move_uploaded_file($file_tmp, $desired_dir.$file_name)) {
          $before=filesize($desired_dir."".$file_name);
-      $compressed_image_name = $desired_dir."compressed_".$file_name;
+      $compressed_image_name = $desired_dir."grayscaled_".$file_name;
       $image = new \Imagick(realpath($desired_dir.$file_name));
       $image->setImageType(\Imagick::IMGTYPE_GRAYSCALE);
         file_put_contents($compressed_image_name,$image);   
@@ -52,7 +52,7 @@ if (isset($_FILES['file'])) {
       $data["a"] = $after;
       $data["b"] = $before;
         $data["success"] = true;
-        $data["message"] = "<h3 class='text-success'>$file_name Compressed Successfully!!.Bundle Size Reduced BY: $percentageReduction%</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Compressed Image</button></a> </br><a target='_blank'  href='/anyformat-convert/'> >>Convert Image Format Here<<</a></small>";
+        $data["message"] = "<h3 class='text-success'>$file_name Grayscaled Successfully!!</h3> </br> <a href='php/$compressed_image_name'  download><button  id='download-btn' class='btn btn-primary'>Download Grayscaled Image</button></a> </br><a target='_blank'  href='/bulk-grayscale-images/'> >>Grayscale In Bulk Here<<</a></small>";
       } else {
         $error = $_FILES['file']['error'];
         $data["error"] = "$error <button id='close' type='button' class='bg-danger text-white'  aria-label='Close'>Try Again</button>";
