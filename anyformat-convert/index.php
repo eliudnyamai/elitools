@@ -43,9 +43,9 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
             <!-- Tool -->
             <div class="col-12">       
         <div class="row tool">
-            <div class="advert">
-
-            </div>
+        <div>
+              <a href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
+              </div>
            <h2>Upload your Images to Convert <small><a href="/convert-image-format">Or Convert Only A Single Image</a></small></h2> <br>
 <div class="row">
             <div class="card-body col-md-6">
@@ -74,7 +74,7 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
                   </div>
                 </div>
 </form>
-<a href="/blog/all-image-formats-and-their-file-samples/" target="_blank" rel="noopener noreferrer">>>Access Image Samples To Test<<</a>
+<a href="/blog/all-image-formats-and-their-file-samples/" target="_blank" >>>Access Image Samples To Test<<</a>
 
 </div>
 </div>

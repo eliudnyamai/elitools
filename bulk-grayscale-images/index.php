@@ -43,9 +43,9 @@ display_head('Bulk Grayscale Images Online','toolske, toolske.com, grayscale mul
             <!-- Tool -->
             <div class="col-12">       
         <div class="row tool">
-            <div class="advert">
-
-            </div>
+        <div>
+              <a href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
+              </div>
            <h2>Upload your Images to convert to Grayscale</h2> <br>
 <div class="row">
             <div class="card-body col-md-6">

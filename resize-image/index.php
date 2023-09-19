@@ -49,6 +49,9 @@ display_head('Resize Image For Free Online','toolske, toolske.com, picture resiz
             <div class="advert">
 
             </div>
+            <div>
+              <a href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
+              </div>
           <div style="min-height:200px;" class="col-md-12">
 
            <h2>Upload your Image to resize</h2> <br>
@@ -234,16 +237,7 @@ display_head('Resize Image For Free Online','toolske, toolske.com, picture resiz
                     </div>
           
            </div>   
-           <div class="ad-big">
-           <div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1234368.25&subid=0&type=4"><IMG border="0"   alt="Quizplus for an A+" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1234368.25&subid=0&type=4&gridnum=0"></a>
-</div>
-</div>
-<div class="ad-small">
-<div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4"><IMG border="0" alt="Quizplus for an A&#43;" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1234368.6&bids=1234368.6&subid=0&type=4&gridnum=14"></a>
-</div>
-</div> 
+
           </div>
           <div>
           <h2>How To Resize Images Online For Free-No Sign Up Needed</h2>
