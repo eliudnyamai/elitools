@@ -55,7 +55,7 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
             <div class="card-body">
               <h5 class="animated  card-title">Welcome To Toolske.com!!</h5>
               <div>
-              <a href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
+              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
               </div>
               <div class="row align-items-top">
                   <div class="col-3">

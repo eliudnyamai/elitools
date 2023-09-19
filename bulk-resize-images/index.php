@@ -44,7 +44,7 @@ display_head('resize images in bulk free','bulk resize images','toolske', 'tools
             <div class="col-12">       
         <div class="row tool">
         <div>
-              <a href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
+              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
               </div>
            <h2>Upload your Images to resize</h2> <br>
 <div class="row">
