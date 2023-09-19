@@ -92,6 +92,9 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
               </div>
             </div>
           </div><!-- End Default Card -->
+          <div class="text-center mb-5">
+          <a href="https://www.producthunt.com/posts/toolske-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-toolske&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=414226&theme=light" alt="toolske - A&#0032;collection&#0032;of&#0032;free&#0032;online&#0032;tools | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+          </div>
           <div class="row mx-auto align-items-top">
  <!-- Card with titles, buttons, and links -->
    <div class="card container shadow-none bg-transparent col-lg-4 ">
@@ -236,7 +239,6 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
             <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002268&bids=1160033.10002268&subid=0&type=4"><IMG border="0" alt="Microsoft Surface Book 3" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002268&bids=1160033.10002268&subid=0&type=4&gridnum=13"></a>           
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-    
 
               <div class=" p-3 d-flex justify-content-between flex-lg-row-reverse container-fluid blog-cto">
               <button class="breathing-button" class="floatleft"><a href="https://toolske.com/blog/">VISIT BLOG</a></button>
