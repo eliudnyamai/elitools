@@ -33,7 +33,7 @@ display_head('text to sql online free','toolske, text2sql, toolske.com, Convert 
             <br>
             <div class="ad-big">
 <div style="text-align:center;">
-<a href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
+<a  onclick="return gtag_report_conversion('https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1')" href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
 <img style="width:100%" src="assets/img/Desktop.png" alt="" srcset="">
 </a>
 </div>
