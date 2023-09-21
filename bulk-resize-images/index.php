@@ -44,8 +44,10 @@ display_head('resize images in bulk free','bulk resize images','toolske', 'tools
             <div class="col-12">    
             <div class="row my-5">
                 <div class="col-md-6 border border-info border-2 rounded-start">
-                    <p><Strong>Bulk Resize Images:</strong> Our Bulk Image resizer simplifies the process of resizing image dimensions.</p> <p>Follow these three steps: Choose files, resize, and download. </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
+                    <p><Strong>Bulk Resize Images:</strong> Our Bulk Image resizer simplifies the process of resizing image dimensions.</p> <p>Follow these three steps: Choose files, resize, and download. </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.       
+                           </div>
                 <div class="col-md-6">
+                With this tool, you can effortlessly adjust the dimensions of multiple images, ensuring they fit perfectly into your website, presentations, or any other project. Whether you have a batch of images that need resizing for consistency or to meet specific size requirements, our Bulk Resize Images tool streamlines the process, allowing you to quickly and easily obtain resized images without compromising their quality.
                 </div>   
 </div>
         <div class="row tool">
