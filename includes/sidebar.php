@@ -24,7 +24,7 @@ echo '  <!-- ======= Sidebar ======= -->
     <li class="nav-item">
       <a class="nav-link " href="/bulk-convert-images/">
         <i class="bi bi-image"></i>
-        <span>Bulk onvert Images</span>
+        <span>Bulk Convert Images</span>
       </a>
     </li>
     <li class="nav-item">
