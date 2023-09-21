@@ -41,9 +41,17 @@ display_head('Bulk compress Images Online','toolske, toolske.com, batch compress
         <div class="col-lg-12">
           <div class="row">
             <!-- Tool -->
-            <div class="col-12">       
+            <div class="col-12">  
+              <div class="row my-5">
+                <div class="col-md-6 border border-info border-2 rounded-start">
+                    <p><Strong>Bulk Compress Images:</strong> Our Bulk Image Compressor simplifies the process of reducing image file sizes efficiently.</p> <p>Follow these three steps: Choose files, compress, and download. </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
+                <div class="col-md-6">
+                  
+                </div>
+              </div>     
         <div class="row tool">
-        <div>
+      
+        <div class="my-5">
               <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
               </div>
            <h2>Upload your Images to compress</h2> <br>

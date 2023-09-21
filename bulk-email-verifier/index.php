@@ -43,7 +43,14 @@ display_head('Bulk verify emails Online','toolske, toolske.com, verify emails, v
         <div class="col-lg-12">
           <div class="row">
             <!-- Tool -->
-            <div class="col-12">       
+            <div class="col-12"> 
+            <div class="row my-5">
+                <div class="col-md-6 border border-info border-2 rounded-start">
+                    <p><Strong>Bulk email verifier:</strong>  Our Bulk Email Verifier simplifies the task of cleaning and validating email lists in a swift and efficient manner. </p> <p>Follow these three steps: <strong> Upload</strong>s your email list,<strong> verify</strong>, and <strong>download </strong>the cleaned list.</p></div>
+                <div class="col-md-6">
+                With this tool, you can ensure the accuracy and deliverability of your email campaigns. Eliminate invalid or non-existent email addresses from your list, reducing bounce rates and improving your email marketing success.
+                </div>   
+</div>       
         <div class="row tool">
             <div class="advert">
 

@@ -41,9 +41,15 @@ display_head('resize images in bulk free','bulk resize images','toolske', 'tools
         <div class="col-lg-12">
           <div class="row">
             <!-- Tool -->
-            <div class="col-12">       
+            <div class="col-12">    
+            <div class="row my-5">
+                <div class="col-md-6 border border-info border-2 rounded-start">
+                    <p><Strong>Bulk Resize Images:</strong> Our Bulk Image resizer simplifies the process of resizing image dimensions.</p> <p>Follow these three steps: Choose files, resize, and download. </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
+                <div class="col-md-6">
+                </div>   
+</div>
         <div class="row tool">
-        <div>
+        <div class="my-5">
               <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
               </div>
            <h2>Upload your Images to resize</h2> <br>
