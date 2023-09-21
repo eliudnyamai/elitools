@@ -167,10 +167,10 @@ display_head('Free Online Tools','toolske, toolske.com, Resize an image online f
           </div><!-- End Card with titles, buttons, and links -->
           <div class="card col-lg-4 ">
             <div class="card-body">
-              <h5 class="card-title animated">Any format converter</h5>
+              <h5 class="card-title animated">Bulk Convert Images</h5>
               <h6 class="card-subtitle mb-2 text-muted">Convert Images</h6>
               <p class="card-text">Convert images to various formats for free online. Eg png to jpg, png to bmp, tiff to png etc.</p>
-              <p class="card-text"><a href="/anyformat-convert" class="btn btn-primary" disabled>Convert Now!!</a></p>
+              <p class="card-text"><a href="/bulk-convert-images" class="btn btn-primary" disabled>Convert Now!!</a></p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
 

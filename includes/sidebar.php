@@ -22,9 +22,9 @@ echo '  <!-- ======= Sidebar ======= -->
     </li>
     
     <li class="nav-item">
-      <a class="nav-link " href="/anyformat-convert/">
+      <a class="nav-link " href="/bulk-convert-images/">
         <i class="bi bi-image"></i>
-        <span>Convert Images</span>
+        <span>Bulk onvert Images</span>
       </a>
     </li>
     <li class="nav-item">
