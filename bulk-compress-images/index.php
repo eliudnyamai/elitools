@@ -52,7 +52,7 @@ display_head('Bulk compress Images Online','toolske, toolske.com, batch compress
         <div class="row tool">
       
         <div class="my-5">
-              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
+              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - optimized - dark.jpg" /></a>
               </div>
            <h2>Upload your Images to compress</h2> <br>
 <div class="row">

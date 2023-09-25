@@ -51,7 +51,7 @@ display_head('Bulk Grayscale Images Online','toolske, toolske.com, grayscale mul
 </div>     
         <div class="row tool">
         <div class="my-5">
-              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
+              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - migrations - light.png" /></a>
               </div>
            <h2>Upload your Images to convert to Grayscale <small class="text-muted"><a href="/grayscale-single-image">Or Grayscale Single Image</a></small></h2>  <br>
 <div class="row">
