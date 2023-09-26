@@ -63,9 +63,9 @@ display_head('grayscale Image For Free Online','toolske, toolske.com, picture gr
             </div>
           <div style="min-height:200px;" class="col-md-12">
 <div class="ad-big">
-           <div style="text-align:center;">
-           <a href="https://crst.co/ELIUDMIT" target="_blank"><img style="width:90%; align:center" src="assets/img/careerist-banner2.jfif" alt="" srcset=""></a>
-</div>
+<div>
+              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - secure - dark.jpg" /></a>
+              </div>
 </div>
 <div class="ad-small">
 <div style="text-align:center;">
