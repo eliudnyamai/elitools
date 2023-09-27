@@ -215,6 +215,8 @@ $file = fopen($filePath, 'r');
     $x++; 
     }
  }?>
+   <a style="text-align:center" target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=eliudmitau@gmail.com&su=Feedback&body="><strong>Give Feedback</strong></a>
+
 </div>
 <div class=" col-12 mt-3">
 <div class="ad-big ">

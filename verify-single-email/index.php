@@ -93,14 +93,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   else{
     exit();
   }
+
+
+ 
+
 require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
+$client = new \GuzzleHttp\Client();
+
+
+
+
             if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
               $client = new Client(array( 'curl' => array( CURLOPT_SSL_VERIFYPEER => false, ), ));
                 $response = $client->get('https://api.eva.pingutil.com/email?email=' . urlencode($email));
                 $result = json_decode($response->getBody(), true);
                
                 $email=$result['data']['email_address'];
-                $verificationStatus = $result['data']['deliverable'] == 'true' ? 'verified' : 'undeliverable';
+                $verificationStatus = $result['data']['deliverable'] == 'true' ? 'verified' : 'Unverified';
                 $spam = $result['data']['spam'] == 'true' ? 'True' : 'False';
                 $webmail = $result['data']['webmail'] == 'true' ? 'True' : 'False';
                 $catchall = $result['data']['catch_all'] == 'true' ? 'True' : 'False';
@@ -150,7 +159,9 @@ require '../vendor/autoload.php'; // Assuming Guzzle is installed via Composer
 ?>
 </div>
 <div class="text-center">
-  <a href="/bulk-email-verifier" target="_blank" rel="noopener noreferrer">Try Out The Bulk Email Verifier</a>
+  <a href="/bulk-email-verifier" target="_blank">Try Out The Bulk Email Verifier</a>
+  <br>
+  <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=eliudmitau@gmail.com&su=Feedback&body=">Give Feedback</a>
 </div>
 <div class=" col-12 mt-3">
 <div class="ad-big ">
