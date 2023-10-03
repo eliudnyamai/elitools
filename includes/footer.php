@@ -82,5 +82,7 @@ gtag("config", "G-BVTQJVB94K");
 	<script type="text/javascript"
 	src="//www.googleadservices.com/pagead/conversion_async.js">
 	</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3457332264604722"
+     crossorigin="anonymous"></script>
   ';
 ?>
