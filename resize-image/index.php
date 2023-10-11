@@ -54,7 +54,7 @@ display_head('Resize Image For Free Online','toolske, toolske.com, picture resiz
               </div>
           <div style="min-height:200px;" class="col-md-12">
 
-           <h2>Upload your Image to resize</h2> <br>
+           <h2>Upload your Image to resize<small class="small"><a href="/blog/how-to-resize-an-image-to-postcard-sizes/" target="_blank" > [Read This guide on Postcards]</a></small></h2> <br>
 
 
            <!-- <form id="upload-form" action="php/upload.php" enctype="multipart/form-data" method="post">
