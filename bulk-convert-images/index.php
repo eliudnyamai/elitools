@@ -39,13 +39,7 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
     <section class="section dashboard">
         <!-- Left side columns -->
         <div class="col-lg-12">
-        <div class="row my-5">
-                <div class="col-md-6 border border-info border-2 rounded-start">
-                    <p><Strong>Bulk Convert Images:</strong> Our Bulk Image Format Converter simplifies the task of converting image formats quickly and conveniently.</p> <p>Follow these three steps: Choose files, convert, and download.  </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
-                <div class="col-md-6">
-                With this tool, you can seamlessly transform your images into different formats, ensuring compatibility across various platforms and applications. Whether you need to convert a batch of images for a website, presentation, or any other project, this tool streamlines the process, making it hassle-free and efficient.
-                </div>
-</div>
+      
           <div class="row">
             <!-- Tool -->
             <div class="col-12">       
@@ -105,6 +99,13 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
       <div id="zip-fail" class="alert mt-3 alert-danger bg-danger text-light border-0 alert-dismissible fade show" role="alert">
                 
       </div>
+</div>
+<div class="row my-5">
+                <div class="col-md-6 border border-info border-2 rounded-start">
+                    <p><Strong>Bulk Convert Images:</strong> Our Bulk Image Format Converter simplifies the task of converting image formats quickly and conveniently.</p> <p>Follow these three steps: Choose files, convert, and download.  </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
+                <div class="col-md-6">
+                With this tool, you can seamlessly transform your images into different formats, ensuring compatibility across various platforms and applications. Whether you need to convert a batch of images for a website, presentation, or any other project, this tool streamlines the process, making it hassle-free and efficient.
+                </div>
 </div>
 <div class=" col-12 mt-3">
   <div class="ad-big  ">

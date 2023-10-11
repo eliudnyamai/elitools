@@ -42,13 +42,7 @@ display_head('Bulk compress Images Online','toolske, toolske.com, batch compress
           <div class="row">
             <!-- Tool -->
             <div class="col-12">  
-              <div class="row my-5">
-                <div class="col-md-6 border border-info border-2 rounded-start">
-                    <p><Strong>Bulk Compress Images:</strong> Our Bulk Image Compressor simplifies the process of reducing image file sizes efficiently.</p> <p>Follow these three steps: Choose files, compress, and download. </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
-                <div class="col-md-6">
-                With this tool, you can effortlessly decrease the size of multiple images, making them ideal for web use or conserving storage space. Whether you have a large batch of images for your website, blog, or personal collection, our Bulk Images Compressor simplifies the compression process, ensuring your images load quickly and efficiently without sacrificing quality.
-                </div>
-              </div>     
+                
         <div class="row tool">
       
         <div class="my-5">
@@ -94,7 +88,13 @@ display_head('Bulk compress Images Online','toolske, toolske.com, batch compress
                 
       </div>
 </div>
-
+<div class="row my-5">
+                <div class="col-md-6 border border-info border-2 rounded-start">
+                    <p><Strong>Bulk Compress Images:</strong> Our Bulk Image Compressor simplifies the process of reducing image file sizes efficiently.</p> <p>Follow these three steps: Choose files, compress, and download. </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
+                <div class="col-md-6">
+                With this tool, you can effortlessly decrease the size of multiple images, making them ideal for web use or conserving storage space. Whether you have a large batch of images for your website, blog, or personal collection, our Bulk Images Compressor simplifies the compression process, ensuring your images load quickly and efficiently without sacrificing quality.
+                </div>
+              </div>  
             <div class="card-body">
             <div class="ad-big">
             <div style="text-align:center;">

@@ -42,13 +42,7 @@ display_head('Bulk Grayscale Images Online','toolske, toolske.com, grayscale mul
           <div class="row">
             <!-- Tool -->
             <div class="col-12">  
-            <div class="row my-5">
-                <div class="col-md-6 border border-info border-2 rounded-start">
-                    <p><Strong>Bulk Grayscale Images:</strong> Our Bulk Image grayscaler simplifies the process of converting images to black and white (grayscaling).</p> <p>Follow these three steps: Choose files, grayscale, and download. </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
-                <div class="col-md-6">
-                With this tool, you can easily turn batches of images into grayscale, ideal for artistic projects, vintage effects, or optimizing images for printing. Whether you have a collection of photos or graphics that you'd like to convert to grayscale, our Bulk Grayscale Images tool streamlines the process, allowing you to achieve the desired monochromatic effect with convenience and speed.
-                </div>   
-</div>     
+          
         <div class="row tool">
         <div class="my-5">
               <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - migrations - light.png" /></a>
@@ -93,6 +87,13 @@ display_head('Bulk Grayscale Images Online','toolske, toolske.com, grayscale mul
                 
       </div>
 </div>
+<div class="row my-5">
+                <div class="col-md-6 border border-info border-2 rounded-start">
+                    <p><Strong>Bulk Grayscale Images:</strong> Our Bulk Image grayscaler simplifies the process of converting images to black and white (grayscaling).</p> <p>Follow these three steps: Choose files, grayscale, and download. </p>Supported formats are PNG, AVIF, WebP, JPEG, and TIFF.                </div>
+                <div class="col-md-6">
+                With this tool, you can easily turn batches of images into grayscale, ideal for artistic projects, vintage effects, or optimizing images for printing. Whether you have a collection of photos or graphics that you'd like to convert to grayscale, our Bulk Grayscale Images tool streamlines the process, allowing you to achieve the desired monochromatic effect with convenience and speed.
+                </div>   
+</div>     
 <div class=" col-12 mt-3">
 <div class="ad-big  ">
   <div style="text-align:center;">
