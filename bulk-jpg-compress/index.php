@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('bulk image compressor','toolske, toolske.com, bulk image compressor, bulk image compressor online');
+display_head('bulk jpg compress','toolske, toolske.com, bulk jpg compress');
 ?>
 <body>
  <?php header('Location:../bulk-compress-images');?>
