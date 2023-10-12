@@ -1,26 +1,12 @@
 <?php
  session_start();
  include 'php/functions.php';
- if(isset($_SESSION['uploaded_file_path'])){
-      $uploaded_file=$_SESSION['uploaded_file_path'];
- }
- else{
-     $uploaded_file="placeholder.png";
- }
-
- if(isset($_SESSION['resized_img'])){
-     $resized_img=$_SESSION['resized_img'];
-    
-}
-else{
-    $resized_img="php/uploads/germany.png";
-}
 $_SESSION['user']=generateRandomString();
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Resize Image For Free Online','toolske, toolske.com, picture resizer, Resize your images online for free including resizing png images, resizing jpg images and resizing tiff images, no signup needed');
+display_head('text to sql online free','toolske, text2sql, toolske.com, Convert text to sql online for free, no signup needed');
 ?>
 <body>
    <?php include '../includes/header.php';?>
