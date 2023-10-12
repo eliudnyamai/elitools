@@ -64,7 +64,7 @@ display_head('grayscale Image For Free Online','toolske, toolske.com, picture gr
           <div style="min-height:200px;" class="col-md-12">
 <div class="ad-big">
 <div>
-              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - secure - dark.jpg" /></a>
+              <a target="_blank" href="https://kinsta.com/wordpress-hosting/?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - secure - dark.jpg" /></a>
               </div>
 </div>
 <div class="ad-small">

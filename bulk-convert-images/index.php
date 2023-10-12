@@ -45,7 +45,7 @@ display_head('Convert images to any format for free','toolske, toolske.com, Conv
             <div class="col-12">       
         <div class="row tool">
         <div class="my-5">
-              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - scalable - dark.jpg" /></a>
+              <a target="_blank" href="https://kinsta.com/docs/scale-application-resources/?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - scalable - dark.jpg" /></a>
               </div>
            <h2>Upload your Images to Convert <small><a href="/convert-image-format">Or Convert Only A Single Image</a></small></h2> <br>
 <div class="row">

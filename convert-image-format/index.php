@@ -44,7 +44,7 @@ display_head('Convert image to any format for free','toolske, toolske.com, Conve
             <div class="col-12">       
         <div class="row tool">
         <div>
-              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
+              <a target="_blank" href="https://kinsta.com/wordpress-hosting/?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - premium - dark.png" /></a>
               </div>
            <h2>Upload your image to Convert <small class="text-muted"><a href="/anyformat-convert">Or Convert In Bulk</a></small></h2> <br>
 <div class="row">

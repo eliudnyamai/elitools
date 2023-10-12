@@ -50,7 +50,7 @@ display_head('Resize Image For Free Online','toolske, toolske.com, picture resiz
 
             </div>
             <div>
-              <a target="_blank" href="https://kinsta.com?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 edge-caching.png" /></a>
+              <a target="_blank" href="https://kinsta.com/edge-caching/?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 edge-caching.png" /></a>
               </div>
           <div style="min-height:200px;" class="col-md-12">
 
