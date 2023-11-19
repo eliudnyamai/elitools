@@ -158,22 +158,14 @@ $client = new \GuzzleHttp\Client();
         }
 ?>
 </div>
-<div class="text-center">
-  <a href="/bulk-email-verifier" target="_blank">Try Out The Bulk Email Verifier</a>
+<div class="d-flex justify-content-around text-center">
+  <a href="/bulk-email-verifier" class="link-primary" target="_blank">Try Out The Bulk Email Verifier</a>
   <br>
-  <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=eliudmitau@gmail.com&su=Feedback&body=">Give Feedback</a>
+  <a target="_blank" class="link-primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=eliudmitau@gmail.com&su=Feedback&body=">Give Feedback</a>
 </div>
 <div class=" col-12 mt-3">
-<div class="ad-big ">
-<div style="text-align:center;">
-  <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002749&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002749&subid=0&type=4&gridnum=16"></a>
-  </div>
-</div>
-  <div class="ad-small">
-  <div style="text-align:center;">
 
-  <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a> 
- </div>
+  
 </div>
 
            

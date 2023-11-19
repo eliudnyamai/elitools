@@ -1753,3 +1753,6 @@ display: none;
 #aff{
   display: none;
 }
+a:hover{
+  text-decoration: underline;
+}

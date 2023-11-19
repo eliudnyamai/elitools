@@ -402,23 +402,13 @@ display_head('Resize Image For Free Online','toolske, toolske.com, picture resiz
               <p class="card-text">A free social media image resizer for Youtube</p>
             </div>
           </div><!-- End Card with titles, buttons, and links -->
-         <!-- Card with titles, buttons, and links -->
-<div class="card container bg-transparent shadow-none   col-lg-4 ">
-<div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4"><IMG border="0" alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>    
-  </div>
-</div><!-- End Card with titles, buttons, and links -->
+     
  
           
 
           
         
-           <!-- Card with titles, buttons, and links -->
-           <div class="card container bg-transparent shadow-none   col-lg-4 ">
-           <div style="text-align:center;">
-           <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1327140.14&bids=1327140.14&subid=0&type=4"><IMG border="0" alt="GAMIVO" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1327140.14&bids=1327140.14&subid=0&type=4&gridnum=13"></a>  
-          </div>
-          </div><!-- End Card with titles, buttons, and links -->
+         >
 
         </a><p><strong>All your uploads are deleted automatically after 24 hours. We do not keep them.</strong></p>
         </div><!-- End Reports -->

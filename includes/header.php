@@ -25,11 +25,7 @@ echo ' <!-- ======= Header ======= -->
         CHATGPT PLUGINS
       </a>
     </li>
-    <li class="nav-item px-2 ">
-    <a target="_blank" href="https://kinsta.com/?kaid=BNQBFXIKNLGZ" class="nav-link " >
-      HOSTING
-    </a>
-  </li>
+    
    
    
     </ul>

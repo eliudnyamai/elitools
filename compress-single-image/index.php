@@ -69,7 +69,7 @@ display_head('compress Image For Free Online','toolske, toolske.com, picture com
 </div>
 <div class="ad-small">
 <div style="text-align:center;">
-<a href="https://crst.co/ELIUDMIT" target="_blank"><img style="width:90%; align:center" src="assets/img/careerist-mobile.jpg" alt="" srcset=""></a>
+<a target="_blank" href="https://kinsta.com/wordpress-hosting/?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - secure - dark.jpg" /></a>
 </div>
 </div> <br>
            <h2 class="text-center">Upload Your Image To Compress<small class="text-muted"><a target="_blank"  href="/blog/all-image-formats-and-their-file-samples/"> >>Get File Samples To Test<<</a></small></h2> <br>

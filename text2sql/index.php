@@ -33,16 +33,13 @@ display_head('text to sql online free','toolske, text2sql, toolske.com, Convert 
             <br>
             <div class="ad-big">
 <div style="text-align:center;">
-<a  onclick="return gtag_report_conversion('https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1')" href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
-<img style="width:100%" src="assets/img/Desktop.png" alt="" srcset="">
-</a>
+<a target="_blank" href="https://kinsta.com/wordpress-hosting/?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - secure - dark.jpg" /></a>
 </div>
 </div>
 <div class="ad-small">
 <div style="text-align:center;">
-<a href="https://www.usechannel.com/?utm_source=toolske-text2sql&utm_medium=banner&utm_campaign=Usechannel-web-sponsorship+&utm_id=1">
-<img style="width:100%" src="assets/img/Mobile.png" alt="" srcset="">
-</a>
+<a target="_blank" href="https://kinsta.com/wordpress-hosting/?kaid=BNQBFXIKNLGZ"><img style="width:100%" src="assets/img/728x90 - secure - dark.jpg" /></a>
+
 </div>
 </div>
           <br>
@@ -88,27 +85,9 @@ display_head('text to sql online free','toolske, text2sql, toolske.com, Convert 
 
         </div>
  <div class="row mx-auto align-items-top">
-                     <!-- Card with titles, buttons, and links -->
-<div class="card container bg-transparent shadow-none   col-lg-4 ">
-<div style="text-align:center;">
-<a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4"><IMG border="0" alt="Microsoft Workplace Discount Program" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI%2aM8&offerid=1160033.10002816&bids=1160033.10002816&subid=0&type=4&gridnum=13"></a>    
-  </div>
-</div><!-- End Card with titles, buttons, and links -->
-          <div class="card container shadow-none bg-transparent  col-lg-4">
-          <div style="text-align:center;">
-            <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002744&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002744&subid=0&type=4&gridnum=13"></a>  
-            </div>
-          </div><!-- End Card with titles, buttons, and links -->
+                  
               
 
-              
-
-          <!-- Card with titles, buttons, and links -->
-          <div class="card container bg-transparent shadow-none  col-lg-4 ">
-          <div style="text-align:center;">
-                <a href="https://click.linksynergy.com/fs-bin/click?id=MyzlSQhI*M8&offerid=1160033.10002804&subid=0&type=4"><IMG border="0"   alt="Microsoft" src="https://ad.linksynergy.com/fs-bin/show?id=MyzlSQhI*M8&bids=1160033.10002804&subid=0&type=4&gridnum=13"></a>          
-              </div>
-</div><!-- End Card with titles, buttons, and links -->
           </div>
           <div>
           
