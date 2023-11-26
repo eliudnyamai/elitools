@@ -20,14 +20,6 @@ echo ' <!-- ======= Header ======= -->
         BLOG
       </a>
     </li>
-    <li class="nav-item px-2 ">
-      <a target="_blank" href="/ChatGPT-Plugins/" class="nav-link " >
-        CHATGPT PLUGINS
-      </a>
-    </li>
-    
-   
-   
     </ul>
   </nav><!-- End Icons Navigation -->
 

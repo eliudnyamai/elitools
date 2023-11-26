@@ -2,6 +2,7 @@
     "require": {
         "phpmailer/phpmailer": "^6.8",
         "guzzlehttp/guzzle": "^7.7",
-        "php-webdriver/webdriver": "^1.14"
+        "php-webdriver/webdriver": "^1.14",
+        "spatie/browsershot": "^3.60"
     }
 }
