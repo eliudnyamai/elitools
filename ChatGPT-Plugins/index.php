@@ -5,11 +5,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include '../includes/head.php';
-display_head('Compress avif','toolske, toolske.com, Compress avif online, compress avif');
+display_head('toolske','toolske');
 ?>
 <body>
  <?php header('Location:../compress-single-image');?>
- <?php include '../includes/footer.php'?>
+ <?php include '../'?>
 </body>
 
 </html>
