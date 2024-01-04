@@ -35,7 +35,7 @@ curl_setopt_array($curl, [
 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 	CURLOPT_CUSTOMREQUEST => "POST",
 	CURLOPT_POSTFIELDS => '{
-        "model": "text-davinci-003",
+        "model": "GPT-4 Turbo 128K",
         "prompt": "convert this to a sql query.'.$sql_query.'",
         "temperature": 0.3,
         "max_tokens": 100,
